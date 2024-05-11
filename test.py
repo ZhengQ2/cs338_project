@@ -1,35 +1,78 @@
-import mysql.connector
+import mysql.connector as sql
 import pandas as pd
+from numpy import nan
 from getpass import getpass
 
-mydb = mysql.connector.connect(
-  host="localhost",
-  user=input("Enter SQL server username: "),
-  password=getpass("Enter SQL server password: ")
+#if server not enabled
+#sudo /usr/local/mysql/bin/mysqld_safe
+con = sql.connect(
+  host = "localhost",
+  user = "root",
+  password = getpass("Enter SQL server password: ")
 )
+cur = con.cursor()
 
-print(mydb)
+#RESET DATABASE
+def reset():
+  cur.execute("DROP DATABASE IF EXISTS car_theft")
+  cur.execute("CREATE DATABASE car_theft")
+  cur.execute("USE car_theft")
+  cur.execute("DROP TABLE IF EXISTS data")
+  cur.execute("""CREATE TABLE data (
+              X FLOAT,
+              Y FLOAT,
+              OBJECTID INT,
+              EVENT_UNIQUE_ID TEXT,
+              REPORT_DATE DATETIME,
+              OCC_DATE DATETIME,
+              REPORT_YEAR SMALLINT,
+              REPORT_MONTH TEXT,
+              REPORT_DAY SMALLINT,
+              REPORT_DOY SMALLINT,
+              REPORT_DOW TEXT,
+              REPORT_HOUR SMALLINT,
+              OCC_YEAR SMALLINT,
+              OCC_MONTH TEXT,
+              OCC_DAY SMALLINT,
+              OCC_DOY SMALLINT,
+              OCC_DOW TEXT,
+              OCC_HOUR SMALLINT,
+              DIVISION TEXT,
+              LOCATION_TYPE TEXT,
+              PREMISES_TYPE TEXT,
+              UCR_CODE SMALLINT,
+              UCR_EXT SMALLINT,
+              OFFENCE TEXT,
+              MCI_CATEGORY TEXT,
+              HOOD_158 SMALLINT,
+              NEIGHBOURHOOD_158 TEXT,
+              HOOD_140 SMALLINT,
+              NEIGHBOURHOOD_140 TEXT,
+              LONG_WGS84 FLOAT,
+              LAT_WGS84 FLOAT
+              )""")
+  con.commit()
 
-data = pd.read_csv('Auto_Theft_Open_Data.csv')
-print(data.head(5))
-#sql = 'select * from data limit 5'
-df = data.values.tolist()
-print(df[0])
-cur = mydb.cursor()
-lst = []
-for i in range(31):
-    lst.append('%s')
-lst = ', '.join(lst)
-print(lst)
-
-cur.execute("DROP DATABASE IF EXISTS car_theft")
-cur.execute("CREATE DATABASE car_theft")
 cur.execute("USE car_theft")
-cur.execute("DROP TABLE IF EXISTS data")
-cur.execute("CREATE TABLE data (ID INT)")
-for row in df:
-    cur.execute("INSERT INTO data VALUES (%s)", [row[2]])
-    
-mydb.commit()
+
+#pull data into table
+def pull():
+  df = pd.read_csv('Auto_Theft_Open_Data.csv')
+  df = df.replace([nan, 'NSA', 0], None)
+
+  data = df.values.tolist()
+
+  lst = []
+  for i in range(31):
+      lst.append('%s')
+  lst = ', '.join(lst)
+
+  for i in range(len(data)):
+    for j in [4, 5]:
+      data[i][j] = data[i][j].split('+')[0]
+
+  cur.executemany(f"INSERT INTO data VALUES ({lst})", data)
+  con.commit()
+
 cur.execute("select count(*) from data")
 print(cur.fetchall())
