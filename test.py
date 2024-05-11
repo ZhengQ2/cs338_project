@@ -19,8 +19,6 @@ def reset():
   cur.execute("USE car_theft")
   cur.execute("DROP TABLE IF EXISTS data")
   cur.execute("""CREATE TABLE data (
-              X FLOAT,
-              Y FLOAT,
               OBJECTID INT,
               EVENT_UNIQUE_ID TEXT,
               REPORT_DATE DATETIME,
@@ -57,22 +55,24 @@ cur.execute("USE car_theft")
 
 #pull data into table
 def pull():
-  df = pd.read_csv('Auto_Theft_Open_Data.csv')
+  df = pd.read_csv('Auto_Theft_Open_Data.csv').drop(columns = ['X', 'Y'])
   df = df.replace([nan, 'NSA', 0], None)
 
   data = df.values.tolist()
 
   lst = []
-  for i in range(31):
+  for i in range(len(data[0])):
       lst.append('%s')
   lst = ', '.join(lst)
 
   for i in range(len(data)):
-    for j in [4, 5]:
+    for j in [2, 3]:
       data[i][j] = data[i][j].split('+')[0]
 
   cur.executemany(f"INSERT INTO data VALUES ({lst})", data)
   con.commit()
 
+reset()
+pull()
 cur.execute("select count(*) from data")
 print(cur.fetchall())
