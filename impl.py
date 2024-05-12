@@ -14,8 +14,6 @@ def connect():
     return con
 
 # RESET DATABASE
-
-
 def reset(cur):
     cur.execute("DROP DATABASE IF EXISTS car_theft")
     cur.execute("CREATE DATABASE car_theft")
@@ -54,10 +52,8 @@ def reset(cur):
               )""")
 
 # pull data into table
-
-
 def pull(cur):
-    df = pd.read_csv('Auto_Theft_Open_Data.csv').drop(columns=['X', 'Y'])
+    df = pd.read_csv('data/Auto_Theft_Open_Data.csv').drop(columns=['X', 'Y'])
     df.replace([np.nan, 'NSA', 0], None, inplace=True)
 
     df.iloc[:, 2] = df.iloc[:, 2].str.split('+').str[0]
