@@ -3,22 +3,25 @@ import pandas as pd
 import numpy as np
 from getpass import getpass
 
-def connect():
-  con = sql.connect(
-    host = "cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
-    user = "root",
-    # password = getpass("Enter SQL server password: ")
-    password = "cs338-group8"
-  )
-  return con
 
-#RESET DATABASE
+def connect():
+    con = sql.connect(
+        host="cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
+        user="root",
+        # password = getpass("Enter SQL server password: ")
+        password="cs338-group8"
+    )
+    return con
+
+# RESET DATABASE
+
+
 def reset(cur):
-  cur.execute("DROP DATABASE IF EXISTS car_theft")
-  cur.execute("CREATE DATABASE car_theft")
-  cur.execute("USE car_theft")
-  cur.execute("DROP TABLE IF EXISTS data")
-  cur.execute("""CREATE TABLE data (
+    cur.execute("DROP DATABASE IF EXISTS car_theft")
+    cur.execute("CREATE DATABASE car_theft")
+    cur.execute("USE car_theft")
+    cur.execute("DROP TABLE IF EXISTS data")
+    cur.execute("""CREATE TABLE data (
               OBJECTID INT,
               EVENT_UNIQUE_ID TEXT,
               REPORT_DATE DATETIME,
@@ -50,7 +53,9 @@ def reset(cur):
               LAT_WGS84 FLOAT
               )""")
 
-#pull data into table
+# pull data into table
+
+
 def pull(cur):
     df = pd.read_csv('Auto_Theft_Open_Data.csv').drop(columns=['X', 'Y'])
     df.replace([np.nan, 'NSA', 0], None, inplace=True)
@@ -67,17 +72,19 @@ def pull(cur):
         batch = data[i:i + batch_size]
         cur.executemany(f"INSERT INTO data VALUES ({placeholders})", batch)
 
+
 def test(cur):
-  cur.execute("USE car_theft")
-  cur.execute("select count(*) from data")
-  assert cur.fetchall()[0][0] == 61216
+    cur.execute("USE car_theft")
+    cur.execute("select count(*) from data")
+    assert cur.fetchall()[0][0] == 61216
+
 
 if __name__ == "__main__":
-  con = connect()
-  cur = con.cursor()
-  reset(cur)
-  con.commit()
-  pull(cur)
-  con.commit()
-  test(cur)
-  con.close()
+    con = connect()
+    cur = con.cursor()
+    reset(cur)
+    con.commit()
+    pull(cur)
+    con.commit()
+    test(cur)
+    con.close()

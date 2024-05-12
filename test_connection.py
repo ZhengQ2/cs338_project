@@ -1,11 +1,11 @@
-import main
+import impl
 
 def test_main():
-    con = main.connect()
+    con = impl.connect()
     cur = con.cursor()
-    main.reset(cur)
+    impl.reset(cur)
     con.commit()
-    main.pull(cur)
+    impl.pull(cur)
     con.commit()
     cur.execute("USE car_theft")
     cur.execute("select count(*) from data")
