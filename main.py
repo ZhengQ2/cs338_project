@@ -51,8 +51,6 @@ def reset():
               )""")
   con.commit()
 
-cur.execute("USE car_theft")
-
 #pull data into table
 def pull():
   df = pd.read_csv('Auto_Theft_Open_Data.csv').drop(columns = ['X', 'Y'])
@@ -74,5 +72,6 @@ def pull():
 
 reset()
 pull()
+cur.execute("USE car_theft")
 cur.execute("select count(*) from data")
 print(cur.fetchall())
