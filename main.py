@@ -1,6 +1,6 @@
 import mysql.connector as sql
 import pandas as pd
-from numpy import nan
+import numpy as np
 from getpass import getpass
 
 def connect():
@@ -52,21 +52,20 @@ def reset(cur):
 
 #pull data into table
 def pull(cur):
-  df = pd.read_csv('Auto_Theft_Open_Data.csv').drop(columns = ['X', 'Y'])
-  df = df.replace([nan, 'NSA', 0], None)
+    df = pd.read_csv('Auto_Theft_Open_Data.csv').drop(columns=['X', 'Y'])
+    df.replace([np.nan, 'NSA', 0], None, inplace=True)
 
-  data = df.values.tolist()
+    df.iloc[:, 2] = df.iloc[:, 2].str.split('+').str[0]
+    df.iloc[:, 3] = df.iloc[:, 3].str.split('+').str[0]
 
-  lst = []
-  for i in range(len(data[0])):
-      lst.append('%s')
-  lst = ', '.join(lst)
+    data = list(df.itertuples(index=False, name=None))
 
-  for i in range(len(data)):
-    for j in [2, 3]:
-      data[i][j] = data[i][j].split('+')[0]
+    placeholders = ', '.join(['%s'] * len(df.columns))
 
-  cur.executemany(f"INSERT INTO data VALUES ({lst})", data)
+    batch_size = 1000
+    for i in range(0, len(data), batch_size):
+        batch = data[i:i + batch_size]
+        cur.executemany(f"INSERT INTO data VALUES ({placeholders})", batch)
 
 def test(cur):
   cur.execute("USE car_theft")
