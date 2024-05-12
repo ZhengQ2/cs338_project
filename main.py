@@ -3,17 +3,17 @@ import pandas as pd
 from numpy import nan
 from getpass import getpass
 
-#if server not enabled
-#sudo /usr/local/mysql/bin/mysqld_safe
-con = sql.connect(
-  host = "localhost",
-  user = "root",
-  password = getpass("Enter SQL server password: ")
-)
-cur = con.cursor()
+def connect():
+  con = sql.connect(
+    host = "cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
+    user = "root",
+    # password = getpass("Enter SQL server password: ")
+    password = "cs338-group8"
+  )
+  return con
 
 #RESET DATABASE
-def reset():
+def reset(cur):
   cur.execute("DROP DATABASE IF EXISTS car_theft")
   cur.execute("CREATE DATABASE car_theft")
   cur.execute("USE car_theft")
@@ -49,10 +49,9 @@ def reset():
               LONG_WGS84 FLOAT,
               LAT_WGS84 FLOAT
               )""")
-  con.commit()
 
 #pull data into table
-def pull():
+def pull(cur):
   df = pd.read_csv('Auto_Theft_Open_Data.csv').drop(columns = ['X', 'Y'])
   df = df.replace([nan, 'NSA', 0], None)
 
@@ -68,10 +67,18 @@ def pull():
       data[i][j] = data[i][j].split('+')[0]
 
   cur.executemany(f"INSERT INTO data VALUES ({lst})", data)
-  con.commit()
 
-reset()
-pull()
-cur.execute("USE car_theft")
-cur.execute("select count(*) from data")
-print(cur.fetchall())
+def test(cur):
+  cur.execute("USE car_theft")
+  cur.execute("select count(*) from data")
+  assert cur.fetchall()[0][0] == 61216
+
+if __name__ == "__main__":
+  con = connect()
+  cur = con.cursor()
+  reset(cur)
+  con.commit()
+  pull(cur)
+  con.commit()
+  test(cur)
+  con.close()
