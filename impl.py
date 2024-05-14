@@ -74,7 +74,6 @@ def test(cur):
     cur.execute("select count(*) from data")
     assert cur.fetchall()[0][0] == 61216
 
-
 if __name__ == "__main__":
     con = connect()
     cur = con.cursor()
