@@ -2,6 +2,11 @@
 ![Python build result](https://github.com/ZhengQ2/cs338_project/actions/workflows/python-app.yml/badge.svg)
 
 # Project Member:
+Zheng Qiu
+Frank Zheng
+Shuqi Chang
+
+
 
 
 # 1. Install Dependencies
