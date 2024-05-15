@@ -104,9 +104,20 @@ def test(cur):
 if __name__ == "__main__":
     con = connect()
     cur = con.cursor()
-    #reset(cur)
-    #con.commit()
-    #pull(cur)
-    #con.commit()
-    test(cur)
+    # reset(cur)
+    # con.commit()
+    # pull(cur)
+    # con.commit()
+    # test(cur)
     con.close()
+    
+    while True: 
+        print("Hello World! Please enter your command:")
+        a = input()
+        if a == 1:
+            pass
+        elif a == 2:
+            pass
+        else:
+            print("Program Doesn't Support")
+

@@ -6,9 +6,6 @@ Zheng Qiu
 Frank Zheng
 Shuqi Chang
 
-
-
-
 # 1. Install Dependencies
 
 ## 1.1. MySQL
