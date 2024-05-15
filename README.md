@@ -1,6 +1,9 @@
 # CS 338 Project: Toronto Auto Theft Database
 ![Python build result](https://github.com/ZhengQ2/cs338_project/actions/workflows/python-app.yml/badge.svg)
 
+# Project Member:
+
+
 # 1. Install Dependencies
 
 ## 1.1. MySQL
@@ -11,6 +14,7 @@ This project is required using Python. A version of 3.8 or above is recommanded.
 
 ## 1.3. Install Python Dependencies
 This package has several dependencies that need to be installed. To install them, run the following command:
+
 ```bash
 pip install -r requirements.txt
 ```
