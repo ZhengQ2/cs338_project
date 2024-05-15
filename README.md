@@ -18,6 +18,7 @@ pip install -r requirements.txt
 # 2. Running the code
 It is planned to use click to create a command line interface for the project. However, this is not currently implemented within this deadline. We have a basic loader script that can be run to load the data into the database. This loader script will then check if all entries are loaded into it.
 To run the loader script, run the following command:
+
 ```bash
 python impl.py
 ```
