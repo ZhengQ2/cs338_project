@@ -21,10 +21,14 @@ This package has several dependencies that need to be installed. To install them
 pip install -r requirements.txt
 ```
 
+(try pip3 if the above does not work)
+
 # 2. Running the code
 It is planned to use click to create a command line interface for the project. However, this is not currently implemented within this deadline. We have a basic loader script that can be run to load the data into the database. This loader script will then check if all entries are loaded into it.
-To run the loader script, run the following command:
+Data is currently loaded and the connection will be set automatically.
+To run the script, run the following command:
 
 ```bash
 python impl.py
 ```
+(try python3 if the above does not work)

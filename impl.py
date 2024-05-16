@@ -3,13 +3,12 @@ import pandas as pd
 import numpy as np
 from getpass import getpass
 
-
 def connect():
     con = sql.connect(
-        host="cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
-        user="root",
-        # password = getpass("Enter SQL server password: ")
-        password="cs338-group8"
+        host = "cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
+        user = "root",
+        #password = getpass("Enter SQL server password: ")
+        password = "cs338-group8"
     )
     return con
 
@@ -100,24 +99,30 @@ def test(cur):
     cur.execute("USE car_theft")
     cur.execute("select count(*) from data_full")
     assert cur.fetchall()[0][0] == 61216
+    cur.execute("select * from data_full limit 5")
+    for row in cur.fetchall():
+        print(row)
 
 if __name__ == "__main__":
     con = connect()
     cur = con.cursor()
-    # reset(cur)
-    # con.commit()
-    # pull(cur)
-    # con.commit()
-    # test(cur)
-    con.close()
-    
-    while True: 
-        print("Hello World! Please enter your command:")
-        a = input()
-        if a == 1:
-            pass
-        elif a == 2:
-            pass
+    #reset(cur)
+    #con.commit()
+    #pull(cur)
+    #con.commit()
+    test(cur)
+
+    while True:
+        cmd = input("Please enter your command:").split()
+        if cmd[0] == 's':
+            print('select...')
+        elif cmd[0] == 'i':
+            print('insert...')
+        elif cmd[0] == 'd':
+            print('delete...')
+        elif cmd[0] == 'q':
+            break
         else:
             print("Program Doesn't Support")
+    con.close()
 
