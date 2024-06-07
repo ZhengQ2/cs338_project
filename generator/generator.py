@@ -49,7 +49,29 @@ def rhuman(num): #random human list
 
 def rcar(num): #random car
     car = [['VIN','Make','Price','PMethod','Dealer']]
+
+    # Generate a random VIN
+    wmi_chars = string.ascii_uppercase + string.digits
+    vds_chars = string.ascii_uppercase + string.digits
+    vis_chars = string.digits
+    
+    # Generate the WMI (3 characters)
+    wmi = ''.join(random.choices(wmi_chars, k=3))
+    
+    # Generate the VDS (6 characters)
+    vds = ''.join(random.choices(vds_chars, k=6))
+    
+    # The 9th character is a check digit which is often a number or 'X'
+    check_digit = random.choice(string.digits + 'X')
+    
+    # Generate the VIS (8 characters)
+    vis = ''.join(random.choices(vis_chars, k=8))
+    
+    # Concatenate all parts to form the VIN
+    vin = wmi + vds + check_digit + vis
+
     for i in range(num):
-        car.append([None,ran(config.car_make),random.randrange(1000000),None,None])
+        car.append([vin,ran(config.car_make),random.randrange(1000000),None,None])
     return car
+
 print(rcar(1))
