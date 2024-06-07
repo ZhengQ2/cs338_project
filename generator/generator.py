@@ -47,5 +47,9 @@ def rhuman(num): #random human list
         human.append([ran(config.fname), ran(config.lname), ran(config.sex), sins[i], rbdate(), rphone(), remail()])
     return human
 
-for i in rhuman(10):
-    print(i)
+def rcar(num): #random car
+    car = [['VIN','Make','Price','PMethod','Dealer']]
+    for i in range(num):
+        car.append([None,ran(config.car_make),random.randrange(1000000),None,None])
+    return car
+print(rcar(1))
