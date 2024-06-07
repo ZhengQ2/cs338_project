@@ -1,11 +1,7 @@
 import mysql.connector as sql
 import pandas as pd
 import numpy as np
-import click
 from getpass import getpass
-
-@click.command()
-@click.option('--reset', is_flag=True, help='Reset the database')
 
 def connect():
     con = sql.connect(
