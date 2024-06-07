@@ -1,0 +1,6 @@
+fname = "Alice,Benjamin,Caroline,Dylan,Elizabeth,Frank,George,Henry,Ingrid,Jessica,Kevin,Lewis,Margaret,Nigel,Olivia,Peter,Quentin,Robert,Scarlett,Thomas,Ulises,Vanessa,William,Xavier,Yazid,Zoey"
+lname = "Smith,Johnson,Williams,Brown,Jones,Garcia,Miller,Davis,Rodriguez,Martinez,Hernandez,Lopez,Gonzalez,Wilson,Anderson,Thomas,Taylor,Moore,Jackson,Martin,Lee,Perez,Thompson,White,Harris,Sanchez,Clark,Ramirez,Lewis,Robinson,Walker,Young,Allen,King,Wright,Scott,Torres,Nguyen,Hill,Flores,Green,Adams,Nelson,Baker,Hall,Rivera,Campbell,Mitchell,Carter,Roberts"
+sex = "male,female"
+date_start = "1900-1-1"
+date_end = "2000-1-1"
+area_code = "683,249,437,905,343,613,705,416,365,647,226,519,742,289,807,548,753"
