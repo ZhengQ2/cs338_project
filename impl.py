@@ -52,12 +52,14 @@ def features(cur, num, input):
         if command.strip():
             cur.execute(command.strip())
 
+    output = ""
     try:
         result = cur.fetchall()
         for row in result:
-            print(row)
+            output += str(row) + "\n"
     except sql.connector.errors.InterfaceError:
         pass
+    return output
 
 if __name__ == "__main__":
     con = connect()
@@ -65,11 +67,11 @@ if __name__ == "__main__":
     reset(cur)
     pull(cur)
     con.commit()
-    features(cur, 1, 2)
-    features(cur, 2, None)
-    features(cur, 3, None)
-    #features(cur, 4, 5000)
-    #features(cur, 4, "BMW")
-    features(cur, 5, None)
-    features(cur, 6, None)
+    output1 = features(cur, 1, 0)
+    output2 = features(cur, 2, None)
+    output3 = features(cur, 3, None)
+    output4 = features(cur, 4, None)
+    output5 = features(cur, 5, None)
+    output6 = features(cur, 6, None)
+    print(output6)
     con.close()

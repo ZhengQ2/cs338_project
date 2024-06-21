@@ -1,7 +1,9 @@
-Case 
-when {0} is numerical 
-then select * from Vehicle where VIN in 
-    (select VIN from INSURANCE where INSURANCE.payment_amt <= {0})
-when {0} is string
-then (Case when {0} not in Make then NA
-           Else (select * from Vehicle where Vehicle.Make = {0}));
+SELECT *
+FROM EVENT
+ORDER BY
+    Year DESC,
+    Day DESC,
+    CASE
+        WHEN Hour IS NULL OR Hour NOT BETWEEN 0 AND 24 THEN NULL
+        ELSE Hour
+    END DESC;
