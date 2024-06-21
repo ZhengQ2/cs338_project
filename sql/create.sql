@@ -25,7 +25,7 @@ CREATE TABLE EVENT
      Year INT NOT NULL CHECK(Year >= 2000), 
      Month INT NOT NULL CHECK(Month <= 12 AND Month >= 1), 
      Day INT NOT NULL CHECK(Day <= 31 AND Day >= 1),
-     Hour INT NOT NULL CHECK(Hour <= 24 AND Hour >= 0), 
+     Hour INT, 
      Neighbourhood VARCHAR(50) NOT NULL,
      PRIMARY KEY(Event_Code));
 

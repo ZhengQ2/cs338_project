@@ -1,7 +1,7 @@
 Case 
-when user_input is numerical 
+when {0} is numerical 
 then select * from Vehicle where VIN in 
-    (select VIN from INSURANCE where INSURANCE.payment_amt <= user_input)
-when user_input is string
-then (Case when user_input not in Make then NA
-           Else (select * from Vehicle where Vehicle.Make = user_input))
+    (select VIN from INSURANCE where INSURANCE.payment_amt <= {0})
+when {0} is string
+then (Case when {0} not in Make then NA
+           Else (select * from Vehicle where Vehicle.Make = {0}));

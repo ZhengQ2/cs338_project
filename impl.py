@@ -1,6 +1,5 @@
 import mysql.connector as sql
 import pandas as pd
-import numpy as np
 from getpass import getpass
 
 def connect():
@@ -42,10 +41,35 @@ def pull(cur):
         # Insert the data into the table
         cur.executemany(insert, data)
 
+def features(cur, num, input):
+    with open(f"sql/feature{num}.sql") as f:
+        if input == None:
+            sql_commands = f.read().split(';')
+        else:
+            sql_commands = f.read().format(input).split(';')
+
+    for command in sql_commands:
+        if command.strip():
+            cur.execute(command.strip())
+
+    try:
+        result = cur.fetchall()
+        for row in result:
+            print(row)
+    except sql.connector.errors.InterfaceError:
+        pass
+
 if __name__ == "__main__":
     con = connect()
     cur = con.cursor()
     reset(cur)
     pull(cur)
     con.commit()
+    features(cur, 1, 2)
+    features(cur, 2, None)
+    features(cur, 3, None)
+    #features(cur, 4, 5000)
+    #features(cur, 4, "BMW")
+    features(cur, 5, None)
+    features(cur, 6, None)
     con.close()

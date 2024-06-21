@@ -1,18 +1,18 @@
 SELECT 
-    event.neighborhood, 
-    AVG(vehicle.price) AS average_price, 
-    COUNT(vehicle.vin) AS total_vehicles, 
-    MIN(vehicle.price) AS minimum_price, 
-    MAX(vehicle.price) AS maximum_price
+    EVENT.Neighbourhood, 
+    AVG(VEHICLE.price) AS average_price, 
+    COUNT(VEHICLE.VIN) AS total_vehicles, 
+    MIN(VEHICLE.price) AS minimum_price, 
+    MAX(VEHICLE.price) AS maximum_price
 FROM 
-    event
+    EVENT
 JOIN 
-    got_stolen ON event.event_code = got_stolen.event_code
+    GOT_STOLEN ON EVENT.Event_Code = GOT_STOLEN.Event_Code
 JOIN 
-    vehicle ON got_stolen.vin = vehicle.vin
+    VEHICLE ON GOT_STOLEN.VIN = VEHICLE.VIN
 WHERE 
-    vehicle.price IS NOT NULL
+    VEHICLE.Price IS NOT NULL
 GROUP BY 
-    event.neighborhood
+    EVENT.Neighbourhood
 ORDER BY 
     average_price DESC;
