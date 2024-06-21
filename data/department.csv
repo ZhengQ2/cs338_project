@@ -1,17 +1,17 @@
-﻿Division Number,Location-Based Name
-D11,Davenport Division
-D12,Weston Division
-D13,Oakwood Division
-D14,Parkdale Division
-D22,Etobicoke Division
-D23,Rexdale Division
-D31,North York West Division
-D32,North York Central Division
-D33,Don Mills Division
-D41,East York Division
-D42,Scarborough North Division
-D43,Scarborough East Division
-D51,Regent Park Division
-D52,Downtown Toronto Division
-D53,Midtown Division
-D55,Riverdale Division
+﻿Dept_ID,Dname
+11,Davenport Division
+12,Weston Division
+13,Oakwood Division
+14,Parkdale Division
+22,Etobicoke Division
+23,Rexdale Division
+31,North York West Division
+32,North York Central Division
+33,Don Mills Division
+41,East York Division
+42,Scarborough North Division
+43,Scarborough East Division
+51,Regent Park Division
+52,Downtown Toronto Division
+53,Midtown Division
+55,Riverdale Division
