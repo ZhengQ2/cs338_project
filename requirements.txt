@@ -1,4 +1,7 @@
 mysql-connector-python
 pandas
 numpy
-click
+csv
+faker
+faker_vehicle
+time
