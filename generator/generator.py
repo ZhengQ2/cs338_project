@@ -16,9 +16,10 @@ def writecsv(filename, header, data):
         csvwriter.writerow(header)
         csvwriter.writerows(data)
 
-def rhuman(num): #random human list
+def rhuman(num):
+    "int num: number of people, >0"
     start = time.time()
-    columns = ['sin','birth_date','fname','lname','phone','email']
+    columns = ['SIN','Birth_date','FName','LName','Phone','Email']
     human = []
 
     for i in range(num):
@@ -34,12 +35,13 @@ def rhuman(num): #random human list
     print('rhuman run time:', time.time()-start)
 
 def rdepartment(num):
+    "int num: number of department, 0 < num < number of human"
     start = time.time()
-    columns = ['dept_id', 'dname']
+    columns = ['Dept_ID', 'Dname']
     deparment = []
 
     for i in range(num):
-        dept_id = 'D' + str(i+1)
+        dept_id = i+1
         dname = fake.unique.street_name() + ' Division'
         deparment.append([dept_id, dname])
     
@@ -48,27 +50,31 @@ def rdepartment(num):
 
 def roccupation(p):
     """use after rhuman and rdepartment
-    p = probability of being owner"""
+    float p = probability of being owner, 0 ≤ p ≤ 1"""
     start = time.time()
     owner, officer = [],[]
-    sins = pd.read_csv(config.path+'human.csv')['sin'].tolist()
-    departments = pd.read_csv(config.path+'department.csv')['dept_id'].tolist()
+    sins = pd.read_csv(config.path+'human.csv')['SIN'].tolist()
+    departments = pd.read_csv(config.path+'department.csv')['Dept_ID'].tolist()
+    dpmt_unused = departments.copy()
 
     for sin in sins:
-        if random.binomial(n=1, p=p) == 1:
+        if dpmt_unused != []: #prioritize officer/department
+            officer.append([sin, dpmt_unused.pop()])
+        elif random.binomial(n=1, p=p) == 1:
             salary_group = random.choice(config.salary_group, p=config.salary_group_p)
             owner.append([sin, salary_group])
         else:
             department = random.choice(departments)
             officer.append([sin, department])
 
-    writecsv('owner', ['sin', 'salary_group'], owner)
-    writecsv('police_officer', ['sin', 'department'], officer)
+    writecsv('owner', ['SIN', 'Salary_group'], owner)
+    writecsv('police_officer', ['SIN', 'Department'], officer)
     print('roccupation run time:', time.time()-start)
 
 def rvehicle(num):
+    "int num: number of vehicle, num>0"
     start = time.time()
-    columns = ['vin','make','price','purchase_method']
+    columns = ['VIN','Make','Price','Purchase_Method']
     vehicle = []
 
     for i in range(num):
@@ -83,15 +89,15 @@ def rvehicle(num):
 
 def rinsurance(p):
     """use after rvihicle
-    p = probability to cover a random extra vehicle"""
+    float p = probability to cover a random extra vehicle, 0 ≤ p ≤ 1"""
     start = time.time()
-    columns = ['policy_number','vin','payment_amount']
+    columns = ['Policy_Number','VIN','Payment_Amount']
     insurance = []
-    vehicles = pd.read_csv(config.path+'vehicle.csv')[["vin", "price"]].values.tolist()
+    vehicles = pd.read_csv(config.path+'vehicle.csv')[["VIN", "Price"]].values.tolist()
     vnum = len(vehicles)
     for vehicle in vehicles:
         pnum = fake.unique.ean8()
-        payment = round(vehicle[1]*random.rand(), 2)
+        payment = round(vehicle[1]*random.rand(), 2) #0% to 100%, 2 decimal places
         insurance.append([pnum,vehicle[0], payment])
         if random.binomial(n=1, p=p) == 1:
             extra = vehicles[random.randint(0, vnum-1)]
@@ -103,31 +109,33 @@ def rinsurance(p):
     print('rinsurance run time:', time.time()-start)
 
 def rown():
+    "use after rvehicle and rowner"
     start = time.time()
-    columns = ['vin','sin']
+    columns = ['SIN','VIN']
     own = []
-    vins = pd.read_csv(config.path+'vehicle.csv')['vin'].tolist()
-    sins = pd.read_csv(config.path+'owner.csv')['sin'].tolist()
+    sins = pd.read_csv(config.path+'owner.csv')['SIN'].tolist()
+    vins = pd.read_csv(config.path+'vehicle.csv')['VIN'].tolist()
     
-    vin_filled, sin_filled = False, False
-    vin_unused = vins.copy()
+    sin_filled, vin_filled = False, False
     sin_unused = sins.copy()
+    vin_unused = vins.copy()
 
     while not sin_filled or not vin_filled:
-        own.append([vin_unused.pop(0), sin_unused.pop(0)])
-        if vin_unused == []:
-            vin_filled = True
-            vin_unused = vins.copy()
+        own.append([sin_unused.pop(), vin_unused.pop()])
         if sin_unused == []:
             sin_filled = True
             sin_unused = sins.copy()
+        if vin_unused == []:
+            vin_filled = True
+            vin_unused = vins.copy()
 
     writecsv('own', columns, own)
     print('rown run time:', time.time()-start)
 
 def revent(num):
+    "int num: number of events, num > 0"
     start = time.time()
-    columns = ['event_code','outcome','year','month','day','hour','neighbourhood']
+    columns = ['Event_Code','Outcome','Year','Month','Day','Hour','Neighbourhood']
     event = []
 
     for i in range(num):
@@ -141,16 +149,16 @@ def revent(num):
 
 def rstolen():
     start = time.time()
-    columns = ['event_code','vin']
+    columns = ['Event_Code','VIN']
     stolen = []
-    events = pd.read_csv(config.path+'event.csv')['event_code'].tolist()
-    vins = pd.read_csv(config.path+'vehicle.csv')['vin'].tolist()
+    events = pd.read_csv(config.path+'event.csv')['Event_Code'].tolist()
+    vins = pd.read_csv(config.path+'vehicle.csv')['VIN'].tolist()
     event_filled, vin_filled = False, False
     event_unused = events.copy()
     vin_unused = vins.copy()
 
     while not event_filled or not vin_filled:
-        stolen.append([event_unused.pop(0), vin_unused.pop(0)])
+        stolen.append([event_unused.pop(), vin_unused.pop()])
         if event_unused == []:
             event_filled = True
             event_unused = events.copy()
@@ -163,10 +171,10 @@ def rstolen():
 
 def rhandled():
     start = time.time()
-    columns = ['police_sin', 'event_code']
+    columns = ['Police_SIN', 'Event_Code']
     handled = []
-    sins = pd.read_csv(config.path+'police_officer.csv')['sin'].tolist()
-    events = pd.read_csv(config.path+'event.csv')['event_code'].tolist()
+    sins = pd.read_csv(config.path+'police_officer.csv')['SIN'].tolist()
+    events = pd.read_csv(config.path+'event.csv')['Event_Code'].tolist()
 
     for i in events:
         sin = random.choice(sins)

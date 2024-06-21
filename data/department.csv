@@ -1,11 +1,11 @@
-dept_id,dname
-D1,King Springs Division
-D2,Jackson Lodge Division
-D3,Reynolds Turnpike Division
-D4,Andrade Station Division
-D5,Clark Walks Division
-D6,Huffman Road Division
-D7,Smith Road Division
-D8,Thompson Meadows Division
-D9,Claudia Hollow Division
-D10,Julia Inlet Division
+Dept_ID,Dname
+1,King Springs Division
+2,Jackson Lodge Division
+3,Reynolds Turnpike Division
+4,Andrade Station Division
+5,Clark Walks Division
+6,Huffman Road Division
+7,Smith Road Division
+8,Thompson Meadows Division
+9,Claudia Hollow Division
+10,Julia Inlet Division
