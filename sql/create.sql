@@ -14,7 +14,7 @@ CREATE TABLE INSURANCE
     (Policy_Number VARCHAR(10) NOT NULL,
      VIN VARCHAR(17) NOT NULL,
      Payment_Amount FLOAT NOT NULL,
-     PRIMARY KEY(Policy_Number),
+     PRIMARY KEY(Policy_Number, VIN),
      FOREIGN KEY(VIN) REFERENCES VEHICLE(VIN)
         ON DELETE CASCADE
         ON UPDATE CASCADE);
@@ -22,7 +22,7 @@ CREATE TABLE INSURANCE
 CREATE TABLE EVENT 
     (Event_Code INT NOT NULL, 
      Outcome VARCHAR(50) NOT NULL, 
-     Year INT NOT NULL CHECK(Year >= 2000), 
+     Year INT NOT NULL CHECK(Year >= 1950), 
      Month INT NOT NULL CHECK(Month <= 12 AND Month >= 1), 
      Day INT NOT NULL CHECK(Day <= 31 AND Day >= 1),
      Hour INT, 
@@ -45,13 +45,13 @@ CREATE TABLE HUMAN
      Birth_date DATE NOT NULL, 
      FName VARCHAR(50) NOT NULL,
      LName VARCHAR(50) NOT NULL,
-     Phone INT NOT NULL,
+     Phone VARCHAR(50) NOT NULL,
      Email VARCHAR(50),
      PRIMARY KEY (SIN));
 
 CREATE TABLE OWNER
     (SIN VARCHAR(11) NOT NULL, 
-     Salary_group INT NOT NULL, 
+     Salary_group VARCHAR(10) NOT NULL, 
      PRIMARY KEY (SIN),
      FOREIGN KEY (SIN) REFERENCES HUMAN(SIN)
         ON DELETE CASCADE
