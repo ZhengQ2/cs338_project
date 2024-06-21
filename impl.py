@@ -1,128 +1,77 @@
 import mysql.connector as sql
 import pandas as pd
-import numpy as np
 from getpass import getpass
 
 def connect():
     con = sql.connect(
         host = "cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
         user = "root",
-        #password = getpass("Enter SQL server password: ")
+        # password = getpass("Enter SQL server password: ")
         password = "cs338-group8"
     )
     return con
 
 # RESET DATABASE
 def reset(cur):
-    cur.execute("DROP DATABASE IF EXISTS car_theft")
-    cur.execute("CREATE DATABASE car_theft")
-    cur.execute("USE car_theft")
-    cur.execute("DROP TABLE IF EXISTS data")
-    cur.execute("""CREATE TABLE data (
-                OBJECTID INT,
-                EVENT_UNIQUE_ID TEXT,
-                REPORT_DATE DATE,
-                OCC_DATE DATE,
-                REPORT_HOUR SMALLINT,
-                OCC_HOUR SMALLINT,
-                DIVISION TEXT,
-                LOCATION_TYPE TEXT,
-                PREMISES_TYPE TEXT,
-                UCR_CODE SMALLINT,                  /* only 2135 */
-                UCR_EXT SMALLINT,                   /* only 210 */
-                OFFENCE TEXT,                       /* only "Theft Of Motor Vehicle" */
-                MCI_CATEGORY TEXT,                  /* only "Auto Theft" */
-                HOOD_158 SMALLINT,
-                NEIGHBOURHOOD_158 TEXT,
-                HOOD_140 SMALLINT,
-                NEIGHBOURHOOD_140 TEXT,
-                LONG_WGS84 FLOAT,
-                LAT_WGS84 FLOAT
-                )""")
+    with open("sql/create.sql") as f:
+        sql_commands = f.read().split(';')
 
-    cur.execute("DROP VIEW IF EXISTS data_full")
-    cur.execute("""CREATE VIEW data_full AS SELECT
-                OBJECTID,
-                EVENT_UNIQUE_ID,
-
-                REPORT_DATE,
-                YEAR(REPORT_DATE) AS REPORT_YEAR,
-                MONTH(REPORT_DATE) AS REPORT_MONTH,
-                DAY(REPORT_DATE) AS REPORT_DAY,
-                DAYOFYEAR(REPORT_DATE) AS REPORT_DOY,
-                DAYOFWEEK(REPORT_DATE) AS REPORT_DOW,
-                REPORT_HOUR,
-
-                OCC_DATE,
-                YEAR(OCC_DATE) AS OCC_YEAR,
-                MONTH(OCC_DATE) AS OCC_MONTH,
-                DAY(OCC_DATE) AS OCC_DAY,
-                DAYOFYEAR(OCC_DATE) AS OCC_DOY,
-                DAYOFWEEK(OCC_DATE) AS OCC_DOW,
-                OCC_HOUR,
-
-                DIVISION,
-                LOCATION_TYPE,
-                PREMISES_TYPE,
-                UCR_CODE,
-                UCR_EXT,
-                OFFENCE,
-                MCI_CATEGORY,
-                HOOD_158,
-                NEIGHBOURHOOD_158,
-                HOOD_140,
-                NEIGHBOURHOOD_140,
-                LONG_WGS84,
-                LAT_WGS84
-                FROM data
-                """)
+    for command in sql_commands:
+        if command.strip():  # Skip any empty statements
+            cur.execute(command.strip())
 
 # pull data into table
 def pull(cur):
-    df = pd.read_csv('data/Auto_Theft_Open_Data.csv').drop(columns=['X', 'Y', 'REPORT_YEAR', 'REPORT_MONTH', 'REPORT_DAY', 'REPORT_DOY', 'REPORT_DOW', 'OCC_YEAR', 'OCC_MONTH', 'OCC_DAY', 'OCC_DOY', 'OCC_DOW'])
-    df.replace([np.nan, 'NSA', 0], None, inplace=True)
+    # Iterate through all the csv files in the data folder
+    tables = ["department", "event", "vehicle", "got_stolen", "human", "police_officer", "handled", "insurance", "owner", "own"]
+    files = ["data/{}.csv".format(f) for f in tables]
+    for table, file in zip(tables, files):
+        # Read the csv file into a pandas dataframe
+        df = pd.read_csv(file)
+        # Convert the dataframe to a list of tuples
+        data = [tuple(x) for x in df.values]
+        # Get the column names
+        columns = df.columns
+        # Create the insert statement
+        insert = "INSERT INTO {} ({}) VALUES ({})".format(
+            table.upper(),
+            ", ".join(columns),
+            ", ".join(["%s" for _ in columns])
+        )
+        # Insert the data into the table
+        cur.executemany(insert, data)
 
-    df.iloc[:, 2] = df.iloc[:, 2].str.split().str[0]
-    df.iloc[:, 3] = df.iloc[:, 3].str.split().str[0]
+def features(cur, num, input):
+    with open(f"sql/feature{num}.sql") as f:
+        if input == None:
+            sql_commands = f.read().split(';')
+        else:
+            sql_commands = f.read().format(input).split(';')
 
-    data = list(df.itertuples(index=False, name=None))
+    for command in sql_commands:
+        if command.strip():
+            cur.execute(command.strip())
 
-    placeholders = ', '.join(['%s'] * len(df.columns))
-
-    batch_size = 1000
-    for i in range(0, len(data), batch_size):
-        batch = data[i:i + batch_size]
-        cur.executemany(f"INSERT INTO data VALUES ({placeholders})", batch)
-
-
-def test(cur):
-    cur.execute("USE car_theft")
-    cur.execute("select count(*) from data_full")
-    assert cur.fetchall()[0][0] == 61216
-    cur.execute("select * from data_full limit 5")
-    for row in cur.fetchall():
-        print(row)
+    output = ""
+    try:
+        result = cur.fetchall()
+        for row in result:
+            output += str(row) + "\n"
+    except sql.connector.errors.InterfaceError:
+        pass
+    return output
 
 if __name__ == "__main__":
     con = connect()
     cur = con.cursor()
-    #reset(cur)
-    #con.commit()
-    #pull(cur)
-    #con.commit()
-    test(cur)
-
-    while True:
-        cmd = input("Please enter your command:").split()
-        if cmd[0] == 's':
-            print('select...')
-        elif cmd[0] == 'i':
-            print('insert...')
-        elif cmd[0] == 'd':
-            print('delete...')
-        elif cmd[0] == 'q':
-            break
-        else:
-            print("Program Doesn't Support")
+    reset(cur)
+    pull(cur)
+    con.commit()
+    output1 = features(cur, 1, 0)
+    output2 = features(cur, 2, None)
+    output3 = features(cur, 3, None)
+    output4 = features(cur, 4, None)
+    output5 = features(cur, 5, None)
+    output6 = features(cur, 6, None)
+    print(output6)
     con.close()
-
