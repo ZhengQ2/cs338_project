@@ -1,17 +1,11 @@
-﻿Division Number,Location-Based Name
-D11,Davenport Division
-D12,Weston Division
-D13,Oakwood Division
-D14,Parkdale Division
-D22,Etobicoke Division
-D23,Rexdale Division
-D31,North York West Division
-D32,North York Central Division
-D33,Don Mills Division
-D41,East York Division
-D42,Scarborough North Division
-D43,Scarborough East Division
-D51,Regent Park Division
-D52,Downtown Toronto Division
-D53,Midtown Division
-D55,Riverdale Division
+dept_id,dname
+D1,King Springs Division
+D2,Jackson Lodge Division
+D3,Reynolds Turnpike Division
+D4,Andrade Station Division
+D5,Clark Walks Division
+D6,Huffman Road Division
+D7,Smith Road Division
+D8,Thompson Meadows Division
+D9,Claudia Hollow Division
+D10,Julia Inlet Division
