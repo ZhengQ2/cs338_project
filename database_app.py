@@ -12,6 +12,9 @@ if __name__ == '__main__':
         print("Database reset.")
         print("Pulling data into tables...")
         impl.pull(cur)
+    else:
+        print("Setting up database...")
+        cur.execute("USE Auto_Theft")
     
     while True:
         features = """
@@ -28,10 +31,10 @@ if __name__ == '__main__':
         feature = input()
         if feature not in ['1', '2', '3', '4', '5', '6']:
             break
-        input = None
+        value = None
         if feature == '1':
-            input = int(input("Please enter the threshold: "))
-        output = impl.features(cur, int(feature), input)
+            value = int(input("Please enter the threshold: "))
+        output = impl.features(cur, int(feature), value)
         print(output)
-        
+
     con.close()
