@@ -6,4 +6,5 @@ ORDER BY
     CASE
         WHEN Hour IS NULL OR Hour NOT BETWEEN 0 AND 24 THEN NULL
         ELSE Hour
-    END DESC;
+    END DESC
+LIMIT 10;
