@@ -3,12 +3,15 @@ import pandas as pd
 from getpass import getpass
 
 def connect():
-    con = sql.connect(
-        host = "cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
-        user = "root",
-        # password = getpass("Enter SQL server password: ")
-        password = "cs338-group8"
-    )
+    try:
+        con = sql.connect(
+            host = "cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
+            user = "root",
+            password = getpass("Enter SQL server password: ")
+        )
+    except sql.ProgrammingError:
+        print("Error: Connection to the database failed.")
+        exit(1)
     return con
 
 # RESET DATABASE
@@ -73,4 +76,8 @@ if __name__ == "__main__":
     output4 = features(cur, 4, None)
     output5 = features(cur, 5, None)
     output6 = features(cur, 6, None)
+    # write output to a file
+    for i in range(1, 7):
+        with open(f"data_out/output{i}.txt", "w") as f:
+            f.write(eval(f"output{i}") + "\n")
     con.close()

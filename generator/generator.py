@@ -141,7 +141,7 @@ def revent(num):
     for i in range(num):
         outcome = random.choice(config.event_outcome, p=config.event_outcome_p)
         year, month, day, hour = fake.date_time_ad(start_datetime=config.event_startdate).strftime('%Y %m %d %H').split()
-        neighbourhood = fake.street_name()
+        neighbourhood = random.choice(config.neighbourhoods)
         event.append([i, outcome, year, month, day, hour, neighbourhood])
 
     writecsv('event', columns, event)
@@ -184,12 +184,12 @@ def rhandled():
     print('rhandled run time:', time.time()-start)
 
 if __name__ == "__main__":
-    rhuman(100)
+    rhuman(50000)
     rdepartment(3)
     roccupation(0.9)
-    rvehicle(100)
+    rvehicle(50000)
     rinsurance(0.5)
     rown()
-    revent(100)
+    revent(50000)
     rstolen()
     rhandled()

@@ -33,7 +33,11 @@ if __name__ == '__main__':
             break
         value = None
         if feature == '1':
-            value = int(input("Please enter the threshold: "))
+            try:
+                value = int(input("Please enter the threshold: "))
+            except ValueError:
+                print("Invalid input. Please enter an integer.")
+                continue
         output = impl.features(cur, int(feature), value)
         print(output)
 
