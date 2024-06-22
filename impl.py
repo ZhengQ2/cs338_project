@@ -73,5 +73,4 @@ if __name__ == "__main__":
     output4 = features(cur, 4, None)
     output5 = features(cur, 5, None)
     output6 = features(cur, 6, None)
-    print(output6)
     con.close()
