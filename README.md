@@ -41,7 +41,7 @@ python database_app.py
 ```
 (try `python3` if the above does not work)
 
-It will prompt for password, enter "cs338-group8" as the password.
+It will prompt for password, enter "cs338-group8" as the password. It is a secure input panel, so no feedback will be provided until you click enter to confirm password.
 
 # 3. Interacting with the database
 The database would first ask for reset the database and repull data into tables. Usually you can just enter "n" to skip this step.
