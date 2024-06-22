@@ -45,6 +45,7 @@ It will prompt for password, enter "cs338-group8" as the password.
 
 # 3. Interacting with the database
 The database would first ask for reset the database and repull data into tables. Usually you can just enter "n" to skip this step.
+
 Then, you are able to select the following options:
     1. List neighborhoods where the number of events is greater than or equal to a specified threshold.
     2. Count the types of outcome for all events.
@@ -52,5 +53,7 @@ Then, you are able to select the following options:
     4. Check the latest events captured in the dataset.
     5. Check insurance payments for vehicles that got stolen. 
     6. Check police resposible for handled events.
+
 Enter the number of the option you want to select. (i.e., 1)
-For option 1, you will be asked to enter a threshold number, enter any number to continue.
+
+For option 1, you will be asked to enter a threshold number, enter any integer to continue.
