@@ -65,7 +65,7 @@ def features(cur, num, input):
     return output
 
 if __name__ == "__main__":
-    con = connect('cs338-group8')
+    con = connect()
     cur = con.cursor()
     reset(cur)
     pull(cur)
