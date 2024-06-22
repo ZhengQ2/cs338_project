@@ -1,4 +1,4 @@
-import datetime, config, string, csv
+import config, csv
 from faker import Faker
 from faker_vehicle import VehicleProvider
 from numpy import random
@@ -184,12 +184,12 @@ def rhandled():
     print('rhandled run time:', time.time()-start)
 
 if __name__ == "__main__":
-    rhuman(10000)
-    rdepartment(10)
-    roccupation(0.99)
-    rvehicle(15000)
+    rhuman(100)
+    rdepartment(3)
+    roccupation(0.9)
+    rvehicle(100)
     rinsurance(0.5)
     rown()
-    revent(10000)
+    revent(100)
     rstolen()
     rhandled()
