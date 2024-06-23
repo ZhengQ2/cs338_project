@@ -184,12 +184,12 @@ def rhandled():
     print('rhandled run time:', time.time()-start)
 
 if __name__ == "__main__":
-    rhuman(50000)
-    rdepartment(3)
-    roccupation(0.9)
-    rvehicle(50000)
-    rinsurance(0.5)
+    rhuman(100000)
+    rdepartment(100)
+    roccupation(0.99)
+    rvehicle(150000)
+    rinsurance(0.2)
     rown()
-    revent(50000)
+    revent(125000)
     rstolen()
     rhandled()
