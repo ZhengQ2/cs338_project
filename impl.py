@@ -1,5 +1,6 @@
 import mysql.connector as sql
 import pandas as pd
+from decimal import Decimal
 from getpass import getpass
 import hashlib
 
@@ -8,7 +9,7 @@ def connect(password=None):
         con = sql.connect(
             host = "cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
             user = "root",
-            password = password if password else getpass("Enter the database password: ")
+            password = "cs338-group8"
         )
     except sql.ProgrammingError:
         print("Error: Connection to the database failed.")
@@ -44,7 +45,6 @@ def pull(cur, path="sample"):
         )
         # Insert the data into the table
         cur.executemany(insert, data)
-    
     owner = pd.read_csv(path+'/owner.csv')['SIN'][0]
     police = pd.read_csv(path+'/police_officer.csv')['SIN'][0]
     register(cur, owner, 'owner', 'owner')
@@ -55,6 +55,12 @@ def register(cur, sin, username, password):
 
 def encode(input):
     return hashlib.md5(input.encode()).hexdigest()
+
+
+def format_decimal(value):
+    if isinstance(value, Decimal):
+        return float(value)
+    return value
 
 def features(cur, num, input):
     with open(f"sql/feature{num}.sql") as f:
@@ -67,11 +73,11 @@ def features(cur, num, input):
         if command.strip():
             cur.execute(command.strip())
 
-    output = ""
     try:
-        result = cur.fetchall()
-        for row in result:
-            output += str(row) + "\n"
+        column_names = [i[0] for i in cur.description]
+        table_content = [[format_decimal(item) for item in row] for row in cur.fetchall()]
+        output = pd.DataFrame(table_content, columns=column_names).to_string(index = False)
+
     except sql.connector.errors.InterfaceError:
         pass
     return output

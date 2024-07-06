@@ -4,3 +4,4 @@ numpy
 faker
 faker_vehicle
 click
+cryptography

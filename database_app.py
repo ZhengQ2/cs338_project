@@ -29,7 +29,7 @@ if __name__ == '__main__':
         features = """
         We support following features:
         1. List neighborhoods where the number of events is greater than or equal to a specified threshold.
-        2. Count the types of outcome for all events.
+        2. List owner's personal information for a specific vehicle VIN.
         3. Rank all communities in terms of the average price of vehicles that got stolen.
         4. Check the latest events captured in the dataset.
         5. Check insurance payments for vehicles that got stolen. 
@@ -39,15 +39,20 @@ if __name__ == '__main__':
         print(features)
         feature = input()
         if feature not in ['1', '2', '3', '4', '5', '6']:
-            print("Invalid input. Please enter a number between 1 and 6.")
             break
         value = None
+
         if feature == '1':
             try:
                 value = int(input("Please enter the threshold: "))
             except ValueError:
                 print("Invalid input. Please enter an integer.")
                 continue
+        elif feature == '2':
+            value = input("Please enter the VIN: ")
+        elif feature == '4':
+            value = input("Please enter the number of events you want to see: ")
+
         output = impl.features(cur, int(feature), value)
         print(output)
 
