@@ -1,4 +1,4 @@
-import click, impl
+import click, impl, time
 from impl import encode 
 import getpass
 
@@ -58,7 +58,9 @@ if __name__ == '__main__':
         elif feature == '4':
             value = input("Please enter the number of events you want to see: ")
 
+        start = time.time()
         output = impl.features(cur, int(feature), value)
+        print('run time:', time.time()-start)
         print(output)
 
     con.close()
