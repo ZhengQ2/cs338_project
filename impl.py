@@ -25,7 +25,7 @@ def reset(cur):
             cur.execute(command.strip())
 
 # pull data into table
-def pull(cur, path="sample"):
+def pull(cur, path="data"):
     # Iterate through all the csv files in the data folder
     tables = ["department", "event", "vehicle", "got_stolen", "human", "police_officer", "handled", "insurance", "owner", "own"]
     files = ["{}/{}.csv".format(path, f) for f in tables]
@@ -106,6 +106,6 @@ if __name__ == "__main__":
     output6 = features(cur, 6, None)
     # write output to a file
     for i in range(1, 7):
-        with open(f"sample_out/output{i}.txt", "w") as f:
+        with open(f"data_out/output{i}.txt", "w") as f:
             f.write(eval(f"output{i}") + "\n")
     con.close()

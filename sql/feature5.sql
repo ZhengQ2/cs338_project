@@ -1,8 +1,13 @@
 SELECT 
-    VEHICLE.Make, 
-    AVG(INSURANCE.Payment_Amount) OVER (PARTITION BY VEHICLE.Make) AS avg_insurance_payment_by_make,
-    SUM(INSURANCE.Payment_Amount) OVER (PARTITION BY VEHICLE.Make) AS sum_insurance_payment_by_make
+    POLICE_OFFICER.SIN AS Police_SIN,
+    POLICE_OFFICER.Department,
+    COUNT(HANDLED.Event_Code) AS Num_Events_Handled,
+    RANK() OVER (PARTITION BY POLICE_OFFICER.Department ORDER BY COUNT(HANDLED.Event_Code) DESC) AS Departmental_Rank
 FROM 
-    INSURANCE
-JOIN 
-    VEHICLE ON INSURANCE.VIN = VEHICLE.VIN;
+    POLICE_OFFICER
+LEFT JOIN 
+    HANDLED ON POLICE_OFFICER.SIN = HANDLED.Police_SIN
+GROUP BY 
+    POLICE_OFFICER.SIN
+ORDER BY 
+    POLICE_OFFICER.Department, Departmental_Rank;
