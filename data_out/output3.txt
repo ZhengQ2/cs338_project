@@ -1,21 +1,21 @@
        Neighbourhood  average_price  total_vehicles  minimum_price  maximum_price
-         Leslieville  252858.662412            7521        10000.0       490000.0
-Church and Wellesley  251762.278717            7513        10000.0       490000.0
-  Bloor West Village  251323.471140            7571        10000.0       490000.0
- St. Lawrence Market  251147.109180            7593        10000.0       490000.0
-            Parkdale  250872.000000            7500        10000.0       490000.0
-   Kensington Market  250794.771242            7650        10000.0       490000.0
-     Liberty Village  250770.996489            7406        10000.0       490000.0
-           The Annex  250609.116579            7437        10000.0       490000.0
-        Little Italy  249279.535009            7398        10000.0       490000.0
-        Roncesvalles  249154.248892            7449        10000.0       490000.0
-            Rosedale  249118.577075            7590        10000.0       490000.0
-          Queen West  249102.040816            7350        10000.0       490000.0
-           Chinatown  248721.148685            7452        10000.0       490000.0
-           Yorkville  248699.960881            7669        10000.0       490000.0
-         Cabbagetown  248611.257928            7568        10000.0       490000.0
-    Danforth Village  248282.841646            7559        10000.0       490000.0
-           High Park  248277.467412            7518        10000.0       490000.0
-  Scarborough Bluffs  247905.243545            7514        10000.0       490000.0
- Distillery District  247891.862370            7324        10000.0       490000.0
-         The Beaches  247565.381504            7418        10000.0       490000.0
+     Liberty Village   2.532953e+06            7432        10266.0      4999448.0
+           High Park   2.527533e+06            7488        10051.0      4999444.0
+ St. Lawrence Market   2.522009e+06            7578        10992.0      4999877.0
+    Danforth Village   2.520681e+06            7437        10234.0      4999650.0
+        Roncesvalles   2.518253e+06            7397        11790.0      4999571.0
+            Parkdale   2.514331e+06            7599        12458.0      4998745.0
+         Cabbagetown   2.510965e+06            7527        10572.0      4999000.0
+           The Annex   2.508608e+06            7428        11126.0      4999922.0
+  Bloor West Village   2.507794e+06            7649        10587.0      4999554.0
+Church and Wellesley   2.503782e+06            7569        10111.0      4999823.0
+           Chinatown   2.499680e+06            7441        10305.0      4999885.0
+   Kensington Market   2.498362e+06            7638        11339.0      4999718.0
+          Queen West   2.496278e+06            7395        10397.0      4999732.0
+        Little Italy   2.492432e+06            7437        10355.0      4998018.0
+         Leslieville   2.489170e+06            7500        10007.0      4999331.0
+           Yorkville   2.488680e+06            7450        11563.0      4999436.0
+         The Beaches   2.487905e+06            7401        10536.0      4999725.0
+ Distillery District   2.487681e+06            7477        10159.0      4999985.0
+            Rosedale   2.485947e+06            7525        10794.0      4999883.0
+  Scarborough Bluffs   2.471581e+06            7632        10811.0      4999880.0

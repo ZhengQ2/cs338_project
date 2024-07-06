@@ -1,45 +1,45 @@
 Input: 0
        Neighbourhood  num_events
-           Yorkville        6341
-        Roncesvalles        6227
- St. Lawrence Market        6294
-          Queen West        6148
-         Cabbagetown        6291
-            Rosedale        6309
-           The Annex        6181
-           Chinatown        6202
-     Liberty Village        6216
-  Bloor West Village        6303
-            Parkdale        6275
-Church and Wellesley        6220
-   Kensington Market        6364
-         The Beaches        6204
- Distillery District        6111
-    Danforth Village        6301
-           High Park        6269
+         Leslieville        6252
         Little Italy        6199
-  Scarborough Bluffs        6283
-         Leslieville        6262
+           Yorkville        6259
+           The Annex        6176
+   Kensington Market        6364
+            Parkdale        6308
+          Queen West        6162
+        Roncesvalles        6193
+     Liberty Village        6203
+ Distillery District        6181
+         The Beaches        6190
+  Bloor West Village        6350
+ St. Lawrence Market        6317
+  Scarborough Bluffs        6369
+         Cabbagetown        6278
+    Danforth Village        6213
+            Rosedale        6263
+           Chinatown        6175
+           High Park        6247
+Church and Wellesley        6301
 
 Input: 20
        Neighbourhood  num_events
-           Yorkville        6341
-        Roncesvalles        6227
- St. Lawrence Market        6294
-          Queen West        6148
-         Cabbagetown        6291
-            Rosedale        6309
-           The Annex        6181
-           Chinatown        6202
-     Liberty Village        6216
-  Bloor West Village        6303
-            Parkdale        6275
-Church and Wellesley        6220
-   Kensington Market        6364
-         The Beaches        6204
- Distillery District        6111
-    Danforth Village        6301
-           High Park        6269
+         Leslieville        6252
         Little Italy        6199
-  Scarborough Bluffs        6283
-         Leslieville        6262
+           Yorkville        6259
+           The Annex        6176
+   Kensington Market        6364
+            Parkdale        6308
+          Queen West        6162
+        Roncesvalles        6193
+     Liberty Village        6203
+ Distillery District        6181
+         The Beaches        6190
+  Bloor West Village        6350
+ St. Lawrence Market        6317
+  Scarborough Bluffs        6369
+         Cabbagetown        6278
+    Danforth Village        6213
+            Rosedale        6263
+           Chinatown        6175
+           High Park        6247
+Church and Wellesley        6301

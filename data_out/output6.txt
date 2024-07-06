@@ -1,1068 +1,1068 @@
         SIN  Department  Event_Code   Outcome  Year  Month  Day  Hour        Neighbourhood
-011 256 831          91         528 not found  2006      8   18    18          The Beaches
-013 543 871          49         206 not found  2012     12   23     4             Rosedale
-013 865 472          60         425     found  1995      7   15    19    Kensington Market
-014 583 371          19        1627 not found  2015     10   14    22    Kensington Market
-015 466 451          77         532   pending  2010      7   30    12            Chinatown
-016 588 527          77         544     found  1997      6   19    16             Rosedale
-017 213 349          53        1323     found  2003      3   21    23             Rosedale
-017 385 568          46         301     found  2012      7   22     6      Liberty Village
-017 445 560          73        1985 not found  2020      4    6     3            Chinatown
-017 532 672          56        1299     found  2007      4   17     0            High Park
-018 255 737          69         397 not found  2000     10   19    14         Little Italy
-018 277 665          40         611     found  2013     11    2    14  St. Lawrence Market
-018 716 738          34         745   pending  2011      9    7    10   Scarborough Bluffs
-018 866 558           6         452 not found  2001      9    2     8            Chinatown
-021 668 249           6          97   pending  2015      6   17    20          Leslieville
-021 687 231          31         143 not found  1998      6   30    17          The Beaches
-021 786 231          98        1640   pending  2003      7   18    20     Danforth Village
-021 856 612          40         764     found  2000      1    1     8  Distillery District
-022 687 131          51         605     found  1994      9    4     1            Yorkville
-022 687 651          53         113     found  1997     12   19    16             Rosedale
-023 154 750          36         174   pending  2022      5   29    10             Parkdale
-023 158 835          78         839     found  1995      1   27    17         Little Italy
-023 461 759           5          45     found  2007     10   30     5             Parkdale
-023 883 556          12        1545     found  2005     10   14    12            Yorkville
-025 431 651          26        2774     found  2019     12   18    14         Roncesvalles
-025 611 732          38         970 not found  2005      4   13    15         Little Italy
-026 627 745          62         344 not found  2001      4    6     0            High Park
-026 711 341          69          82   pending  2016     12   18     6            High Park
-026 776 252          76        1572     found  1996      7   20     0   Scarborough Bluffs
-026 814 566          79         615     found  2019      6   18     7          Cabbagetown
-028 137 750          19        3161 not found  2002      8   15     9           Queen West
-028 533 776          98         738   pending  1996     12   17     1    Kensington Market
-028 718 237          46        4289   pending  2012      4   22    20     Danforth Village
-028 776 656          97          38 not found  1995      9    3    23          The Beaches
-032 718 868          23        1204 not found  2008      3   28     1            High Park
-033 722 182          64         116     found  2016      7   20    21 Church and Wellesley
-033 782 111          82        2215   pending  2015      4   29     8            Yorkville
-033 817 412         100        1681     found  2021      8    2     5          Cabbagetown
-035 425 768          16         526     found  2008      9   18     8  St. Lawrence Market
-037 426 475          44        2487 not found  2005      9   10     7           Queen West
-037 451 457          52         215     found  2005      1   27    23            Yorkville
-037 527 868          88         742     found  1994     11    4    13    Kensington Market
-037 682 259          37          62     found  2001      6   28    14            Yorkville
-038 146 551           8         806 not found  1999      7   29    22         Roncesvalles
-038 146 759          41         401     found  1997      2   17    22    Kensington Market
-038 748 166          33        2682   pending  2023      3   11     3          Cabbagetown
-038 841 557          80         635     found  2022      5   30     7             Parkdale
-041 732 736          27         792     found  2007      6   16     4             Rosedale
-042 233 551          36        1802     found  2013      4   11    15            The Annex
-042 258 137          28         596     found  1998     10   25     8 Church and Wellesley
-042 562 371          54         493     found  1999     10   19     8           Queen West
-042 652 131          47         864   pending  2009     12   13     9          Leslieville
-043 228 535          99         453     found  2021      1   21    14          The Beaches
-044 331 759          31         109 not found  2019     11   13     5            Chinatown
-044 661 759          89         148 not found  2007      1    4    22      Liberty Village
-045 862 117          91         588     found  2006      3   15    12           Queen West
-046 146 759          84         195     found  2004      9   12     4  St. Lawrence Market
-046 275 277          13         503     found  2023     11   17    22         Little Italy
-047 552 666          50         181     found  2003      8   27    13          The Beaches
-052 437 738          76         889     found  2017      5   29    12   Scarborough Bluffs
-052 652 641          79         944     found  2009     11   27     8   Scarborough Bluffs
-052 688 520          75         444     found  1996     11    9    16 Church and Wellesley
-052 788 338          31         155     found  2021      6    9    18      Liberty Village
-052 854 437          88        1553 not found  2009      8   24    23          Leslieville
-052 882 537          24         115 not found  2019      4   19     2           Queen West
-053 274 239          47        1421   pending  2009      9   24    14            High Park
-053 377 826          93         856 not found  2004      4    6     8         Roncesvalles
-053 723 748          45         641     found  2012      3   12    18          Leslieville
-054 337 712           9         239 not found  1999     11   24    16            Yorkville
-055 376 412          56         903     found  2020      7   12    23          Leslieville
-056 158 348          46        1420 not found  2014      6    2     0 Church and Wellesley
-056 227 341          31         237 not found  2017      4    7    19     Danforth Village
-057 322 372          90         948 not found  2006      7   26    14      Liberty Village
-057 431 520          55         767     found  2014      6    4     9          Cabbagetown
-058 253 717          47         655   pending  1999      3    4    16         Little Italy
-058 322 587          28          47     found  2013      1   22     1             Parkdale
-058 337 221           3          32     found  1995      7   30    17   Bloor West Village
-061 164 471          12        1983 not found  2012      3   29    16          The Beaches
-061 328 829          12        1928 not found  2010      4   29    21            High Park
-061 341 871           1        1712 not found  2013      1   31    21            High Park
-062 813 548          41        2230     found  2015     11   27     3   Scarborough Bluffs
-062 854 625          42        2154 not found  2013     12   13    15    Kensington Market
-064 168 149          99         338   pending  1998     10   28    16          Leslieville
-064 355 886          89        1254   pending  2015      6   11    21          The Beaches
-064 418 270          94         495   pending  2011      3    7     7            Yorkville
-065 411 720         100         542     found  2015      1   15     2            High Park
-065 468 415          35        3431 not found  2006     11    6    15  Distillery District
-065 865 446          50         511     found  2010      9   28    11         Roncesvalles
-066 547 886          44        1384   pending  2002      7    1    17          The Beaches
-067 143 545          31         487   pending  2015     11   13     6          Leslieville
-068 741 131          88         435   pending  2001      9   19    16   Bloor West Village
-068 748 136          90        1306 not found  2018     11   11    22            Yorkville
-071 164 487          70        1184     found  2007      2   23    17            Chinatown
-071 644 710          50         457     found  2017      1   31    18             Rosedale
-071 681 621          46         574     found  2009     11   16     9     Danforth Village
-072 544 661          14         925   pending  1995     10    7     7  Distillery District
-072 613 722          92        2685     found  2018     10   27    21          The Beaches
-073 574 410          66        2818     found  2007      4   17    22            Yorkville
-073 841 850           1        1358   pending  2002      7    9     2          Cabbagetown
-073 843 245          52        5818     found  2024      3   23    11          Leslieville
-074 476 250          71         100     found  2004      3   22    19    Kensington Market
-076 231 885          58         971     found  2016      3   24     2            Chinatown
-076 576 248          57          71 not found  2007      8   19    11            Chinatown
-077 544 260          33         518 not found  2010      1    4    17            High Park
-078 531 720          20        2043 not found  2014      7   30     4            Chinatown
-078 623 725          10         196 not found  2015      3   23    16          Leslieville
-081 254 310          39         314   pending  1997      7   18    17             Rosedale
-081 781 437           8         217     found  2005      9   29     8    Kensington Market
-083 561 472          97         118     found  2020      6    1     7          The Beaches
-083 711 440          58          13     found  2015      7   30    13             Parkdale
-084 156 645          59         914     found  2002      1   20    14          Cabbagetown
-084 355 262          46         801 not found  2017      7   24    23            Chinatown
-084 461 177          91        1430 not found  2013     12    2     0          Cabbagetown
-084 524 370          68         983     found  2013      8   30    11      Liberty Village
-084 566 249          38         760   pending  2001      1   12    13   Bloor West Village
-084 651 140          15        1367     found  2023     11   23     0  St. Lawrence Market
-084 781 335          69         361     found  2000      6   28    21  St. Lawrence Market
-086 226 875          45         714 not found  1996      1   12    11          Leslieville
-086 781 457          64         716   pending  2002      5    4    23  St. Lawrence Market
-088 253 265          53         904     found  2004      8   26    19         Little Italy
-088 661 558          65         902   pending  2012      4   18     8   Scarborough Bluffs
-088 711 460          28         264 not found  2009      9   20     8  Distillery District
-102 677 648          82         562 not found  2014      4    3     7     Danforth Village
-102 748 837          80        1309     found  2021      8    6    12         Roncesvalles
-103 354 718          49        1873   pending  2002      8   18     0     Danforth Village
-103 452 280          33         411     found  2000      6    9     7            High Park
-104 177 837          74          55   pending  2015      3    4    14  Distillery District
-105 148 340          54          26     found  1999      9   27    13            Chinatown
-105 834 238          57         781   pending  2010      1   13    13      Liberty Village
-106 647 712          38         326     found  2010     10   12     2      Liberty Village
-107 146 649          88        1609 not found  2002      7   15     5             Rosedale
-107 347 866          34         178     found  2004     10   23    16         Roncesvalles
-107 647 836          86         274 not found  2019      7   29     0     Danforth Village
-107 652 232          73        1485   pending  1994      9   21    14             Rosedale
-107 782 260          88         546   pending  1997     11   17     9            Yorkville
-108 137 688          76          85     found  2005     11   19     4            Chinatown
-108 677 238          79        1140 not found  2006      5   23    17          Cabbagetown
-108 728 338          18          92     found  2002     10   17    12             Rosedale
-110 674 629          14        1668   pending  1999      2   21    14   Bloor West Village
-110 687 720          21        1735     found  2019      5   27     1  St. Lawrence Market
-110 733 482          42         476   pending  1995      9   19    10  St. Lawrence Market
-113 807 820          17        1203   pending  2019      6   10     8            Yorkville
-114 076 532          37        1568 not found  2020      6    9     5            High Park
-114 350 747          28        1310     found  2016     12   28    20          The Beaches
-114 766 041          36        1209 not found  2024      1    8     1   Scarborough Bluffs
-114 887 664          35        1848     found  1996      4    2    10         Roncesvalles
-115 372 302          21         499   pending  2016      8   20    15             Parkdale
-115 640 880          80         522     found  2001      9   30    18     Danforth Village
-117 732 032          89        1019     found  1998      2    4    18          Cabbagetown
-117 732 800          54         627   pending  2007      1   29    23           Queen West
-117 743 302          81        2032     found  2019      8   28    22          Leslieville
-118 668 474          82        1095   pending  1999      9   25    19            Chinatown
-120 183 777          83         395   pending  2010     10    7    14          Cabbagetown
-120 671 839          86         867   pending  2006      5   27     1         Little Italy
-120 677 836          10          40 not found  2018      4    6     1            The Annex
-122 056 831          33         161     found  2015      8   21     1             Parkdale
-123 088 619           3         332     found  2024      1   20    12         Roncesvalles
-125 134 734          87        1437   pending  2004      9    7     5  St. Lawrence Market
-127 053 817          58        1044     found  2008     12   11     7   Bloor West Village
-127 307 817          92        1811     found  2023      8   26     0            High Park
-127 650 646          50         494     found  2011      5    4     1          Cabbagetown
-127 664 514          28        3864   pending  2003     12   28    23  St. Lawrence Market
-127 726 602          24        1191     found  2013      2    9     7    Kensington Market
-128 027 687          83         479     found  2007      9    1     7          The Beaches
-128 771 664          26          16     found  2002      4   15    18             Rosedale
-130 652 746          50         229     found  2007      8   16     0      Liberty Village
-130 834 526           1         830 not found  2012     10   24     1          Leslieville
-130 844 517          41         176     found  2004      1   14    10            The Annex
-132 408 378          28        2158     found  2000      9   15     4 Church and Wellesley
-134 470 566          62         300   pending  2021      9   26     0   Scarborough Bluffs
-134 706 886          80         226   pending  2020      8    4     3  St. Lawrence Market
-134 851 344          56         373 not found  2014      6    6    17   Scarborough Bluffs
-135 024 461           5         652     found  2011      5   15     7            Yorkville
-135 176 808          15        4469     found  2003      1   10     6   Bloor West Village
-135 224 301          33        1474   pending  1997      4   26    19            Yorkville
-135 426 401           7         823     found  2011      9    4     7            Yorkville
-135 428 068          92          51     found  2014     12   15     8           Queen West
-137 627 444          29        2245 not found  1998      3   19    21   Scarborough Bluffs
-138 827 464          20        1010 not found  2015     11    7    16           Queen West
-140 172 669          28        1840     found  2008      3    2    21 Church and Wellesley
-140 227 380           3         362   pending  2013      6   16    21    Kensington Market
-140 346 719           8         319     found  2006      8    9    11    Kensington Market
-140 866 278          41         491 not found  1994      8    7     0          Cabbagetown
-143 043 271          44         833     found  1995      6    9    23         Roncesvalles
-144 307 717          93        5056     found  2016      9    8    11          Leslieville
-144 853 264          59        2333     found  2022      5   27     9   Bloor West Village
-146 106 588          53         803   pending  2022      9   30    21            The Annex
-146 830 229           5         446 not found  2004      7    4    19      Liberty Village
-147 206 270          31        2697 not found  2002     11   30    20            Yorkville
-147 731 624          73         305 not found  2016      4   28    17         Little Italy
-147 740 617          53         860   pending  1999      8   28     1     Danforth Village
-160 422 770          87         440     found  2024      6    5    14    Kensington Market
-160 743 886          42         687   pending  2017     12   14    14         Roncesvalles
-162 280 689          78        2282     found  2022      3   19     1          Cabbagetown
-164 401 739           8         906     found  2005      2   17     9          Leslieville
-165 180 738          68         624     found  2013     11   30     0         Little Italy
-165 261 744          66          99   pending  2020      3   31    17          Leslieville
-165 372 814          68        1776     found  1994      8   23    17     Danforth Village
-165 402 231          57         621 not found  2014      8   28    10         Little Italy
-165 420 738          49         315 not found  2019     12   18     1     Danforth Village
-165 824 624          96         647 not found  2009     10   10    17         Little Italy
-166 174 474          61        1620     found  1998      6   20     4      Liberty Village
-166 701 441          35         873   pending  2020      8    7    13         Roncesvalles
-166 780 486          86         779     found  2008     10   19    21         Little Italy
-167 302 512          39        1441 not found  1996     11   17     4             Rosedale
-167 724 608          80         600     found  1999      7   30    10          The Beaches
-167 743 202          52        2339 not found  2006      6   14     3      Liberty Village
-168 370 419          27        1160 not found  1998      6   19    16  St. Lawrence Market
-168 803 229          74         634   pending  2002     11   20    10   Scarborough Bluffs
-170 134 621          56        4548   pending  2019      4   18     2  Distillery District
-170 341 341          55         212 not found  2009      1    2    21            High Park
-172 283 087           5        1255     found  1994      6   25    14     Danforth Village
-172 602 740          79         129     found  2022      4   22    15 Church and Wellesley
-172 672 602          20         622 not found  1996      2   25    17          Leslieville
-172 806 838          82        1315 not found  2012      4   26     9            High Park
-173 472 606         100         330     found  1998     10   28     2   Scarborough Bluffs
-174 460 717          28         270 not found  2003      9   25     6          Leslieville
-176 102 341          39         177     found  1997      5   25     2          The Beaches
-176 270 817          30         916 not found  2014      2   13     7  Distillery District
-176 641 702          64         667     found  2012     10   11    21            High Park
-177 043 817         100        1242 not found  2004      1   23     0   Bloor West Village
-177 104 460          84         525 not found  2000     12    2    16            High Park
-177 164 407          98        1692     found  2017      2   10     6            The Annex
-177 446 234          15         417   pending  2020     10    3    12          The Beaches
-178 061 768          39         966     found  2013      1    2     8             Rosedale
-178 208 617          83        1750   pending  2016      6    7    17 Church and Wellesley
-178 220 760          96          63   pending  2014      4   13     0         Little Italy
-178 340 766          95        1686     found  2014      4   21     2           Queen West
-178 620 720          72         759   pending  2017      9    7    11            Chinatown
-178 643 011          14        2157   pending  1996      4   24    11             Rosedale
-178 823 068          17         947   pending  2006      4    1    14            Yorkville
-180 224 537          57         900     found  2015      7   13    10         Little Italy
-180 653 248          84        1040     found  2021      6   29    15   Scarborough Bluffs
-182 082 560          51         190     found  2018      7   28    17             Rosedale
-182 744 334          45         430     found  1996     10    9    20     Danforth Village
-183 167 444          82         313     found  1998      8   20    16            Chinatown
-183 187 038          79         387   pending  2010     11   16    15            Chinatown
-183 253 012          28         696     found  2012     10   27    17          Leslieville
-183 401 470          24         463 not found  2010      4   23    16          Leslieville
-183 441 039          39        1147   pending  2002     12    8     4      Liberty Village
-184 760 247          46         209     found  2009      3   16    15          The Beaches
-186 086 229          73        1460     found  2011      7    8     7          Cabbagetown
-186 254 066          70         646     found  2006      8   15    14          The Beaches
-188 031 538          64         466     found  2015      4   24     3             Rosedale
-188 307 466          71         832     found  2003      2    8    17         Roncesvalles
-188 653 224           3        1534   pending  2006      4   24     5  St. Lawrence Market
-201 266 749          98        1951 not found  1996      7    8     7   Scarborough Bluffs
-201 862 547          41        2507 not found  2013      9   14    12         Roncesvalles
-203 348 859          38         415     found  1997      6   28    11  St. Lawrence Market
-203 447 131          39         694 not found  2003     10   17    23            Chinatown
-203 547 682           4         559     found  1995      6   29    12            High Park
-204 576 839          90        3156     found  2002      5   14    21          The Beaches
-204 813 372          81         220     found  2001      1   12     6         Roncesvalles
-205 473 358          33         304 not found  1994      8    1     4    Kensington Market
-205 544 760          29         253   pending  2012      5   12     1            Chinatown
-206 455 321          62         990   pending  2010      1   17    21             Parkdale
-207 237 140          47         513     found  2020      4   27    22            The Annex
-207 237 645          17         765   pending  2002     10   14     2  St. Lawrence Market
-208 568 477          68         172     found  2009      5   27     2            High Park
-208 665 778          81        1910     found  2004      3   23     2          Leslieville
-208 762 765          18         691     found  1997     12    1     5 Church and Wellesley
-208 853 325          32         654   pending  1996      1   15     6          Cabbagetown
-221 403 371           1        2065 not found  2003      6    1     6          Leslieville
-221 460 587          62        1135   pending  2004      2   28     7             Rosedale
-221 476 070          90         169     found  2020      6   17     7   Bloor West Village
-221 680 531          57        4330   pending  2001     11   28     7  Distillery District
-221 788 037          68        1084   pending  2001      6   14    14         Roncesvalles
-223 388 059           3         134 not found  2014      9   27     0          Leslieville
-223 417 031          70         241   pending  2014      4   13    17          The Beaches
-225 330 885          88        2501   pending  1996      8   18    10    Kensington Market
-226 455 061          17        1046     found  2016      3    4    12            High Park
-226 604 189          28        2388     found  2014      7   26     9  Distillery District
-227 013 562          93         935     found  2006      6    5     2  St. Lawrence Market
-227 335 502          32          89 not found  2019      2   28     9          Leslieville
-227 410 537          75         259 not found  2001      9    2     8         Little Italy
-227 413 309           4         202     found  2014     10   31    20   Bloor West Village
-227 537 644          42         789 not found  1995      2    4     0            High Park
-227 680 659          33         551 not found  2016      3   23     1         Little Italy
-227 710 340          85         427 not found  2008      3    2    19            High Park
-228 033 759           1         265 not found  1994      9   15    22     Danforth Village
-228 076 550          39          88   pending  1996      4   20    21            Chinatown
-228 330 189          66         284   pending  2008     11   24     2             Parkdale
-228 537 734          74         632     found  2020      5    4     3            Chinatown
-230 417 321          24        1161     found  2007      2   21    20           Queen West
-231 840 562          38          77 not found  2007      9   24     4            Yorkville
-233 210 749          95        2345 not found  2024      4   20     8    Kensington Market
-233 772 052          57         981 not found  1998      5   20     8          Leslieville
-233 780 485          42          37     found  1995      1   31    15      Liberty Village
-234 610 582          12        2594     found  2008     11   26    21   Scarborough Bluffs
-238 740 187          79         504     found  2002     10   27    15             Parkdale
-238 817 324           4          54     found  2020      3    8    13  St. Lawrence Market
-240 533 489          83         726   pending  2003      4    3    13         Little Italy
-240 546 671          65          28   pending  2002     10   31     7          The Beaches
-240 672 535           4           5     found  2020     10   13     8          Cabbagetown
-240 738 625          99           8 not found  2015     11   26    16            The Annex
-243 312 709          55         507     found  2017      3   16    19    Kensington Market
-243 345 071          74         272 not found  2010      6   29     6 Church and Wellesley
-243 503 588          28          41     found  2000     11    9     5             Rosedale
-243 743 101          43        1327 not found  2024      5   14    20      Liberty Village
-243 862 505          32          48 not found  2023      7   10     1   Bloor West Village
-244 608 139          86           7     found  2000     12   12    22  St. Lawrence Market
-244 618 039          40         372 not found  1996      2   27    11             Rosedale
-246 556 088          38        1332     found  2016      6   24     2             Rosedale
-247 052 137          46         919 not found  1995     12   31     1            Chinatown
-253 082 580           1         184   pending  1997     10   26     5         Little Italy
-253 377 444          83        1360 not found  1998      4   27     8            Chinatown
-253 748 800           4         199     found  2010      7   29     5          The Beaches
-254 786 031          89         956     found  2018      7   17    20     Danforth Village
-256 680 729          68         419 not found  2016      9   10     5          Cabbagetown
-257 037 648          19        2162     found  2001     12   23    20      Liberty Village
-257 053 827          57        3982     found  2018     10   23    17         Little Italy
-258 046 531          29         774     found  2011     11   27     8  Distillery District
-258 730 431          21          24 not found  2009      6   15    22             Rosedale
-258 802 339          87        1208   pending  2022     10    7    16          Cabbagetown
-260 274 139          50        1725 not found  2020      9   17     7         Roncesvalles
-260 358 858          65        1038 not found  1996     11    8    12           Queen West
-260 552 682          51         449   pending  1998      4   14     8 Church and Wellesley
-260 573 829          25         201     found  1999     12   21     0 Church and Wellesley
-260 775 432          65         336     found  2010      8    6    12         Roncesvalles
-261 250 732           9         710 not found  2021     10   24     2            High Park
-261 274 674          12         577   pending  2008     12   14     7          Cabbagetown
-261 287 080           1         243     found  2007      1    7    10         Roncesvalles
-261 370 548          75         802     found  2024      1    7     1            Chinatown
-261 468 029          55         156 not found  2015      9   29    19   Scarborough Bluffs
-261 860 878          97         123   pending  1996      9   19     8  Distillery District
-264 583 584          26        2001     found  2023     12   17     1            High Park
-265 468 108          48         333     found  2007     11    9    15  St. Lawrence Market
-265 840 835          77         127   pending  2015      5    8     0 Church and Wellesley
-266 017 888          95        3388     found  2021      6   12    19     Danforth Village
-267 264 554           4          15     found  2024      3   30    10      Liberty Village
-268 203 189          78         826   pending  2002      9   12    23  St. Lawrence Market
-268 348 109          18        2837 not found  2015      7   15    19             Rosedale
-268 543 584          53        1877   pending  2014      7    3    15            Chinatown
-268 853 454          93        1330 not found  2005      6   29     5     Danforth Village
-270 316 888          87          75   pending  2004      4   16    10  Distillery District
-270 574 437          82         467 not found  1997      3    6     8            The Annex
-271 670 432          65         679 not found  2005      4   14    21            The Annex
-273 082 750          26        1362 not found  2011      1    2     2   Scarborough Bluffs
-273 304 758          40         298     found  2015     12   18    14            High Park
-273 385 724          60         227 not found  2014      4   25    20      Liberty Village
-273 814 038          97        1571     found  1994      7   21     6         Little Italy
-274 310 861          60         719 not found  2010      6   27    17          The Beaches
-276 546 801          85         685     found  2015      1   12     1  St. Lawrence Market
-276 608 445         100        1385 not found  2007      4    7     4             Rosedale
-277 043 162          97        1070     found  2010      9    4     1             Parkdale
-277 083 457          40         340     found  1995      3    4     8  Distillery District
-278 543 707          61         101     found  2007     12    7     1          Cabbagetown
-278 668 108           6         321     found  2009      5   30    15            High Park
-280 546 649          82        1479 not found  1995      8   26    19          Cabbagetown
-280 612 870          39         189     found  2007     11    3     5            Chinatown
-281 047 837          45        1516 not found  1996      1    9     3  St. Lawrence Market
-281 730 622          14        3054   pending  2012      5   25    22            High Park
-283 217 834          51        1637     found  2014     12   11     6            The Annex
-283 417 400          95         849     found  2014     12    1    11            High Park
-284 013 877          29         739     found  2002     11    6    22            High Park
-284 066 172          33        2389   pending  2009      3   20     9   Bloor West Village
-284 785 060          30         480     found  2016      9   28    11            The Annex
-285 085 627          90         940     found  1999      5   13    15          Cabbagetown
-286 280 177          58        1544     found  2015      5   21    16             Rosedale
-288 506 470          64         171     found  1998      1    4    13          Cabbagetown
-288 507 668          71         758   pending  2019      6    5    23     Danforth Village
-301 472 239          42        2722 not found  2012      7    6     2      Liberty Village
-301 762 746          69         670 not found  2021      9    6     3   Bloor West Village
-301 764 718          67         678     found  2008      5   28    16  St. Lawrence Market
-301 771 838          16         426 not found  1998      9    5    10  St. Lawrence Market
-302 355 482          12        5297 not found  1999      7   26    11            The Annex
-302 745 831          90        1899     found  2021     10    1    20     Danforth Village
-304 467 715           5        2936 not found  2006      7   27    13   Bloor West Village
-304 473 259          38        5625   pending  2009      5   26    12  St. Lawrence Market
-304 477 136          56         501     found  2008      4   15    20          The Beaches
-304 714 611          13         952 not found  2004      1   23     0  St. Lawrence Market
-304 724 685          63        1457 not found  2018     12   12    19  Distillery District
-305 413 486          45        2174     found  2024      5    6     5            The Annex
-305 574 626          17        1480     found  2010     11   15     5         Roncesvalles
-305 844 250          23         506     found  2010      9    1     2            Yorkville
-306 155 748          53        2654   pending  2005      9    8    23           Queen West
-306 224 551          74         112   pending  2010      3   12     3            Yorkville
-306 225 889          66         533 not found  2017     10   27     1            The Annex
-306 782 111          37         120     found  1998     10   29    22      Liberty Village
-308 358 456          24         351     found  1994      9    3     1             Parkdale
-310 372 552          36        4154 not found  2022     12    9     0            High Park
-310 372 875           1        1564 not found  1995      5   19     2  St. Lawrence Market
-310 854 658          47        2276 not found  2023      7   13    14   Scarborough Bluffs
-311 250 880          89         650 not found  1999     12   24    16             Rosedale
-314 850 645          75        1425   pending  2005      4   27     3           Queen West
-315 068 858           9         606 not found  1999      6   17    17           Queen West
-315 285 031          77         223 not found  2012      6   17    13          Cabbagetown
-315 348 102          98          20 not found  2008      7   13     9   Bloor West Village
-315 385 708          66          69   pending  2001      3   10     0     Danforth Village
-315 470 120          95        2292     found  2010      2    6     7      Liberty Village
-315 508 820          28        3043   pending  2012     11    3    11          Leslieville
-315 844 100           6           1 not found  1998      1    9    10         Roncesvalles
-316 554 401          61        1593     found  2015      7   17    15   Scarborough Bluffs
-317 317 444          25         517   pending  2020      4   11    10             Rosedale
-317 455 608          60        1800 not found  2023      5    2    14  Distillery District
-317 543 049          38         549   pending  1997     11   17    18             Parkdale
-318 310 471          13        1541     found  2012     11   26     6           Queen West
-318 312 071          13         603     found  2014      8   18    12          The Beaches
-318 553 088           6        3796 not found  2008      3   14     2 Church and Wellesley
-318 772 654          78        1276 not found  2022      1   30     8      Liberty Village
-320 325 871          75         200     found  2004      3   13     7   Bloor West Village
-320 328 172           5         303     found  1998      6   14     4            High Park
-320 417 611          88        2515     found  2023      1   27     7           Queen West
-320 725 732          22         537     found  2023      5   31     4            Yorkville
-320 853 245          20         334     found  1997      6    8    12          Cabbagetown
-321 173 544          12        1246   pending  2007      9   18     5             Rosedale
-321 374 076          81         905   pending  2021     11    2    15    Kensington Market
-321 720 732          42           4     found  1994     11    1     1           Queen West
-322 455 601           3        2052     found  2006      5    6     8         Little Italy
-322 803 875          69         279     found  2000      5    7    19             Parkdale
-322 854 035          46         180 not found  1994      8    5     7             Rosedale
-325 061 141           5         266   pending  1997      6   26    17  Distillery District
-325 065 241          39        1055     found  2013      3   14    11     Danforth Village
-325 183 705          83         567     found  1994      8   28    13      Liberty Village
-325 308 112          61         355 not found  1999      1   13    15            The Annex
-325 568 814          35         786 not found  2010     10   16     5          The Beaches
-325 805 810          83         291 not found  2011     12   24    22 Church and Wellesley
-326 718 012          77         282     found  2016      6    6     2            Yorkville
-327 114 534          57        2959 not found  2017     10   25     9             Parkdale
-327 410 536           6        2692     found  2023      6   22     6     Danforth Village
-327 764 205          91        5515   pending  2023      8   10     8     Danforth Village
-328 173 505          63          22     found  2012      9   20    10      Liberty Village
-328 507 611          84          95     found  2000      7    3    21            High Park
-330 845 249          68        1715     found  1995      6   29    20      Liberty Village
-332 018 829          51        1935 not found  2002      5   11     5          Cabbagetown
-332 205 871          13        2618 not found  1997     12   26     2          Leslieville
-332 217 884          56        1442   pending  2018      6    2    19            High Park
-332 548 502          62         275     found  2021      8   26     2    Kensington Market
-332 744 085          65        1056   pending  2012      8    9     9         Roncesvalles
-332 840 552          82         921 not found  1998      7   17    15          Cabbagetown
-334 805 272          39        1381     found  2010      7   19     9         Little Italy
-337 025 472          48         861     found  1999      1    5    16   Scarborough Bluffs
-337 154 454           2        1445     found  1998      1   30    13  Distillery District
-337 705 222          85        1181   pending  2001     11   26     7           Queen West
-337 705 446           8        1318     found  2023      9    8    10         Roncesvalles
-338 150 725          49         235     found  2024      4   14     8  St. Lawrence Market
-340 568 526          95        1689     found  2005      7   31     5          Cabbagetown
-341 170 520           3        3974   pending  2011     12   25    19          Cabbagetown
-341 261 089          39         762     found  2006      5   23    22  Distillery District
-341 860 518           8         998 not found  2023     10    8    20         Little Italy
-341 862 274           3        3459     found  2006      1   31     2         Little Italy
-342 270 139          44         653     found  1995      7   30    13  Distillery District
-342 702 651          58        1342   pending  1998      8   30    18          The Beaches
-344 503 586          15        1024   pending  1996      5   11    14     Danforth Village
-344 523 501           9        2830     found  2000      5   17    11            Chinatown
-345 811 020          22         890 not found  2001      8   17     7            Yorkville
-346 541 709          75          91     found  2021      2   14     8          Cabbagetown
-347 012 239          85        1162     found  1996      8   15    19             Parkdale
-347 027 658          25         456     found  1997     10    9     8            The Annex
-347 701 450          21         776     found  2009      6   16     5  St. Lawrence Market
-347 761 124          52         381 not found  1999      6    4    18   Scarborough Bluffs
-352 044 689          33         437   pending  2019      1   30    12      Liberty Village
-352 762 801          75         734 not found  1997      4    7    14         Little Italy
-352 770 440           3        1887   pending  2003      6   16    16         Little Italy
-352 847 644          75        2751     found  2019     12   27    15            Yorkville
-354 058 810          71         138     found  2000      7    9    21   Scarborough Bluffs
-354 153 041          55        2375 not found  2004     10   17    16         Roncesvalles
-354 423 709          18         881 not found  2004      7   13    23           Queen West
-354 701 740          83         368     found  2018     10   10     9         Little Italy
-355 460 288          53         283     found  2008      9    9     0             Parkdale
-355 861 402         100         438   pending  2016      3   18    23            Yorkville
-356 044 271          84         404   pending  2005      7   31    20  Distillery District
-356 180 521          73        3275   pending  2011     10    3    12  St. Lawrence Market
-356 204 776          29         620     found  2015      8    9    10 Church and Wellesley
-356 228 874          24         139     found  2006      7    3     4   Scarborough Bluffs
-356 827 444          64         309     found  2019      2   27     1   Bloor West Village
-357 044 619          21         307 not found  2011      9   22     5    Kensington Market
-357 382 019          46        2542 not found  2003     10   25     1         Roncesvalles
-357 452 200          11         565 not found  2000      4   18    22          Leslieville
-358 227 684          43        4446     found  2023      4   19    16   Bloor West Village
-358 301 521          40          12     found  2003      3   12     0   Bloor West Village
-358 348 019          15         363   pending  2008      6   25     7         Roncesvalles
-372 388 124          93        1321     found  2015     12   29    13             Rosedale
-372 805 440          30        1114     found  2016     12    8    20   Bloor West Village
-374 381 705           6         402 not found  2019      8   18    19             Parkdale
-374 820 835          57         735     found  2004     11   19    12             Parkdale
-374 824 134          42          93   pending  2014     12   17     5            The Annex
-376 102 745          93        2177     found  1995      4    9    11         Roncesvalles
-376 210 282           2        1717     found  2019      5   17     0             Rosedale
-377 025 820          51        1641   pending  2023      2    1    13    Kensington Market
-377 082 235          46          39     found  2014      8   26    20  St. Lawrence Market
-377 312 814          11          61     found  2009      5   16    23   Bloor West Village
-378 502 611          25        1965 not found  1999      5   18     2            Chinatown
-378 841 050          39          72     found  2004     12    1    10             Rosedale
-378 843 056          27        2316   pending  2020     10   20    10  Distillery District
-380 327 122          36        2553     found  2001      8   19     4   Bloor West Village
-380 553 818          15        2646     found  2015      8   11    22         Little Italy
-381 152 602          99         550     found  2008      2   13    15          Leslieville
-382 317 048          45         800   pending  2018      6   23    23             Parkdale
-382 712 602          38         260   pending  2018      7   30    10    Kensington Market
-382 744 134          72         288 not found  2015      8   24     5   Bloor West Village
-384 405 619          55          79 not found  2022      8   15    15             Parkdale
-384 504 510          13          53   pending  2022      6   12     0         Roncesvalles
-385 165 444          18         163     found  2022      8   20    22             Parkdale
-385 582 036           6        2014 not found  2015      8   29    16         Little Italy
-386 105 472          54         133     found  2007      9   16     4         Little Italy
-386 107 148          55          25 not found  2014      8   25    11 Church and Wellesley
-386 110 829          20         414     found  1996      6    4    22         Little Italy
-386 207 815          94         433 not found  2003      9    1     7             Parkdale
-386 255 814          48         733     found  2011      2   14    21            High Park
-386 582 209           3           0     found  2001      9   29    18            Yorkville
-386 782 254          18         159 not found  2001      4   27    23          The Beaches
-401 138 870          54         447     found  2002      9   23    11         Roncesvalles
-401 154 661          43         230     found  1995      2    4    14    Kensington Market
-401 664 271          44         869     found  2009      3   26     0   Scarborough Bluffs
-401 674 536          99        3345     found  2015     11    5    20  St. Lawrence Market
-401 854 336          67         502 not found  2009      3   31    10  St. Lawrence Market
-401 866 512           6         450   pending  1997      5    9    16      Liberty Village
-402 613 889          14        4075   pending  2023      7    8    18           Queen West
-403 153 141          24        3168   pending  2006      1    2    13             Rosedale
-405 173 345          42        1440   pending  2011      7   23     4     Danforth Village
-405 385 766          74        2373     found  1997      3    2     8          Cabbagetown
-405 473 356          75        2668   pending  2022      5   29    20            Yorkville
-405 571 332          43         729     found  1995     11   25     8          Leslieville
-405 825 837          11        1210 not found  1995      9    3     8            Yorkville
-405 834 250          96         247     found  2002     12   13    13          Cabbagetown
-406 411 587          12          44 not found  2008      5   31     0      Liberty Village
-406 556 712          52         337   pending  2019      7   23    10            Chinatown
-406 586 776          20         612 not found  2018     11   17    21             Parkdale
-406 776 815          24          70     found  2007      8    8    12    Kensington Market
-408 167 385          15          50   pending  2005      3   10    17             Rosedale
-408 376 275          45        1183   pending  2002      4    6     3    Kensington Market
-410 458 350          71         866     found  2013     11   12    12   Scarborough Bluffs
-410 538 649           2         684     found  2010      1   27     9         Roncesvalles
-410 885 677          31        1499 not found  2007      9    7     8   Bloor West Village
-411 388 564          99         875   pending  2022      8    6     3         Little Italy
-413 774 100          96         175     found  2018      7   15     9     Danforth Village
-415 304 161          28        1988 not found  2007      9    5     7            Yorkville
-415 430 750          27         715   pending  2020      1   18    23          The Beaches
-415 603 745          30        1448     found  2005      3    2     7          Cabbagetown
-416 416 501          53        1678   pending  2012      3   15    16            The Annex
-416 455 301          44        1658     found  2012      5   20     5            Yorkville
-416 554 384          73         737   pending  2006     11   19    17            Yorkville
-416 556 884          63        3218     found  2020     10    5     8             Parkdale
-416 780 161          59          30     found  2012     12   17     0  Distillery District
-417 086 535          64        1003   pending  2001      1   28     4     Danforth Village
-418 860 177          47          42     found  1999      3    7     1     Danforth Village
-430 527 747          17        1137 not found  2020      6   19     9           Queen West
-430 856 252          39        1853 not found  2001     11    4     6            Chinatown
-431 156 702          98         392     found  1994      9   23     1         Roncesvalles
-431 771 344          49         383     found  2008     10   20    19            The Annex
-432 458 354          37          19     found  1994      9   21     7    Kensington Market
-432 475 507          91        4983     found  2016      8   11     8            The Annex
-437 051 352          10           9   pending  2005     12   22     4            Chinatown
-437 681 174          64        1217 not found  2008     10    5    12 Church and Wellesley
-438 650 715          52        2011     found  1994     12   16    11 Church and Wellesley
-441 058 310          35        2569     found  2023      9   15    10  St. Lawrence Market
-441 703 386          95         891 not found  2014      1   11     8          The Beaches
-442 056 131           6        1655   pending  2003      5    3    21             Rosedale
-442 670 675          46        3007     found  2007      4    9     8     Danforth Village
-442 813 564           9         186     found  2010     11   26     9             Rosedale
-442 835 500          78        1685     found  2012      6   26    20          Cabbagetown
-442 855 334          73        2977   pending  2016      6    8     4   Scarborough Bluffs
-447 537 036          32         728     found  2016      6   27     7         Little Italy
-450 158 860          24         877 not found  2013     10   19    23             Rosedale
-450 453 717          58        1171     found  2022      9   23     2          Cabbagetown
-452 356 702          53         451     found  2008      3    6    13 Church and Wellesley
-453 370 249           5         755     found  2018      9   26     3          The Beaches
-453 768 046          27         754   pending  1996      4   22    14    Kensington Market
-453 768 244          55         287     found  2005      5   24     9          Leslieville
-453 883 274          72         552 not found  2011      1    7     4  St. Lawrence Market
-455 061 382          10        1408 not found  2013     11   23    17      Liberty Village
-455 881 334          15         144   pending  2014      2   16     9  St. Lawrence Market
-456 450 717          83         354   pending  2017      3    9    16  St. Lawrence Market
-456 688 514          88         219 not found  1994      7    4    22             Parkdale
-456 788 306          68        2074   pending  2014      3   21     6  St. Lawrence Market
-456 834 506          67         289   pending  2023     11   15    20            Yorkville
-458 701 380          51        1907 not found  2003      1   19     8            Yorkville
-458 731 601          53        2631     found  2016      3    5     9             Rosedale
-458 833 209          60        1927     found  2014     12   29     0             Parkdale
-458 867 066          51         475     found  2013      8   22     8    Kensington Market
-460 351 182          29        1012   pending  1995     11   23    16             Parkdale
-460 385 511          24         949     found  2012     12   18     9         Little Italy
-460 423 551          27        1368     found  2021      4   15     8  Distillery District
-460 564 586          43         262 not found  2014      5   23     2         Little Italy
-461 103 749          41         103 not found  2013      9    4    23         Roncesvalles
-462 075 870          60        3201   pending  2004     12   24    13             Parkdale
-462 407 651          46        1219     found  2013      6   12    17   Scarborough Bluffs
-462 455 601          19        2798     found  2022      5   29    18          Cabbagetown
-462 473 109          87        1125 not found  1995     10   17     6            Chinatown
-465 088 235          67        1401     found  2016      5   16     6   Scarborough Bluffs
-465 420 131          20        1956   pending  2022      7    5     6            The Annex
-465 461 101          69         580     found  2019      2    7    16          The Beaches
-466 108 172          80         128 not found  1996     10   16    10   Bloor West Village
-466 570 272          34        1185     found  2002      5   24    16            The Annex
-467 103 149          91        1871 not found  2011      2   22     8          Leslieville
-467 720 835          58         854     found  1996      6    6    21             Parkdale
-468 067 111          44         104 not found  2013      4    1    11  Distillery District
-470 435 280          17        1334 not found  2012      3    7    23            Yorkville
-471 034 611          53         936   pending  2020      8   31     3  St. Lawrence Market
-471 803 346          16        5552     found  2017     11    4     9           Queen West
-473 024 180          67         245 not found  2007      5   21     3         Roncesvalles
-473 305 712          93         198   pending  2023      4    6    12             Parkdale
-473 310 282          22        1076   pending  2003      1   10    11         Little Italy
-476 430 756          16         244     found  1999      6    3     7            Yorkville
-477 114 037          96         125     found  2019      7   18     9            High Park
-477 664 106          27         432   pending  2014      2   15    20             Rosedale
-480 523 562          84         657     found  2000      4   16    13      Liberty Village
-482 430 675          40        2081     found  2021      5    5    18          Cabbagetown
-482 460 565          76         673     found  1996      8   23    18  Distillery District
-482 533 874           6        1165 not found  2005      8   19    13             Parkdale
-483 465 076          50         105     found  2001      5   27    18    Kensington Market
-483 501 672          31         117   pending  2016      1   16    16             Parkdale
-485 166 805          37        1015     found  2020      7   12    12           Queen West
-485 523 062          84        1268     found  2021      1   10     5            Chinatown
-485 680 615          89        5582   pending  2007      3   10     3             Parkdale
-486 085 376           8          68     found  2006     12   11     2         Little Italy
-486 617 814          84        2720     found  1998      5   13     5 Church and Wellesley
-488 167 354          23        1052     found  1997      6   21    18  St. Lawrence Market
-488 650 110          66        1307 not found  2005      2   10     8             Parkdale
-501 348 817          64        1917     found  2010      4   12    14          Cabbagetown
-502 476 625           6         886     found  2015      6   12     3 Church and Wellesley
-504 175 332          59         870     found  2017      1   14     6             Parkdale
-504 176 140          25         393     found  2011      9    5     6     Danforth Village
-504 825 860          46         382     found  2009      3   27    21          The Beaches
-504 885 260           1         166     found  2000      4   18    23            The Annex
-506 425 388          33         671 not found  2018      3   14    23         Roncesvalles
-506 582 287          34         322     found  2015      7    2    20   Bloor West Village
-506 844 265          13        2092     found  2007      2    9    22   Bloor West Village
-507 266 856          63         208     found  2004      2   26     2 Church and Wellesley
-507 523 462          71         297   pending  2003      8    6     3         Roncesvalles
-507 681 138          78         831     found  2010     10   18    15            The Annex
-507 681 625          82        2013     found  2006      7   14    22          Leslieville
-508 213 287          61        2647   pending  1997      6   24    17            Chinatown
-510 213 382          62        3607     found  1998      7   11    13          Leslieville
-510 583 768          34           3   pending  1996      4    2     9         Roncesvalles
-511 082 737          86        2398     found  2000      1   10    12   Bloor West Village
-511 204 661          55        1783     found  2013      7   21    22          Cabbagetown
-511 288 607          87        1635 not found  1995      3    6    13          Leslieville
-513 348 805          55         347     found  2007     12    2     1     Danforth Village
-514 068 352          18         740     found  2018     12   17     4             Rosedale
-514 675 040          69        1118     found  1996     12   24    17   Bloor West Village
-514 834 654          15        1269     found  1997     10   12    13      Liberty Village
-516 508 868          65          87     found  2008      6    7     4          Cabbagetown
-517 530 432          20        1159     found  2013      6    6     3           Queen West
-517 683 405          51         160   pending  2018      2   10     2         Little Italy
-518 332 101          88         256   pending  2012      3   26    14 Church and Wellesley
-518 832 035          81        7836     found  2021      2    3     6          Cabbagetown
-520 683 111           7         286     found  1998      5   18    23         Little Italy
-520 861 147           3         822     found  2006      1   14     2             Parkdale
-521 170 837          46        3755     found  2019      8   30     0          The Beaches
-521 388 306          60         182     found  2023      6   11    15   Scarborough Bluffs
-521 473 017          13        2206 not found  2000      7   27     6  Distillery District
-522 865 047          19         462     found  2006      7    2    16     Danforth Village
-523 104 180          12          43     found  2018     10   20    22  St. Lawrence Market
-523 311 744          77         871     found  2001      9   27    22  St. Lawrence Market
-523 420 180          53          94     found  2009      2   10    23             Parkdale
-526 820 162          98         850   pending  2015     10   23     8          Leslieville
-527 166 805          69          76   pending  1994     11   23    10 Church and Wellesley
-527 465 066          13         378     found  2021      8    9    13    Kensington Market
-527 685 606          45        1080 not found  2012     12    8    23         Little Italy
-530 471 325          45        1728 not found  1995     11   27    11 Church and Wellesley
-530 675 248          16         474     found  1997     12   17    13         Roncesvalles
-531 841 047          31        1213     found  1996      8   18     7            Chinatown
-532 044 385          91        1443   pending  1995      4    9    13    Kensington Market
-532 580 727          64        1238 not found  1999      6   30    19            Yorkville
-533 220 885          48         290 not found  2022      9   14    20     Danforth Village
-533 425 484          72        3749     found  2000      2   15    10  St. Lawrence Market
-534 071 345          74         470 not found  2018      4    9     2         Roncesvalles
-534 670 245          42         563     found  2023      5   21    20            Chinatown
-534 680 186          31         218 not found  2017     10   19    14            Chinatown
-537 016 248          55        2728 not found  2021     11   14    20             Parkdale
-537 106 825          61        3967     found  2000      9   27     5   Bloor West Village
-537 206 245          43         681     found  2009      9   28     9            High Park
-537 426 108          37         698   pending  1994      8    5     1           Queen West
-538 228 057          68         775 not found  2002      8    1    15   Scarborough Bluffs
-540 273 265          76        1404 not found  2020      3   22    16         Roncesvalles
-540 623 121          62          52     found  2009     11   27     6             Parkdale
-541 140 661          73        2758     found  2003      9    5    23   Bloor West Village
-541 660 288          59         106 not found  2012      7   30    10 Church and Wellesley
-541 802 617          24        1660 not found  2016      6    3     4  Distillery District
-542 265 301          58        1459     found  2002      2   22     3 Church and Wellesley
-542 276 100          65        2096 not found  1997      3   15     4            High Park
-543 143 705          50         114   pending  2004     12   14     1         Roncesvalles
-544 103 385          71        6297     found  2004      8   23    22            Chinatown
-546 205 261          23         662 not found  2005      2    8    13  Distillery District
-546 612 201          44          27     found  1994     10   29    22            Yorkville
-546 618 224          52         946   pending  2020      6   16     4         Little Italy
-546 628 108          86         258 not found  1998      5   29    13             Parkdale
-546 640 186          42         959   pending  2001      1   21     3           Queen West
-547 065 268          37          84     found  2008      1   24     9  St. Lawrence Market
-547 260 117          22         261 not found  2009      2   25     8            Yorkville
-547 301 168          46         329     found  1994     11   13    13   Bloor West Village
-547 605 626          67         418 not found  1999     11   15    11          Leslieville
-547 643 106          66         405 not found  2011      7   21    11    Kensington Market
-550 176 440          38         366   pending  2010     11   18    16   Scarborough Bluffs
-552 332 801           8        2359   pending  2000      2   24    16         Little Italy
-552 334 484          41        5431     found  2011      6   29    13  Distillery District
-553 172 032          27         371     found  2002      8   17     8      Liberty Village
-553 382 284          72        1650     found  2000     11   12    10            Chinatown
-554 026 732          14        1566     found  2017      6   19     8            The Annex
-554 068 247          74        1068 not found  2000      3   27     6          Cabbagetown
-554 320 861          44         207     found  2010      3   11     1             Parkdale
-556 881 308          97        1897 not found  2002      9   11    18          Cabbagetown
-557 103 868          70         358   pending  1999      9   29    13            Yorkville
-557 204 260          86         992   pending  2020     11   30     6            Chinatown
-557 381 324          12         723   pending  2024      5    4    18   Bloor West Village
-557 432 200          74        1490 not found  2007      6   29     5     Danforth Village
-558 620 621          84        2519     found  2009      8   30     5            High Park
-558 622 080          51         488 not found  2009     10   20     7            The Annex
-560 322 745          63         228     found  2013     12    5    18          Leslieville
-560 423 188          16        1075   pending  2003      7   12    15            Chinatown
-561 140 740          15         377 not found  2017     11   24     7 Church and Wellesley
-561 802 646          83        4260   pending  2011      9   30    13            Chinatown
-562 573 808          17         164     found  2011      9   26    23   Bloor West Village
-562 582 031          57         197   pending  2013      1    1    19           Queen West
-564 068 245          34        1351 not found  2021      1   21     8    Kensington Market
-564 160 182          37         389   pending  2016      7    9     8         Little Italy
-566 074 258          14         583   pending  2011      8   18    19 Church and Wellesley
-567 145 602          84         213 not found  2011      7   27    15         Little Italy
-567 320 858          86        1659 not found  2014     11    8     6 Church and Wellesley
-568 118 400          18         242     found  2001      6    2    22 Church and Wellesley
-580 185 320          30         369 not found  2001      1   12    22            Chinatown
-580 465 227          13        1519     found  1998      4    5    20  St. Lawrence Market
-580 543 817          41        1502     found  2009      5    9     2      Liberty Village
-581 102 837          30        1590     found  2018      4   14    20            High Park
-581 306 248          50        2418 not found  2008      9   23    12  Distillery District
-581 443 306           4        2788   pending  2006      4   11     0         Roncesvalles
-582 334 025          39         150     found  1996      9   18     6   Bloor West Village
-582 345 047          19         211     found  2013      4   21    11           Queen West
-584 310 312          82        1027     found  2012      5   13     3          The Beaches
-584 310 346          71         292     found  2003      7   30    15         Roncesvalles
-584 461 164          89         521 not found  1999      5   25     8   Bloor West Village
-584 583 066          90         224   pending  2009      7   29    18            High Park
-586 104 457          43         933     found  2004      6   24    21         Roncesvalles
-586 620 148          80        2121     found  2010      2    8    16      Liberty Village
-586 622 805          41          14 not found  2022      3   20    23 Church and Wellesley
-601 731 748          92        1099     found  2003      4   13     0      Liberty Village
-601 772 866          90         379     found  2017     11    7    20            Yorkville
-602 812 877          82         285     found  2012      8    9     0   Bloor West Village
-603 144 189          20         980     found  2005      2    9     4             Parkdale
-604 156 141           1        1742     found  2003      9   12     5     Danforth Village
-604 537 746          91        2950     found  2019      3   17    23            Chinatown
-604 687 285          64         407 not found  2020      7   10     3     Danforth Village
-605 228 857           3        1305     found  2008      3    6    18  St. Lawrence Market
-605 281 161          11         167   pending  2007      2   26    18            Yorkville
-605 688 118          83        1418     found  2004      9    9    14          Leslieville
-607 527 868          73         793     found  2008      8   30    16             Rosedale
-607 687 258          93        2971     found  2005      5   13    11   Bloor West Village
-607 744 315          98         834 not found  2014      8   30     1    Kensington Market
-608 147 385           4         969 not found  2012     12    8     6  St. Lawrence Market
-608 627 121          47        1020   pending  2015      4   27     7          Leslieville
-608 775 268          65        3415     found  2001      6    1    11         Little Italy
-608 827 127          39         110     found  1996      5   13     6          Leslieville
-610 475 477          51         481     found  2001      6   21    16    Kensington Market
-610 735 482          38         459     found  2010     10   12    15    Kensington Market
-610 847 352          79        1849     found  2000      7   17    12          The Beaches
-611 830 548           7         519     found  2003      4    1     8            Chinatown
-613 018 472          18         510   pending  1996     11   21    16          The Beaches
-613 448 075          51          80     found  1994     11   29    15          Leslieville
-613 587 708           3          65     found  2022      6   13     4 Church and Wellesley
-614 088 359          36         879 not found  2009     10   30    12          Cabbagetown
-614 504 561          76         963   pending  2023      5   11    21         Roncesvalles
-615 406 725          19         708   pending  1996      2   17    16           Queen West
-615 804 325          85         929   pending  2000      8   13     2          Cabbagetown
-617 456 058          45         252 not found  2018      7   19    13             Rosedale
-617 610 878          26         809 not found  2005     12    7     3           Queen West
-618 546 774          59         631     found  2013     11   15    21            High Park
-620 156 851          59         500 not found  2019      2    8    16            High Park
-620 476 119          23         386     found  2002      6    4     4            The Annex
-620 526 871          87         124     found  1998      4   21    18      Liberty Village
-620 554 287          68         399 not found  1995     12   11     0   Scarborough Bluffs
-620 586 289          89        1035   pending  2021      1   16     9            Chinatown
-620 714 261          43         327   pending  1996      2   25    21  Distillery District
-620 881 169          74        3373     found  2022     11   15    22         Roncesvalles
-621 450 717           3        1977     found  2003      6   26    15          The Beaches
-622 886 505          47         232     found  2006      1    8    10         Little Italy
-623 105 541          87        1043   pending  2017     10    7    10         Roncesvalles
-625 118 864          11        1136     found  2016      8    2    18           Queen West
-627 104 565          19        2097     found  2011      9   24     9   Bloor West Village
-627 185 309          38         625 not found  2022      7   31    14          Leslieville
-627 780 265          42        1827 not found  2017      2   27    12          Cabbagetown
-628 507 386          34        1005 not found  2008      9   18     7          Cabbagetown
-640 211 769          91         705     found  2020      2    2     7          The Beaches
-640 235 511          33         469     found  2000     10   21    20         Roncesvalles
-640 835 278          14         709   pending  1999      7   13    22             Rosedale
-641 648 506          55        1697 not found  2017      2   10     8             Parkdale
-642 208 557          70        1416   pending  2011      2    8    10          Cabbagetown
-642 210 777           2         658     found  1995      2    4    21          Leslieville
-642 772 057          51        2993     found  1999      7   20     7   Bloor West Village
-642 817 407          53         216 not found  1995      7   24    13 Church and Wellesley
-642 845 069          99        1483     found  1997      7    1     3         Roncesvalles
-643 140 759          77        1986   pending  2011      8   31     9     Danforth Village
-644 051 765          32        1177 not found  2011      3   11     6     Danforth Village
-644 108 177          46          18     found  2014      2    9    15            The Annex
-644 855 314          30         394   pending  2003      8   28    23   Bloor West Village
-645 231 085          78         777   pending  2004      1   13    13          The Beaches
-645 270 257          88        1347     found  2018      2   11    12  Distillery District
-645 811 308          10         895 not found  1999     11   28    18            High Park
-647 112 309           2         306 not found  2024      1   15    20    Kensington Market
-650 258 346          63          66     found  1995     12   31     1          The Beaches
-652 687 708          56        1452     found  2008      4   12     2  St. Lawrence Market
-652 740 887          57        5017     found  2012     10   25     9 Church and Wellesley
-654 688 019          34        1841     found  2007     11   17     4      Liberty Village
-654 776 806          55        1974     found  2001     11   30    21          The Beaches
-654 881 309          92         682     found  2002      4   11     8 Church and Wellesley
-654 886 076          18          34   pending  2005      9    5    19    Kensington Market
-655 182 061           5        1008   pending  1996      2   12    16            The Annex
-655 224 301          10        2214     found  2000      2    3    22 Church and Wellesley
-655 641 744          23        3104     found  2002      8    5    20            Yorkville
-655 844 017          67        2186     found  2018      6   23    23      Liberty Village
-660 271 545          57        1412     found  2013      6   29     7         Little Italy
-661 450 726          95        2683 not found  1994      7    5    18           Queen West
-664 801 859          54          81     found  2002      2   14     8          The Beaches
-665 104 121          44         153     found  2008      9   27     6          Leslieville
-665 170 445          32        2291   pending  1997      1    1     7          Leslieville
-665 570 248          40         170     found  2022      6   11    19            High Park
-665 588 224          63        1622     found  1996      1   22    22 Church and Wellesley
-665 880 415          52         205   pending  2006     12    3     7         Roncesvalles
-667 205 272          18        1257     found  2016     11   14     2   Scarborough Bluffs
-670 188 465          92        3498     found  2017      6   19    18          The Beaches
-670 274 257          22        1936     found  2006      7   15    17            Chinatown
-670 682 111          50        1920   pending  2013     10   31    17         Little Italy
-671 420 388          84          56 not found  2015      8   11    15             Rosedale
-671 844 066          88        1645     found  2010      8    9     8         Little Italy
-672 044 757          71          11 not found  2015     10    6    15            Chinatown
-672 670 445          73         293   pending  1994      8   19    13         Roncesvalles
-673 045 746          58        1148 not found  2009      5   23    22          The Beaches
-673 180 485          63         524     found  1996     12   29    23            The Annex
-673 214 714          72         158     found  2011      6   20     5     Danforth Village
-674 670 856          54         695 not found  2004     11   19     5            High Park
-674 880 315          57         108 not found  2000     12   19    10            Chinatown
-677 031 445          63        3175     found  2012      7   13    11             Parkdale
-677 211 302          99        1333     found  2003     12   20    22     Danforth Village
-677 526 808          67        5887   pending  2021      9   27     2    Kensington Market
-678 130 725          47         554     found  2017     12    9    15           Queen West
-681 204 277          15         732 not found  2009      2   17     1  St. Lawrence Market
-682 416 029          17         436     found  2015     11    7     3         Roncesvalles
-682 547 864          13         142     found  2004     10    3    14     Danforth Village
-683 114 078          31        3674 not found  2017      6   15     0            High Park
-684 405 269          76         168 not found  2016      6   26    20         Little Italy
-684 430 556          68         145     found  2007     12   27    18          Cabbagetown
-685 044 356          19         299     found  2021      2   23     1            Chinatown
-685 186 405          16        1155     found  2017      1   13     0            High Park
-685 680 126           9         348     found  2002      5   10    17      Liberty Village
-688 045 376          78         656     found  1996      3   24    15  Distillery District
-688 530 229          60         107     found  2003     12   12    11   Scarborough Bluffs
-688 625 474          36        1704     found  1999      7   20     9  Distillery District
-688 726 405          90        3434 not found  2002      1   20     9    Kensington Market
-701 144 537          83         231     found  1998      7   29     5         Roncesvalles
-701 443 277          30         249     found  2007      8   29     0          The Beaches
-701 624 439          15        1574   pending  2023      1   24     3         Roncesvalles
-701 726 838          40         325 not found  2009      2   13     4          The Beaches
-701 741 332          39          46   pending  2017     12    1    10            High Park
-701 782 336          64        1819     found  2010     10   26    23   Scarborough Bluffs
-702 234 659          77          17 not found  2015     11   16    17      Liberty Village
-702 417 627          62         308 not found  2002      2   28     2            Yorkville
-703 145 870          11        1041   pending  2010     12   29     4    Kensington Market
-703 325 449           1         225   pending  1998     11   25     1          Cabbagetown
-703 455 238          15        2155     found  2015      1   25    13           Queen West
-703 544 270          63        1285   pending  2021      6    2    10    Kensington Market
-704 331 552          41         843     found  1994      9   30    23  St. Lawrence Market
-704 461 375          31         251     found  2009      6    6    21         Little Italy
-704 733 146          40        2583 not found  2001      5   15    23      Liberty Village
-705 213 247          77        1289     found  2020      7    9     2          Leslieville
-705 413 227          74         589   pending  2009      1   16     7         Little Italy
-706 544 566          79         838     found  2022      6    5     7          Leslieville
-706 641 859          24        1470     found  2013     12   16    23            Chinatown
-706 781 358          74         193 not found  1996      6   24     6          The Beaches
-708 532 676           4          33     found  2019      3   28     6           Queen West
-710 317 827          50         428     found  2010     10   14    16            Chinatown
-710 532 870          86         248   pending  2008      1   31    21   Scarborough Bluffs
-710 582 669          21         400 not found  2019      4    9    14             Rosedale
-710 645 540          34        1279     found  2023      4   20     5            Chinatown
-711 082 669          84        1806     found  2002      1    9     7    Kensington Market
-711 350 447          96         578   pending  1999     11    7    16          Cabbagetown
-711 407 627          74         310     found  2007      5    2     1          Cabbagetown
-713 712 834          32        2115     found  2011      8   16    19         Little Italy
-714 330 552           2          57     found  2003      9   23    16             Parkdale
-714 467 305          39         137     found  2002      3    2     2            High Park
-714 660 859          90        2084     found  2019      5   17     8 Church and Wellesley
-716 214 077          27        1354     found  1995     12   29    12           Queen West
-718 330 129          21        2756 not found  2003      4   10     7           Queen West
-718 732 654          98        1820     found  2013     12    2     3      Liberty Village
-720 316 249          26          23 not found  2002      3   28     1    Kensington Market
-720 324 375          93        3136     found  2023      5   25    12         Little Italy
-720 423 177          10         584     found  2001     10   25     6 Church and Wellesley
-720 527 647          70         345   pending  2011      3   22    16           Queen West
-721 086 619          35        1428     found  2019     10   16     9            High Park
-721 320 869          42         609     found  2001      4   29    23             Rosedale
-721 661 049          18         183     found  2020     10    8    21            The Annex
-722 056 835          91        1023 not found  2013      3   24    11    Kensington Market
-722 554 037          95          90 not found  2009      7   20    18            The Annex
-722 567 864          19        1265     found  2018     11    2     9             Rosedale
-723 410 676          66         505 not found  2009      3    4    10            High Park
-723 580 619          16         385     found  1997      7   30     4             Parkdale
-725 106 850          14        2132     found  2022     10   23     4      Liberty Village
-725 301 352          11         579     found  2003      4   28    19   Scarborough Bluffs
-725 581 060          16         799     found  2018      9   16     7   Scarborough Bluffs
-726 117 062          66         396     found  2015     10   27     6   Scarborough Bluffs
-726 185 077          80         883     found  2009     10   30     5            Chinatown
-726 420 169          95         122 not found  2014      6    8     9          Leslieville
-726 725 344           7        2257     found  2000      5    6     1    Kensington Market
-728 035 536          85        1244 not found  2007     11   17    20    Kensington Market
-728 166 174          81         897     found  1996      1   29     5             Parkdale
-728 527 060          48         575   pending  1995      4    9    17            Chinatown
-733 450 258          70         572 not found  2020      9   17    15             Parkdale
-734 110 869          56          59   pending  1997      4   11    15  Distillery District
-734 187 107          67        3148     found  2020     12    5    20         Little Italy
-735 035 826          53        1514 not found  2020     12   19     2            Yorkville
-735 225 344          23         194 not found  2002      3   15    23         Roncesvalles
-740 722 335          65        1399   pending  2009      1   15     1    Kensington Market
-741 256 614          69         571     found  2005     11   27    12             Rosedale
-741 347 207          76         246     found  2015      5    6     6          The Beaches
-741 703 326          79         356     found  2005     10    1     5  Distillery District
-742 266 109          14        3951 not found  2013      2   22    20   Scarborough Bluffs
-742 317 407          76         645     found  2023      5    6    11          Cabbagetown
-744 530 270          11         214     found  2009      8   22    19            High Park
-744 617 036          36          73 not found  2013     12   19     8             Rosedale
-745 012 260          45        3754     found  2011     11    1    16            High Park
-745 260 257          18         460   pending  2019      5   22     1          The Beaches
-745 520 460          52        1626 not found  2015      6   21     4           Queen West
-746 147 107          85        2780     found  1999      3   15     3      Liberty Village
-752 306 878          59        1126   pending  2016     11    8    21      Liberty Village
-752 447 300           3         582 not found  1996     12   30    20            Chinatown
-753 724 608          49        2392 not found  2017      9   24    10          Cabbagetown
-754 624 609          66         131 not found  2011      3    1    17         Roncesvalles
-754 651 602          99         191 not found  2006      2    4    13          Leslieville
-754 681 674          16        4250   pending  2024      5   26     0      Liberty Village
-754 704 260          88          58   pending  2002      9    3    23  Distillery District
-754 781 300          44        2734   pending  2007      1   27    12            Yorkville
-755 662 244          54        3219   pending  2000      7   24    15            Chinatown
-756 041 349           6         367   pending  1996      9   13    14          Cabbagetown
-756 206 876          11        3082 not found  2006      5   31     7            Chinatown
-756 744 314          32         240     found  2003      1   24     2            Yorkville
-758 226 039          37         271   pending  2005     10    4    21            Chinatown
-758 251 037          92         545 not found  2015      7   27     7            Chinatown
-760 187 138           6         236     found  2003      8    9     3          Leslieville
-760 325 548          73           2 not found  2003      2   15    17  St. Lawrence Market
-760 722 835          64         649   pending  2008      1   18    12      Liberty Village
-761 320 878           5         146 not found  2020      6   16    23          Cabbagetown
-761 760 248          41         846   pending  2014     10    4    18   Bloor West Village
-764 165 874          73          35 not found  2023      4   11     6    Kensington Market
-764 581 039          65         408   pending  2016     12   10    22  St. Lawrence Market
-765 011 648         100        1868     found  2000      6   18    15             Rosedale
-765 261 102          85         311     found  2010      6    2    13             Parkdale
-766 025 548          47         794     found  2008     10   24     3  Distillery District
-766 152 144          59        1085 not found  2022      4   10     7            The Annex
-766 581 524          28         429   pending  2014      5   24     8             Parkdale
-768 567 208          18          21     found  2014      8   31     9    Kensington Market
-768 701 138          41        1120   pending  2001      2   28    20             Rosedale
-768 713 208          20          96     found  2005     12   22    15           Queen West
-770 185 338          72        2146     found  2017      8   21    12             Rosedale
-770 446 656          97         965 not found  2008      5   17     0            Chinatown
-771 034 220           3         683     found  1995      7   11     9    Kensington Market
-771 461 027          13          64     found  2022     11   30     8      Liberty Village
-771 461 068          95        1229     found  2008      3   29    14         Roncesvalles
-772 603 445          96         909     found  2020      6   29    18             Rosedale
-774 134 100          55        1515     found  2015      9   15    13  Distillery District
-774 306 146          52          67 not found  1997      7   17    11            Chinatown
-778 160 457           9         154 not found  2020      3    9     1             Parkdale
-801 776 238          73         703     found  2016     11   20    15         Roncesvalles
-802 253 351          45         741     found  2008      5    6    17           Queen West
-802 255 687          28        2110   pending  2001      2   16    11             Rosedale
-802 572 339          18         233     found  2019     10   13    21             Rosedale
-802 573 568          44         824     found  2018      9    7    18         Roncesvalles
-802 846 550          81         102 not found  1997      2   11     3             Rosedale
-803 772 250          30         187     found  2014      3   25     2   Bloor West Village
-803 827 120          60         817     found  2009      8   11     3            The Annex
-804 138 139          17         350     found  2004      9   24     8 Church and Wellesley
-804 665 511          92         796   pending  2017     11   10     5            The Annex
-804 766 251          63        3166     found  2021      7    6    17            Chinatown
-804 773 356          26         380     found  2015      7    8    12    Kensington Market
-805 673 225           3        2002     found  2011      3   13    12   Scarborough Bluffs
-805 813 326          28         724   pending  2016     11   30     3  Distillery District
-806 218 517          33         121 not found  2007      2   21    15  Distillery District
-806 837 225          48         787   pending  2013      3   19    22           Queen West
-807 331 129           9        2070     found  1999      8   23    22            Yorkville
-810 213 587          68         686     found  2011      1    8    20           Queen West
-810 746 750          74         365     found  1994     10    1    22    Kensington Market
-810 768 168          53        1379     found  1996      7    8    23             Rosedale
-811 340 587          32        1741     found  1998      2   25    14    Kensington Market
-813 345 501          77         689 not found  1998     11    2    19          The Beaches
-813 567 484          34        1197     found  2011      4    5     1      Liberty Village
-814 066 585           8         471 not found  2011      9   18    11          Leslieville
-815 235 080          91        1621 not found  2021      5   13     3    Kensington Market
-815 662 085          45         140 not found  2018     11   24    15           Queen West
-815 675 400          31         210 not found  2022     11   20    16      Liberty Village
-815 806 625          71         126   pending  2014      6   17    22  St. Lawrence Market
-815 866 405          80         597     found  2016      6   20     5      Liberty Village
-816 047 757          79        1589   pending  2015     12    1     4            The Annex
-816 218 374           7        1462 not found  2011      1    9     3     Danforth Village
-816 250 161          88         699   pending  2011      3   13    14             Rosedale
-816 677 454          33         887   pending  2015     11   27    16 Church and Wellesley
-816 830 129          79         538 not found  1995     11    8    13  Distillery District
-817 067 168          96         604 not found  2018      9    6     8             Parkdale
-820 133 775          47         409   pending  1996      7    1    14      Liberty Village
-820 318 376           3         485     found  2013      9   24    13      Liberty Village
-820 825 669          36        1239 not found  1999      8   11     0      Liberty Village
-821 058 260          83        1291 not found  2008      2   23    23             Parkdale
-821 138 674          76         403     found  2004     12    5    12   Scarborough Bluffs
-821 708 237          59        1782     found  2010     12   20    19   Bloor West Village
-821 728 334          37        3396     found  2018      5    4     3  Distillery District
-823 173 554           9         364 not found  2017     12   16    17          Leslieville
-823 703 715          46         294     found  2016      2   12    19  Distillery District
-823 710 710          40         712     found  1998     12   19    10          The Beaches
-823 725 080          42        1030     found  2007      7    1     7    Kensington Market
-823 801 550          36         942     found  1995     12    1     1 Church and Wellesley
-823 807 656           6         558     found  2010      1   29     2          The Beaches
-823 860 119          82         489 not found  2021     11    7    19            Chinatown
-825 106 750          90         978 not found  2002      4    6     2            High Park
-826 028 375          74         136   pending  2015      2    6     5     Danforth Village
-826 605 776          24         352 not found  2010      8    4    16          Cabbagetown
-827 166 505           7         165   pending  1996      5    7    23           Queen West
-830 145 777          84         477     found  1997      3    7    19     Danforth Village
-830 527 461          32          98 not found  2013     12    3    10             Rosedale
-831 276 019          78        1077     found  2008     10    5     0         Little Italy
-832 730 758          54         257     found  2011      5    1    20   Scarborough Bluffs
-833 711 088          11         636   pending  1997      4   10     1          Cabbagetown
-833 720 451          40        1860     found  2000      4   11     8  St. Lawrence Market
-835 506 411          24         628     found  2011      6   24    18           Queen West
-837 035 526          92         323     found  2019      4   10     2         Roncesvalles
-837 730 118          61        2592   pending  1996     11   20     3          Cabbagetown
-850 166 471          67         312 not found  2007      9    8    18    Kensington Market
-850 228 537          11        3957 not found  2000      5    5    11          The Beaches
-850 668 419          57         185 not found  2020      6   29    22    Kensington Market
-852 347 061          77         398     found  2010     10    2     0      Liberty Village
-853 061 521          98        1259     found  2014      8   27     8   Scarborough Bluffs
-853 203 586          50         975     found  2005     11    7     7         Roncesvalles
-853 701 431          17         376     found  2000      9   12    16          Leslieville
-853 740 736          68         203 not found  2016     10    6     2     Danforth Village
-854 726 700          28        2679 not found  2012     12    6     1         Roncesvalles
-855 266 706          43         431   pending  2012      9   28    23            The Annex
-855 328 324          58           6 not found  2012      4   16    16             Rosedale
-856 238 019          81          36     found  2014      2   15     9            Chinatown
-857 346 514          88        2807     found  1999      2    1    12         Little Italy
-860 155 480          49          10     found  2002      9   25    16      Liberty Village
-860 158 138          32        1195   pending  2018      4   19    14   Bloor West Village
-861 058 436          56        1048     found  2005      9   15     4          Cabbagetown
-861 253 201          46         250   pending  2008     10   27    19         Little Italy
-862 548 039          96          78     found  2017      8   13     8   Scarborough Bluffs
-864 108 139          96         702 not found  2019      3    3     0            High Park
-865 322 754          86        2204     found  2024      6   22    10            Yorkville
-865 345 086          34        1411 not found  2001      3    1    14         Roncesvalles
-865 561 401          35          31     found  2013      6    8    14  St. Lawrence Market
-865 561 708          24         318 not found  2000      8    2    23             Parkdale
-866 022 171          58         111     found  2001      1    1    17  St. Lawrence Market
-866 071 129           9         420     found  2010      9   22     9      Liberty Village
-866 718 208          71         913     found  2010      5   18    11            High Park
-866 822 554          40         130 not found  2000      9   18     5           Queen West
-867 311 029          81          49     found  2020     12    9    20   Bloor West Village
-871 170 338          72        1864 not found  2019      1   30     9          Leslieville
-871 230 736           1         273   pending  2010      1    8    22            Yorkville
-873 172 035          29         484 not found  2001      8    6    11 Church and Wellesley
-873 375 406          93         780 not found  2006     12    8    23          The Beaches
-874 170 335          19        3618 not found  2011      1    8    16     Danforth Village
-874 316 086          67         987 not found  2005      2   21     1 Church and Wellesley
-874 571 664          35        2076     found  2001     10   22     5          Cabbagetown
-876 116 484           4         135 not found  2000      5    9    11            Chinatown
-876 211 061          77         147   pending  2000      6    5     2      Liberty Village
-877 033 415           7        1063 not found  2022      1   18     2     Danforth Village
-877 601 435          88         539 not found  2007     11   18    23 Church and Wellesley
-880 135 439          57        4793 not found  2021     11   14     2             Parkdale
-880 317 268           2        1700     found  2014      1   26     9            High Park
-881 130 439          28         756 not found  2003      4   13    13            The Annex
-882 217 607          58        1777   pending  2003      2   27     5   Bloor West Village
-882 730 120          66         591     found  2004      5   25    13            Yorkville
-883 013 419           3         280 not found  2017      6   17    23           Queen West
-883 201 659          77         557   pending  1995      1   12    10            High Park
-883 251 100          50        1476     found  1995      8   14    22          The Beaches
-884 560 376          79         690   pending  2015     11   10    18     Danforth Village
-884 603 515          23         192     found  1994      7   29    12             Rosedale
-885 305 318          32         614     found  2010      4   20    18  St. Lawrence Market
-885 530 618          84         375     found  2002      3   23     2          Leslieville
-885 546 010          22         162 not found  2022     12    8     8   Scarborough Bluffs
-885 605 220          38        1187 not found  2011      2    9     3          The Beaches
-886 740 166          92        1538     found  2013     11    7     7            Yorkville
+011 256 831          91         941     found  2011      8   27    22   Scarborough Bluffs
+013 543 871          49        3109   pending  2010      3    4    11            Yorkville
+013 865 472          60          67     found  1997      7   31     1             Parkdale
+014 583 371          19         519     found  2003      4   14    21         Roncesvalles
+015 466 451          77         371     found  2002      8   30    21             Rosedale
+016 588 527          77        1479 not found  1995      9    9     9          Cabbagetown
+017 213 349          53        3561 not found  2018      1   24    21            High Park
+017 385 568          46         588 not found  2006      3   29     2            High Park
+017 445 560          73        5075 not found  2005      6    3    12   Scarborough Bluffs
+017 532 672          56         514 not found  1997     12   16     6          Leslieville
+018 255 737          69         142     found  2004     10   17     3             Rosedale
+018 277 665          40        1661   pending  2018      2    2     6          Leslieville
+018 716 738          34        1315     found  2012      5    9    22 Church and Wellesley
+018 866 558           6        1504 not found  2017      3   15     2            The Annex
+021 668 249           6         504   pending  2002     11   10     4         Little Italy
+021 687 231          31        1265 not found  2018     11   15    22  Distillery District
+021 786 231          98        3178     found  2021      5   26    22 Church and Wellesley
+021 856 612          40        3226     found  2005     10   17     7             Parkdale
+022 687 131          51        2282   pending  2022      4    1    15   Scarborough Bluffs
+022 687 651          53        1568 not found  2020      6   22    18            The Annex
+023 154 750          36        1587     found  2001     10   16     2         Roncesvalles
+023 158 835          78        1674     found  1999      9   14     6      Liberty Village
+023 461 759           5        1202   pending  2009      3   27     6          Leslieville
+023 883 556          12         358     found  1999     10   13     3         Roncesvalles
+025 431 651          26         772   pending  2005      5   14    11             Rosedale
+025 611 732          38        1683     found  2000     12    3     0  St. Lawrence Market
+026 627 745          62          37     found  1995      2   14     5          Cabbagetown
+026 711 341          69         101     found  2007     12   20    14   Scarborough Bluffs
+026 776 252          76         420     found  2010     10    5    23         Roncesvalles
+026 814 566          79          64     found  2022     12   13    22             Rosedale
+028 137 750          19         946     found  2020      6   29    17             Parkdale
+028 533 776          98        1341     found  2010      7   29    14   Bloor West Village
+028 718 237          46         485     found  2013     10    8     2          The Beaches
+028 776 656          97        1794     found  2021      7   21    19         Roncesvalles
+032 718 868          23          76     found  1994     12    7     0            Chinatown
+033 722 182          64        3756   pending  2009     10    5    17           Queen West
+033 782 111          82          95     found  2000      7   17    11            Chinatown
+033 817 412         100         438     found  2016      4    1    12  St. Lawrence Market
+035 425 768          16         798 not found  2005      7    5     4    Kensington Market
+037 426 475          44         610   pending  2018      7   13    19           Queen West
+037 451 457          52          35   pending  2023      4   24    20   Bloor West Village
+037 527 868          88         186     found  2010     12    9    23     Danforth Village
+037 682 259          37         662     found  2005      2   22     2   Bloor West Village
+038 146 551           8        1007     found  2008     12    8    12         Roncesvalles
+038 146 759          41         664 not found  2009      5   29     8  Distillery District
+038 748 166          33        1589     found  2015     12   14    17            Chinatown
+038 841 557          80          49 not found  2020     12   23     9  St. Lawrence Market
+041 732 736          27        4154 not found  2022     12   22    13 Church and Wellesley
+042 233 551          36         666     found  2001      1   20    16   Scarborough Bluffs
+042 258 137          28         656 not found  1996      4    7     5 Church and Wellesley
+042 562 371          54        3023 not found  2013      8   19    14    Kensington Market
+042 652 131          47        1571   pending  1994      8    3    19          Cabbagetown
+043 228 535          99        2092     found  2007      2   23    11  St. Lawrence Market
+044 331 759          31         169     found  2020      6   30    20          The Beaches
+044 661 759          89         840     found  2001      6   13    17  Distillery District
+045 862 117          91         521     found  1999      6    7    21    Kensington Market
+046 146 759          84         536   pending  2010      4    4    19          The Beaches
+046 275 277          13         591 not found  2004      6    8     2  Distillery District
+047 552 666          50         812     found  2010     10   31     2         Roncesvalles
+052 437 738          76         488     found  2009     11    2    20            High Park
+052 652 641          79        1016 not found  1998      5    6     3      Liberty Village
+052 688 520          75         448     found  2008      7    9    14          Leslieville
+052 788 338          31        3220 not found  2018     12    4     9          Leslieville
+052 854 437          88          59 not found  1997      4   25     5         Roncesvalles
+052 882 537          24         137     found  2002      3   15    15          Leslieville
+053 274 239          47         863   pending  2016      3   13    20     Danforth Village
+053 377 826          93         355 not found  1999      1   27     4            Yorkville
+053 723 748          45         501     found  2008      4   29     9  Distillery District
+054 337 712           9         629 not found  2000     10   15    12         Roncesvalles
+055 376 412          56         644     found  1999      5   26     2   Bloor West Village
+056 158 348          46         373   pending  2014      6   20     7          Leslieville
+056 227 341          31         651 not found  2005     10   17    17 Church and Wellesley
+057 322 372          90        2912 not found  1998      8   13     0  Distillery District
+057 431 520          55          48 not found  2023      7   23    14          Leslieville
+058 253 717          47        1312     found  2004      5    5    12      Liberty Village
+058 322 587          28         731     found  2023     12   26    16         Little Italy
+058 337 221           3        3259     found  2007      2   20    22          Leslieville
+061 164 471          12        2849 not found  2023      8   31    22  St. Lawrence Market
+061 328 829          12        1734   pending  2005      5   13    22         Roncesvalles
+061 341 871           1          55     found  2015      3   18     3   Scarborough Bluffs
+062 813 548          41         320   pending  2009      4   12     2  Distillery District
+062 854 625          42         342 not found  2003      6    5    11          Cabbagetown
+064 168 149          99        1656 not found  1999     12   28     2   Bloor West Village
+064 355 886          89         961     found  1998     12   29     7    Kensington Market
+064 418 270          94         843   pending  1994     10   14    12         Little Italy
+065 411 720         100        1924   pending  1998      4   12    16          Cabbagetown
+065 468 415          35        1288     found  2012      4    7    23    Kensington Market
+065 865 446          50         745 not found  2011      9   20    23    Kensington Market
+066 547 886          44         156   pending  2015     10   13     8            Chinatown
+067 143 545          31         470     found  2018      4   22    16     Danforth Village
+068 741 131          88         215     found  2005      2   10    13            The Annex
+068 748 136          90         730   pending  1997      1   17    19     Danforth Village
+071 164 487          70         947     found  2006      4   15     4            Chinatown
+071 644 710          50         491     found  1994      8   20    13   Scarborough Bluffs
+071 681 621          46         326     found  2010     10   25    16          The Beaches
+072 544 661          14         555     found  2004      7    8    20      Liberty Village
+072 613 722          92         635   pending  2022      6   12    20          Leslieville
+073 574 410          66         878     found  2011      2   18    11 Church and Wellesley
+073 841 850           1        1137     found  2020      7    2    23         Little Italy
+073 843 245          52           9     found  2006      1    4    17      Liberty Village
+074 476 250          71         146 not found  2020      6   30    13  Distillery District
+076 231 885          58        2159     found  2021      5   26     2            The Annex
+076 576 248          57         737   pending  2006     12    3     6         Roncesvalles
+077 544 260          33         864   pending  2009     12   26    23      Liberty Village
+078 531 720          20        2279     found  1995     12   26    20   Scarborough Bluffs
+078 623 725          10         449 not found  1998      4   27    21     Danforth Village
+081 254 310          39         296     found  1998      1    9    14            Chinatown
+081 781 437           8        1153     found  2020      6    4     2         Little Italy
+083 561 472          97        1662   pending  1998      1   10     4  St. Lawrence Market
+083 711 440          58        1949 not found  1999      5   25    14      Liberty Village
+084 156 645          59         340     found  1995      3   17    22         Little Italy
+084 355 262          46        2259   pending  2005      5    8     9     Danforth Village
+084 461 177          91        1035 not found  2021      1   29    22             Parkdale
+084 524 370          68          40 not found  2018      4   19    15      Liberty Village
+084 566 249          38        2456     found  1997      2    4     8           Queen West
+084 651 140          15        1941   pending  2002     10   24    10 Church and Wellesley
+084 781 335          69        1006 not found  2000      2   16    13          Cabbagetown
+086 226 875          45          81 not found  2002      2   27    21   Scarborough Bluffs
+086 781 457          64         437 not found  2019      2   13     2          Leslieville
+088 253 265          53         335   pending  2007      6   26     9         Roncesvalles
+088 661 558          65         209 not found  2009      3   30     4         Little Italy
+088 711 460          28         752 not found  2022      5   22    18            The Annex
+102 677 648          82         345   pending  2011      4    5     5 Church and Wellesley
+102 748 837          80        1073   pending  2005      9   24    17      Liberty Village
+103 354 718          49         298     found  2016      1    1     3         Little Italy
+103 452 280          33         236     found  2003      8   22    17          Cabbagetown
+104 177 837          74         988     found  2020      1   17     3             Rosedale
+105 148 340          54         897     found  1996      2   11    18         Roncesvalles
+105 834 238          57         233     found  2019     10   27    11     Danforth Village
+106 647 712          38         667     found  2012     10   25    11            Yorkville
+107 146 649          88        1815 not found  1999      7    6     7             Parkdale
+107 347 866          34         154 not found  2020      3   22    15           Queen West
+107 647 836          86         387 not found  2010     11   30     5 Church and Wellesley
+107 652 232          73         687 not found  2017     12   28     3            Yorkville
+107 782 260          88         360     found  2020      1   28    21     Danforth Village
+108 137 688          76        2776 not found  2017      2   26    12            Chinatown
+108 677 238          79         891     found  2014      1   24    21  St. Lawrence Market
+108 728 338          18         125 not found  2019      7   31    23  Distillery District
+110 674 629          14        1897     found  2002      9   25     7            High Park
+110 687 720          21        1248     found  2019      4   14     9          Leslieville
+110 733 482          42          28 not found  2002     11   13    20          Leslieville
+113 807 820          17         722   pending  2024      6   11    23         Roncesvalles
+114 076 532          37        1145   pending  2001      6   27     4    Kensington Market
+114 350 747          28         315 not found  2019     12   31    14  Distillery District
+114 766 041          36         231 not found  1998      8   11    18    Kensington Market
+114 887 664          35         339     found  2008      2    4    22            High Park
+115 372 302          21        2489   pending  2018     12   27     0   Bloor West Village
+115 640 880          80          10 not found  2002     10    9     6          Leslieville
+117 732 032          89        3043   pending  2012     11   17     0  Distillery District
+117 732 800          54         714     found  1996      1   26     0            High Park
+117 743 302          81         383 not found  2008     11    3     9             Parkdale
+118 668 474          82         174     found  2022      6   11    23          Cabbagetown
+120 183 777          83         577 not found  2008     12   27    20            Yorkville
+120 671 839          86        1987     found  2022      4   26     8             Parkdale
+120 677 836          10        1122     found  2023     12    6    14          Cabbagetown
+122 056 831          33        1444 not found  2014     12    5    22            Chinatown
+123 088 619           3         139     found  2006      7   16    17            The Annex
+125 134 734          87         670 not found  2021      9   19    17  St. Lawrence Market
+127 053 817          58         429 not found  2014      6    6    22   Scarborough Bluffs
+127 307 817          92        2455     found  2022     11   11    20            High Park
+127 650 646          50         762 not found  2006      6    6    11         Roncesvalles
+127 664 514          28         309 not found  2019      3   12    15          Leslieville
+127 726 602          24          19 not found  1994     10    4    21          Cabbagetown
+128 027 687          83         767 not found  2014      6   17    22  St. Lawrence Market
+128 771 664          26         406     found  2012      3   26    15             Parkdale
+130 652 746          50        1703     found  2023      9   14     6            High Park
+130 834 526           1        2692     found  2023      7    5    19             Parkdale
+130 844 517          41         241 not found  2014      4   27     6    Kensington Market
+132 408 378          28         249     found  2007      9   11    13          Leslieville
+134 470 566          62         390   pending  2002      1   13    10           Queen West
+134 706 886          80          77     found  2007     10    7    18            Yorkville
+134 851 344          56          11     found  2015     10   20     4  Distillery District
+135 024 461           5        1336     found  1997      2   20    14   Bloor West Village
+135 176 808          15         533 not found  2017     11    9    14  Distillery District
+135 224 301          33         235     found  2024      4   27    21           Queen West
+135 426 401           7         193     found  1996      7    7    19          Cabbagetown
+135 428 068          92          61     found  2009      5   30    12          Cabbagetown
+137 627 444          29         900 not found  2015      7   26    23  Distillery District
+138 827 464          20        1027     found  2012      5   26    16  St. Lawrence Market
+140 172 669          28        2292 not found  2010      2   19    20    Kensington Market
+140 227 380           3        1788     found  2007      3   23     7           Queen West
+140 346 719           8         409 not found  1996      7   15     4      Liberty Village
+140 866 278          41         672 not found  2021      7   22     1         Little Italy
+143 043 271          44        5484     found  2015      3    3     1  Distillery District
+144 307 717          93        1559     found  2009      7   31    17   Bloor West Village
+144 853 264          59         134     found  2014     10   10    13   Scarborough Bluffs
+146 106 588          53         513 not found  2020      5   11    12            The Annex
+146 830 229           5         538   pending  1995     11   22     3          The Beaches
+147 206 270          31         282 not found  2016      6   19    15          The Beaches
+147 731 624          73          13     found  2015      8   13     3         Little Italy
+147 740 617          53        3105     found  2011      5    9     8         Roncesvalles
+160 422 770          87        2218     found  2016      3   25    16          Cabbagetown
+160 743 886          42         223     found  2012      7    1     2    Kensington Market
+162 280 689          78         329     found  1994     11   27     2            The Annex
+164 401 739           8        1038 not found  1996     11   22     2     Danforth Village
+165 180 738          68         307 not found  2011     10    5    18          The Beaches
+165 261 744          66        1028   pending  2016      3   20    20          Leslieville
+165 372 814          68        2186     found  2018      7    7    12            The Annex
+165 402 231          57        1767   pending  1996      1   28    12  St. Lawrence Market
+165 420 738          49        2142   pending  2019      2   27     0            High Park
+165 824 624          96        2078     found  2007     11   21    12      Liberty Village
+166 174 474          61         255     found  2017      5   15    22            The Annex
+166 701 441          35        1358     found  2002      7   22    16            Yorkville
+166 780 486          86        3911 not found  1999      8    4    18            Yorkville
+167 302 512          39         453     found  2021      2    4     4            Yorkville
+167 724 608          80         551     found  2016      4    5    14            High Park
+167 743 202          52        3079   pending  1996      6    9    18  Distillery District
+168 370 419          27         905     found  2021     11   16     4             Parkdale
+168 803 229          74          83     found  2003      5   15    21         Roncesvalles
+170 134 621          56        2329     found  2022      7   22     8         Little Italy
+170 341 341          55        1609   pending  2002      7   28    18          The Beaches
+172 283 087           5          16     found  2002      4   29     7          Leslieville
+172 602 740          79        2895 not found  2005     10   24     5             Rosedale
+172 672 602          20        1002     found  2010     12   22    12   Scarborough Bluffs
+172 806 838          82        3638     found  2021      4   19    22            High Park
+173 472 606         100         789 not found  1995      2   17    13            Chinatown
+174 460 717          28        2105 not found  2019      7    6    13          Cabbagetown
+176 102 341          39         657   pending  2000      4   30     3     Danforth Village
+176 270 817          30         936   pending  2020      9   13    16          Leslieville
+176 641 702          64         616 not found  2023      6    5     9            High Park
+177 043 817         100        2900     found  1998      7    6    23             Parkdale
+177 104 460          84          73     found  2014      1    1    22    Kensington Market
+177 164 407          98        4270     found  1996      3   14     7          The Beaches
+177 446 234          15        1249   pending  2005     11   29     2   Scarborough Bluffs
+178 061 768          39         769 not found  2014     12   23    18   Scarborough Bluffs
+178 208 617          83         368     found  2018     10   23    22   Bloor West Village
+178 220 760          96        1024     found  1996      5   25     4            The Annex
+178 340 766          95        4551   pending  2012      9   12    22          Cabbagetown
+178 620 720          72         476     found  1995     10    3     0     Danforth Village
+178 643 011          14         508     found  1997      9    8     2            High Park
+178 823 068          17          91 not found  2021      2   27    22     Danforth Village
+180 224 537          57        2928     found  2006      7    1    14         Little Italy
+180 653 248          84        1232     found  2023      1   13     1     Danforth Village
+182 082 560          51        2247     found  2015      8    6    12      Liberty Village
+182 744 334          45         931     found  2010      7    7    20          Leslieville
+183 167 444          82         728   pending  2016      7   10    20 Church and Wellesley
+183 187 038          79         226 not found  2020      8   17    16      Liberty Village
+183 253 012          28        2755     found  2021      5   21    12  Distillery District
+183 401 470          24         151 not found  2001      7   26     2      Liberty Village
+183 441 039          39        1301   pending  2011      6   30     6   Bloor West Village
+184 760 247          46         596 not found  1998     11    7    21         Roncesvalles
+186 086 229          73         348   pending  2002      5   24     6      Liberty Village
+186 254 066          70         460     found  2019      6    4    15          Leslieville
+188 031 538          64         286 not found  1998      6    1    12         Roncesvalles
+188 307 466          71        1398 not found  1995      9    3    22            The Annex
+188 653 224           3         740     found  2018     12   30    18            High Park
+201 266 749          98         160     found  2018      2   23    15            Yorkville
+201 862 547          41        2927 not found  2020      3   31    10             Parkdale
+203 348 859          38          21 not found  2014      9   13    22     Danforth Village
+203 447 131          39        2466     found  2008      3    1    16           Queen West
+203 547 682           4         649     found  2008      2    1     1            Chinatown
+204 576 839          90         866     found  2013     11   26     1            High Park
+204 813 372          81        1030     found  2007      7   14    20           Queen West
+205 473 358          33         331   pending  2016     10   18    13            Chinatown
+205 544 760          29        1690 not found  2003      8   17     4          Leslieville
+206 455 321          62        3055   pending  1998      2    8    21          Cabbagetown
+207 237 140          47        2344     found  1996      8   14    11            The Annex
+207 237 645          17          41     found  2000     11   22    18          The Beaches
+208 568 477          68         663 not found  2019      5    1    15 Church and Wellesley
+208 665 778          81         837 not found  2014      5   26    17           Queen West
+208 762 765          18         860     found  1999      9   10    15          Cabbagetown
+208 853 325          32         828     found  2014      8   30    21  Distillery District
+221 403 371           1        1026 not found  2013      7   25    22    Kensington Market
+221 460 587          62         179     found  1996      1   28    20            Yorkville
+221 476 070          90         200     found  2004      3   26    20      Liberty Village
+221 680 531          57         261     found  2009      3   10    22           Queen West
+221 788 037          68         199 not found  2010      8   11    18   Scarborough Bluffs
+223 388 059           3          18   pending  2014      2   23     5   Scarborough Bluffs
+223 417 031          70         181 not found  2003      9   10     2  Distillery District
+225 330 885          88        1189 not found  1996      8   27    15            High Park
+226 455 061          17         929     found  2000      8   26    15   Bloor West Village
+226 604 189          28           5 not found  2020     10   26    21             Parkdale
+227 013 562          93        1225 not found  2000      8   22    18 Church and Wellesley
+227 335 502          32         766     found  2023      5   20     7            Chinatown
+227 410 537          75         163 not found  2022      9    3    12             Parkdale
+227 413 309           4        2473     found  2015      9   11     7  St. Lawrence Market
+227 537 644          42         593   pending  2009      6    2     2            The Annex
+227 680 659          33         264     found  2009     10    3    22         Roncesvalles
+227 710 340          85         693 not found  2015     10   18    15      Liberty Village
+228 033 759           1         584     found  2001     11    7    19          Leslieville
+228 076 550          39         167     found  2007      3   12     7         Little Italy
+228 330 189          66         626     found  2012      9    5     9         Little Italy
+228 537 734          74        1152     found  2018      5   27     6             Parkdale
+230 417 321          24         855     found  1996      6   25     1            The Annex
+231 840 562          38        1267     found  2012      4   18    14  Distillery District
+233 210 749          95         822     found  2006      1   27    16   Scarborough Bluffs
+233 772 052          57        1128 not found  2015      5   16    12          Leslieville
+233 780 485          42        1557 not found  2012     11   10    22   Scarborough Bluffs
+234 610 582          12         162 not found  2022     12   21    21      Liberty Village
+238 740 187          79         187 not found  2014      4    7    16            The Annex
+238 817 324           4         414   pending  1996      6   18    11            Yorkville
+240 533 489          83         945     found  2012      7   16     7         Little Italy
+240 546 671          65         462     found  2006      7   16     5          The Beaches
+240 672 535           4         214   pending  2009      9    5     8         Little Italy
+240 738 625          99         457 not found  2017      2   14     7          Cabbagetown
+243 312 709          55         621     found  2014      9   10    23            High Park
+243 345 071          74         352 not found  2010      8   18     5          Leslieville
+243 503 588          28         851 not found  2011      1    3    10             Parkdale
+243 743 101          43         112     found  2010      3   25    16    Kensington Market
+243 862 505          32         440 not found  2024      6   19     3  Distillery District
+244 608 139          86         177     found  1997      6    7    16          The Beaches
+244 618 039          40         957 not found  2001      6   11     4          Leslieville
+246 556 088          38        1839     found  2002      4    3     1            High Park
+247 052 137          46         108     found  2001      1    1    23          The Beaches
+253 082 580           1         671     found  2018      3   28    12          The Beaches
+253 377 444          83        2548     found  2004     12   24    20  Distillery District
+253 748 800           4         814 not found  2016      8   13     3         Roncesvalles
+254 786 031          89        3181     found  2021      8   28    10          The Beaches
+256 680 729          68        1372   pending  1995      4   20     1   Scarborough Bluffs
+257 037 648          19        2212     found  1996      1   24     1          The Beaches
+257 053 827          57         836     found  2007     10   15    21          Leslieville
+258 046 531          29        1092     found  2014      3   18    16            The Annex
+258 730 431          21         205     found  2006     12   16    20  Distillery District
+258 802 339          87         129 not found  2022      5    6     4          Leslieville
+260 274 139          50        3802     found  1996      2    9    15   Scarborough Bluffs
+260 358 858          65         650 not found  2000      1    7     5         Little Italy
+260 552 682          51        1095 not found  1999     10    9     9    Kensington Market
+260 573 829          25          50 not found  2005      3   24     6     Danforth Village
+260 775 432          65        3658   pending  2007      3   31    12            Yorkville
+261 250 732           9         370   pending  1999      9   25    15            High Park
+261 274 674          12        1330     found  2005      7   12    18            High Park
+261 287 080           1          32     found  1995      8   13     7          Leslieville
+261 370 548          75         405     found  2011      8    4     0    Kensington Market
+261 468 029          55        1228     found  1997      9   26     8     Danforth Village
+261 860 878          97        1378   pending  2014      2   24    10          The Beaches
+264 583 584          26        1484 not found  2000      8   30    10         Roncesvalles
+265 468 108          48        1231 not found  2010      3    2     0      Liberty Village
+265 840 835          77        1463     found  2002      2   11    14            The Annex
+266 017 888          95         293     found  1994      9    2     3            Chinatown
+267 264 554           4         474     found  1997     12   31     3            Chinatown
+268 203 189          78         466 not found  2015      5    7    16          Cabbagetown
+268 348 109          18         155     found  2021      6   23     8          Cabbagetown
+268 543 584          53        1685 not found  2012      7   10     9             Rosedale
+268 853 454          93         182     found  2023      6   25     5            Yorkville
+270 316 888          87         456   pending  1997     10   22    21          The Beaches
+270 574 437          82         540     found  2004     11    9     5      Liberty Village
+271 670 432          65        2408   pending  2009     12   31    20         Roncesvalles
+273 082 750          26         684   pending  2010      2    9    23             Parkdale
+273 304 758          40         212   pending  2009      1   16    11          The Beaches
+273 385 724          60          54   pending  2020      3   22     3     Danforth Village
+273 814 038          97        2874   pending  2009      3    7    19          Cabbagetown
+274 310 861          60         301 not found  2012      8    4    19          Leslieville
+276 546 801          85        2110   pending  2001      3    2     1            Chinatown
+276 608 445         100         859 not found  2001      5   24    20            Yorkville
+277 043 162          97         802 not found  2024      1   20    15            High Park
+277 083 457          40         796 not found  2017     11   23    18   Bloor West Village
+278 543 707          61         337     found  2019      8    5    23            High Park
+278 668 108           6          90     found  2009      8    3     7    Kensington Market
+280 546 649          82         375     found  2002      4    5    15            High Park
+280 612 870          39         436     found  2015     11   20    16            Yorkville
+281 047 837          45        1208 not found  2022     10   21     6            The Annex
+281 730 622          14         244     found  1999      6   16    21  St. Lawrence Market
+283 217 834          51        3052     found  2010     10    2    16         Little Italy
+283 417 400          95        1549     found  2013      9    9    21         Little Italy
+284 013 877          29         927     found  2002      2    2     4           Queen West
+284 066 172          33         839     found  1995      2   10     6          Cabbagetown
+284 785 060          30         675   pending  2023      7    9     6            Yorkville
+285 085 627          90        2016 not found  1994     12   19     6         Roncesvalles
+286 280 177          58         343     found  2000      5   22    19            High Park
+288 506 470          64         831 not found  2010     11    1     4           Queen West
+288 507 668          71         970 not found  2005      4   27     4  St. Lawrence Market
+301 472 239          42          36     found  2014      2   28    22         Little Italy
+301 762 746          69        2612     found  2000      6   18     2            High Park
+301 764 718          67         190   pending  2018      8   11     7    Kensington Market
+301 771 838          16         495     found  2011      3   20    20            Yorkville
+302 355 482          12         954   pending  2002      3   29    10           Queen West
+302 745 831          90        1758 not found  2011      3   26    20          The Beaches
+304 467 715           5         632   pending  2020      5   17    16            High Park
+304 473 259          38          82     found  2016     12   31    19            Chinatown
+304 477 136          56        1011   pending  2013      6   26    12   Scarborough Bluffs
+304 714 611          13         364     found  2017     12   30     7 Church and Wellesley
+304 724 685          63         552 not found  2011      1   20    17         Roncesvalles
+305 413 486          45         321 not found  2009      6   13     5           Queen West
+305 574 626          17         388     found  2011     11    5     9             Parkdale
+305 844 250          23         459   pending  2010     10   26     5         Little Italy
+306 155 748          53          20   pending  2008      7   26    22             Parkdale
+306 224 551          74         977 not found  2006      1   27     2  St. Lawrence Market
+306 225 889          66         237     found  2017      4   21     9          The Beaches
+306 782 111          37         780 not found  2006     12   22    12 Church and Wellesley
+308 358 456          24        1706   pending  2005     11   20     8   Bloor West Village
+310 372 552          36         826 not found  2002      9   26    12    Kensington Market
+310 372 875           1         557     found  1995      1   26     0             Rosedale
+310 854 658          47        2008   pending  2018      9   28    20         Little Italy
+311 250 880          89        1541   pending  2012     12    9    19            High Park
+314 850 645          75         427     found  2008      3   16     8          Leslieville
+315 068 858           9         692     found  2020     11   19     1 Church and Wellesley
+315 285 031          77        3593     found  2010      5   26    12  St. Lawrence Market
+315 348 102          98         206 not found  2013      1    5    17   Bloor West Village
+315 385 708          66         401 not found  1997      3    3    11 Church and Wellesley
+315 470 120          95         547 not found  1995     12    6     5  Distillery District
+315 508 820          28         284 not found  2008     12    7    16    Kensington Market
+315 844 100           6        1039 not found  2012      5   15     6             Parkdale
+316 554 401          61        2286 not found  2008      6   20     8            Chinatown
+317 317 444          25        1875     found  2000      1   23    16          Cabbagetown
+317 455 608          60          56   pending  2015      8   25     5         Roncesvalles
+317 543 049          38         346     found  1995     11    1    20 Church and Wellesley
+318 310 471          13        1743 not found  2013      7    6    20             Rosedale
+318 312 071          13         192     found  1994      8   12     1         Little Italy
+318 553 088           6        2560   pending  2018      5    8     2             Parkdale
+318 772 654          78        2647 not found  1997      7    8     7    Kensington Market
+320 325 871          75         171     found  1998      1   18     2             Rosedale
+320 328 172           5          93 not found  2014     12   30    19      Liberty Village
+320 417 611          88          46     found  2017     12   14    23         Roncesvalles
+320 725 732          22           6 not found  2012      4   30     6           Queen West
+320 853 245          20         168     found  2016      7   10    10            The Annex
+321 173 544          12         935     found  2006      6   18    16          The Beaches
+321 374 076          81        2594     found  2008     12   10    11   Bloor West Village
+321 720 732          42        1017   pending  1994      8   14     0           Queen West
+322 455 601           3         824   pending  2018      9   21     7            The Annex
+322 803 875          69         265     found  1994      9   29    11     Danforth Village
+322 854 035          46        1037     found  2017     11    3     7         Little Italy
+325 061 141           5         698     found  1994      8   18    14         Roncesvalles
+325 065 241          39         439     found  1995      8   30     0     Danforth Village
+325 183 705          83          69     found  2001      3   23    14            High Park
+325 308 112          61        2981 not found  2009      2   18    11         Little Italy
+325 568 814          35        1818     found  2014      6   25    22  Distillery District
+325 805 810          83         188     found  2012     11    4    14             Parkdale
+326 718 012          77        4003     found  2018      7   10     5      Liberty Village
+327 114 534          57         278     found  2016      2   11     9     Danforth Village
+327 410 536           6         841     found  2000      9    2    16            Yorkville
+327 764 205          91         254   pending  2002      7    3    14             Rosedale
+328 173 505          63         428     found  2010     10   28     5          The Beaches
+328 507 611          84        2257 not found  2000      5   19    15  Distillery District
+330 845 249          68        1077     found  2008     10   18    13         Roncesvalles
+332 018 829          51         484     found  2001      8   20     0   Scarborough Bluffs
+332 205 871          13         967 not found  2019      8   20    13   Scarborough Bluffs
+332 217 884          56         258     found  1998      6   12     2         Roncesvalles
+332 548 502          62         185 not found  2020      7   13    11  Distillery District
+332 744 085          65         534 not found  2014      4   17    18            Yorkville
+332 840 552          82        1070     found  2010      9   17    14          Cabbagetown
+334 805 272          39         127     found  2015      5   21    13 Church and Wellesley
+337 025 472          48        1422     found  2006      1   15    18    Kensington Market
+337 154 454           2        2819     found  1996      7    8    10      Liberty Village
+337 705 222          85         580     found  2019      2   21     5          Cabbagetown
+337 705 446           8        1460 not found  2011      7   21    21  Distillery District
+338 150 725          49         281     found  2003      1   23    17   Scarborough Bluffs
+340 568 526          95         274     found  2019      8   11    13             Rosedale
+341 170 520           3          43     found  2018     11    3    12             Parkdale
+341 261 089          39        1772 not found  1996      7    1     4          Leslieville
+341 860 518           8        1318 not found  2023      9   22     0            Chinatown
+341 862 274           3        1110 not found  2008      1   16    22          The Beaches
+342 270 139          44        1215     found  2011      9    5    17            Yorkville
+342 702 651          58        1692     found  2017      2   23    19          The Beaches
+344 503 586          15        1999   pending  2016      6   16    20         Little Italy
+344 523 501           9         723   pending  2024      5   18     7   Scarborough Bluffs
+345 811 020          22         835     found  1996     10   22    23             Parkdale
+346 541 709          75         297   pending  2003      8   19    16            Yorkville
+347 012 239          85         489 not found  2021     11   21     9            High Park
+347 027 658          25        2638 not found  2008     10   23     7         Roncesvalles
+347 701 450          21         136 not found  2015      2   19    18      Liberty Village
+347 761 124          52         585   pending  2023      8   16     9  Distillery District
+352 044 689          33          78     found  2017      8   26    21           Queen West
+352 762 801          75         287     found  2005      6    6    22     Danforth Village
+352 770 440           3         399 not found  1995     12   24    14  St. Lawrence Market
+352 847 644          75         712     found  1999      1    1    23             Rosedale
+354 058 810          71         213 not found  2011      8   10     4          Cabbagetown
+354 153 041          55        1119     found  2022     10   15     1         Little Italy
+354 423 709          18         103 not found  2013      9   18    12            High Park
+354 701 740          83        1069     found  2004      8    9     2  Distillery District
+355 460 288          53        1492     found  2004      6    8    16             Rosedale
+355 861 402         100         589   pending  2009      1   29    21         Little Italy
+356 044 271          84         760 not found  2001      1   26     2           Queen West
+356 180 521          73         314 not found  1997      8    1     6          Cabbagetown
+356 204 776          29        2468     found  2015     11   25     0            The Annex
+356 228 874          24        2234     found  2023      8   30     3            Yorkville
+356 827 444          64         189   pending  2007     11   16    19            Chinatown
+357 044 619          21         411 not found  2000      6   22    20 Church and Wellesley
+357 382 019          46        1055     found  2013      3   28     0         Roncesvalles
+357 452 200          11         149     found  1998      8   15    19          The Beaches
+358 227 684          43         243     found  2007      1   20    23            Chinatown
+358 301 521          40        1533     found  2017      9    1    11            High Park
+358 348 019          15         781     found  2010      1   27     2  St. Lawrence Market
+372 388 124          93        2418     found  2008     10    7     2             Rosedale
+372 805 440          30         251   pending  2009      6   20    10    Kensington Market
+374 381 705           6        1499   pending  2007      9   20    21   Scarborough Bluffs
+374 820 835          57        2013     found  2006      7   28    11         Little Italy
+374 824 134          42         328   pending  1996      8    1     8  St. Lawrence Market
+376 102 745          93         800 not found  2018      7    7    13    Kensington Market
+376 210 282           2        1085 not found  2022      4   23    20  St. Lawrence Market
+377 025 820          51         184 not found  1997     11    8    18   Scarborough Bluffs
+377 082 235          46        1960 not found  2000      8   12    11         Little Italy
+377 312 814          11         782     found  2010      5   22    11     Danforth Village
+378 502 611          25         718     found  2005      4   13     7     Danforth Village
+378 841 050          39          39 not found  2014      9    9     9   Scarborough Bluffs
+378 843 056          27         560   pending  2004      4    8     7            Yorkville
+380 327 122          36          88   pending  1996      5    4    10         Little Italy
+380 553 818          15         361     found  2000      7   12    10         Little Italy
+381 152 602          99          34 not found  2005      9   19     8    Kensington Market
+382 317 048          45        3322     found  2022      7   31    12            Yorkville
+382 712 602          38        2192     found  2008     10    4     6          Leslieville
+382 744 134          72         487     found  2015     11   26    19   Bloor West Village
+384 405 619          55         138 not found  2000      7   23    10            Yorkville
+384 504 510          13         956     found  2018      7   31     9            Yorkville
+385 165 444          18        1374     found  1996      1   17     6   Bloor West Village
+385 582 036           6        1646     found  2020     10    1    19         Roncesvalles
+386 105 472          54         408     found  2016     12   24    11  St. Lawrence Market
+386 107 148          55           4 not found  1994     11   14    14    Kensington Market
+386 110 829          20        2102 not found  2018     10    2    18          Cabbagetown
+386 207 815          94         655 not found  1999      3   18     5   Scarborough Bluffs
+386 255 814          48        1529     found  1994     10    1     4 Church and Wellesley
+386 582 209           3         892     found  2000      6   23    15   Bloor West Village
+386 782 254          18        1451   pending  2007      2   13    18   Scarborough Bluffs
+401 138 870          54         582   pending  1997      1   13     9   Bloor West Village
+401 154 661          43         918 not found  2005      6    2    10  Distillery District
+401 664 271          44        1856     found  2021      6    9    21   Scarborough Bluffs
+401 674 536          99          26 not found  1999     10   11     2          Cabbagetown
+401 854 336          67         792   pending  2007      6   29    17            Yorkville
+401 866 512           6         380 not found  2015      7   22     2             Parkdale
+402 613 889          14          33   pending  2019      4   10    19            The Annex
+403 153 141          24        1049     found  2010      8   18     6  Distillery District
+405 173 345          42          14     found  2022      4    3    12   Bloor West Village
+405 385 766          74         294 not found  2016      2   26     8          Cabbagetown
+405 473 356          75        1667     found  1995      9   24    10      Liberty Village
+405 571 332          43        1199     found  2015      6   29    15             Rosedale
+405 825 837          11          65     found  2022      6   26    17  Distillery District
+405 834 250          96        1896 not found  1995     11    4     0            Chinatown
+406 411 587          12         330     found  1998     11   10    15   Scarborough Bluffs
+406 556 712          52         498     found  1996     12   23    10            Yorkville
+406 586 776          20         166 not found  2000      5    2    12            Chinatown
+406 776 815          24        3478     found  2018      5   26    10         Little Italy
+408 167 385          15         211     found  2013      5    5     0             Parkdale
+408 376 275          45         838     found  2022      6   18    21  Distillery District
+410 458 350          71          27     found  1994     11   12    11            Yorkville
+410 538 649           2         415     found  1997      7   12     1   Scarborough Bluffs
+410 885 677          31         985     found  2019      3   16    10          Cabbagetown
+411 388 564          99        2937   pending  2013      4   16     2            The Annex
+413 774 100          96         316 not found  2014      3    7    13      Liberty Village
+415 304 161          28         333 not found  2007     11   23     4         Roncesvalles
+415 430 750          27           8     found  2015     12   10     6      Liberty Village
+415 603 745          30        2998   pending  2007      7   16    13         Roncesvalles
+416 416 501          53        2572     found  2016      7   27    17     Danforth Village
+416 455 301          44         849   pending  2014     12   15     0            High Park
+416 554 384          73        1586 not found  2011      7    8     7          Leslieville
+416 556 884          63         848 not found  2019      2    8    23             Rosedale
+416 780 161          59          15     found  2024      4   12    23           Queen West
+417 086 535          64         572     found  2020     10    1     5             Parkdale
+418 860 177          47         305 not found  2016      5   12     6   Scarborough Bluffs
+430 527 747          17         229     found  2007      8   29    14          Cabbagetown
+430 856 252          39        1998     found  2010      8    8    15      Liberty Village
+431 156 702          98          53 not found  2022      6   25    14    Kensington Market
+431 771 344          49        2656     found  1996      2   21    18  St. Lawrence Market
+432 458 354          37         434     found  2007     11   19    18          The Beaches
+432 475 507          91         111 not found  2001      1   15     7     Danforth Village
+437 051 352          10         283 not found  2008      9   22    14            The Annex
+437 681 174          64         620     found  2015      8   22    23    Kensington Market
+438 650 715          52         354 not found  2017      3   23     5     Danforth Village
+441 058 310          35           1     found  1998      1   22    23         Little Italy
+441 703 386          95         605     found  1994      9   17    15   Scarborough Bluffs
+442 056 131           6         220     found  2001      1   25    19           Queen West
+442 670 675          46        1040 not found  2021      7   13     5            The Annex
+442 813 564           9        1845 not found  2009      9    5    16          Cabbagetown
+442 835 500          78         347   pending  2007     12   15    14     Danforth Village
+442 855 334          73         303     found  1998      6   27    18  St. Lawrence Market
+447 537 036          32        1509 not found  2021      5    3     2   Bloor West Village
+450 158 860          24        1447 not found  2011     11   29     3            High Park
+450 453 717          58         350     found  2004     10    7    21  St. Lawrence Market
+452 356 702          53         971 not found  2016      4    6    15         Little Italy
+453 370 249           5         461 not found  2006      1   18     6   Scarborough Bluffs
+453 768 046          27        1740     found  2001     12   15     8            The Annex
+453 768 244          55          92     found  2002     10   31     2         Roncesvalles
+453 883 274          72         747     found  2018      8   28    20  Distillery District
+455 061 382          10         221 not found  1999     12   10     9  St. Lawrence Market
+455 881 334          15        1014     found  2009      6   14     0      Liberty Village
+456 450 717          83         700 not found  2011     12   19    10 Church and Wellesley
+456 688 514          88        2901 not found  1998      9   10    23         Little Italy
+456 788 306          68         510 not found  1996     12    5     5             Parkdale
+456 834 506          67         386     found  2002      6   17    17   Scarborough Bluffs
+458 701 380          51        1637     found  2014     12   24    20    Kensington Market
+458 731 601          53         257   pending  2011      5   15     9            The Annex
+458 833 209          60         164 not found  2011     10   10    12          The Beaches
+458 867 066          51         140     found  2018     12    8     5            Yorkville
+460 351 182          29         788 not found  1997      7   11     9           Queen West
+460 385 511          24         464 not found  2006      5   18    19            Yorkville
+460 423 551          27         379     found  2017     11   21    10            Yorkville
+460 564 586          43          86     found  2018      5    9    16             Parkdale
+461 103 749          41        3237 not found  2012      8   17    23         Roncesvalles
+462 075 870          60        2492 not found  2005      7   18     3      Liberty Village
+462 407 651          46        3290     found  2000      9   26    19  St. Lawrence Market
+462 455 601          19        1130     found  2003      1    2    13             Parkdale
+462 473 109          87        2320     found  2005      8   27    12            High Park
+465 088 235          67        2582   pending  2011     11    5     5   Bloor West Village
+465 420 131          20        3282   pending  2000     11    8    16            High Park
+465 461 101          69         661   pending  2005      4   23    23         Little Italy
+466 108 172          80        3599 not found  2019      6   28    19  St. Lawrence Market
+466 570 272          34         304     found  1994      8   14    17 Church and Wellesley
+467 103 149          91         606   pending  1999      7    1     6    Kensington Market
+467 720 835          58        2311     found  2018      9   22     6    Kensington Market
+468 067 111          44         753 not found  1995      2   22     2     Danforth Village
+470 435 280          17         363   pending  2008      7    8    20            Yorkville
+471 034 611          53        1196   pending  1994      9   22     4            Chinatown
+471 803 346          16         531 not found  2023      9   13     7 Church and Wellesley
+473 024 180          67         906   pending  2005      3    2    22   Scarborough Bluffs
+473 305 712          93         268     found  2016      3   10    20      Liberty Village
+473 310 282          22          72 not found  2004     12   15     0   Scarborough Bluffs
+476 430 756          16         876 not found  2016      7   27    11   Scarborough Bluffs
+477 114 037          96        1294 not found  2013      7    6     1            High Park
+477 664 106          27        1309   pending  2021      8   20     1      Liberty Village
+480 523 562          84         535     found  2018      5   30     0          Cabbagetown
+482 430 675          40        1102     found  2004      1   28     9          Cabbagetown
+482 460 565          76         252 not found  2018      8    2     2          The Beaches
+482 533 874           6         537     found  2023      6   13    17            High Park
+483 465 076          50        2386 not found  2001      2    1     4           Queen West
+483 501 672          31        1126     found  2016     11   22    10            The Annex
+485 166 805          37        1792     found  2009      7   21    18   Scarborough Bluffs
+485 523 062          84        1480 not found  2010     11   28    19          Leslieville
+485 680 615          89        2609     found  2007      2   14     1   Bloor West Village
+486 085 376           8        1091   pending  2007     12   20    19            Chinatown
+486 617 814          84        1906 not found  2008      7   21     0   Scarborough Bluffs
+488 167 354          23        1086 not found  2003     10   18    18         Little Italy
+488 650 110          66         477     found  1997      3   21     8  St. Lawrence Market
+501 348 817          64         400     found  2019      4   23     4      Liberty Village
+502 476 625           6        1844 not found  2003      4   25    12            The Annex
+504 175 332          59        1583 not found  2001      4   17     7            High Park
+504 176 140          25         292 not found  2003      8   13     5            Chinatown
+504 825 860          46         158 not found  2011      7    3    19            Chinatown
+504 885 260           1        2943   pending  2004      8   21    14            High Park
+506 425 388          33         271     found  2005     10   18    10 Church and Wellesley
+506 582 287          34        1717   pending  2019      5   30    13             Parkdale
+506 844 265          13         445     found  2003      7    7     0             Parkdale
+507 266 856          63         680     found  1998      9    1     9         Little Italy
+507 523 462          71        1234     found  2023      8    4    23 Church and Wellesley
+507 681 138          78          60 not found  2006      2   12    16            Yorkville
+507 681 625          82        1034 not found  2003      9   15     9            Chinatown
+508 213 287          61        1197 not found  2011      4   18    14   Bloor West Village
+510 213 382          62          97   pending  2015      7    1     9            The Annex
+510 583 768          34          31 not found  2013      6   22     3            High Park
+511 082 737          86         416     found  2005      8   25    14          Leslieville
+511 204 661          55        1186     found  1995     12   27    17   Scarborough Bluffs
+511 288 607          87        1376     found  2015      9   10    18     Danforth Village
+513 348 805          55         144     found  2014      3    1    22            High Park
+514 068 352          18         602   pending  2004      9    7     9            Chinatown
+514 675 040          69        2309 not found  1999      4    7     0         Little Italy
+514 834 654          15         275 not found  2021      9    8    15            Chinatown
+516 508 868          65          68 not found  2006     12   24    15      Liberty Village
+517 530 432          20          87     found  2008      6   20    17          Leslieville
+517 683 405          51         811   pending  2012      8   12    16            Yorkville
+518 332 101          88        2571   pending  2012      6    7    20   Scarborough Bluffs
+518 832 035          81        6369   pending  2007      3   31     4    Kensington Market
+520 683 111           7        2933 not found  1997     12    8     6  St. Lawrence Market
+520 861 147           3        2231     found  2004     12   21    23         Roncesvalles
+521 170 837          46         148     found  2007      1   18    11          Cabbagetown
+521 388 306          60        2589 not found  2022      6   16    12 Church and Wellesley
+521 473 017          13        1940     found  2017      3   19    23            Yorkville
+522 865 047          19        4512     found  2002      2    5    13             Rosedale
+523 104 180          12        3553 not found  1995      1    4    15  St. Lawrence Market
+523 311 744          77         110     found  1996      5   26    19            The Annex
+523 420 180          53         564     found  2018      6   27     5            Yorkville
+526 820 162          98         145   pending  2008      1   10     8         Roncesvalles
+527 166 805          69          94   pending  2009      2   24    12           Queen West
+527 465 066          13         879   pending  2009     11   13     2   Scarborough Bluffs
+527 685 606          45        1181     found  2001     12    9    20            The Annex
+530 471 325          45         357   pending  2001      7    5     0             Parkdale
+530 675 248          16         267 not found  2015     12   25    13             Parkdale
+531 841 047          31         259   pending  2001      9   15    21         Roncesvalles
+532 044 385          91        1167     found  2007      6   22     2  St. Lawrence Market
+532 580 727          64         525 not found  2000     12   16     5          The Beaches
+533 220 885          48         382   pending  2009      4   10    10            The Annex
+533 425 484          72         202 not found  2014     11   14     9 Church and Wellesley
+534 071 345          74        1859     found  1995      2    2     2             Parkdale
+534 670 245          42         497     found  1997      6   13     2            Yorkville
+534 680 186          31          12     found  2003      3   25    13          The Beaches
+537 016 248          55        1218     found  2007      1    4     3         Little Italy
+537 106 825          61        2501     found  1996      8   31    23  Distillery District
+537 206 245          43         389     found  2016      7   22    21            Yorkville
+537 426 108          37         833 not found  1995      6   23    12   Scarborough Bluffs
+538 228 057          68        1274 not found  2023      7   10     3  Distillery District
+540 273 265          76         569 not found  1998      4   15     3      Liberty Village
+540 623 121          62         627     found  2007      2   12    13            High Park
+541 140 661          73        3547     found  2014     10   27    19             Rosedale
+541 660 288          59        2395     found  1998      6   28     6            Yorkville
+541 802 617          24         123     found  1996     10    2    21   Bloor West Village
+542 265 301          58        1918 not found  2011      7   18    12 Church and Wellesley
+542 276 100          65        2986     found  2011     12    9     1 Church and Wellesley
+543 143 705          50        1413   pending  2022      5   19    18 Church and Wellesley
+544 103 385          71        1344     found  2008      8   10    10            High Park
+546 205 261          23         273     found  2010      1   22    11          The Beaches
+546 612 201          44         871 not found  2001     10   11    12         Roncesvalles
+546 618 224          52         475     found  2013      9    4    22         Roncesvalles
+546 628 108          86         410     found  2013      9   26     2    Kensington Market
+546 640 186          42        2906   pending  2014      1   15    13            The Annex
+547 065 268          37         242 not found  2001      6   16    11            High Park
+547 260 117          22         132     found  2004     10   26     0   Scarborough Bluffs
+547 301 168          46         726 not found  2003      4   17     2           Queen West
+547 605 626          67         289     found  2023     11   29     9             Parkdale
+547 643 106          66         102     found  1997      2   24    17      Liberty Village
+550 176 440          38        1688 not found  2008     11    2    18             Rosedale
+552 332 801           8        2052     found  2006      5   19    22          Leslieville
+552 334 484          41         943 not found  1997      2    9     5 Church and Wellesley
+553 172 032          27        1520   pending  2020     10   22    16             Parkdale
+553 382 284          72         197     found  2013      1   15     9  Distillery District
+554 026 732          14        1567 not found  1999     10   13     1          Leslieville
+554 068 247          74        1982     found  2006      9    1     2             Parkdale
+554 320 861          44          79 not found  2022      8   29     4            Yorkville
+556 881 308          97         378 not found  2021      8   23     3            High Park
+557 103 868          70          75     found  2004      4   30     0     Danforth Village
+557 204 260          86        2574 not found  2018     10   28     6            The Annex
+557 381 324          12        1405 not found  2022      8    8    21   Bloor West Village
+557 432 200          74         643     found  2007      5   20    19             Parkdale
+558 620 621          84         152 not found  2006      8    9    20         Roncesvalles
+558 622 080          51         403   pending  2004     12   19     1            Chinatown
+560 322 745          63         124     found  1998      5    5     8             Parkdale
+560 423 188          16          42 not found  1999      3   20    14  St. Lawrence Market
+561 140 740          15         895     found  1999     12   12     8          Cabbagetown
+561 802 646          83         407 not found  2020      7   23    17         Little Italy
+562 573 808          17         734     found  1997      4   21     3  St. Lawrence Market
+562 582 031          57         150 not found  1996     10    1    19            Yorkville
+564 068 245          34         549     found  1997     12    1     7            Chinatown
+564 160 182          37        1477 not found  2003      2   13    17          Leslieville
+566 074 258          14         641 not found  2012      3   26     8          Leslieville
+567 145 602          84         527 not found  1999     10   14    14 Church and Wellesley
+567 320 858          86         757     found  2008      1   23    14            High Park
+568 118 400          18        1994     found  2023      1    6     6            High Park
+580 185 320          30         598   pending  1997     12    2    11   Scarborough Bluffs
+580 465 227          13          30     found  2012     12   30    13    Kensington Market
+580 543 817          41         913   pending  2010      6    1     0     Danforth Village
+581 102 837          30        1015     found  2020      7   26     1      Liberty Village
+581 306 248          50        2050     found  2018      2    4    23      Liberty Village
+581 443 306           4         317     found  2011     11   25     6         Little Italy
+582 334 025          39        1397 not found  2008      1   26    18         Roncesvalles
+582 345 047          19         369     found  2001      1   26    11          The Beaches
+584 310 312          82        2502     found  2012     11   27     8            Yorkville
+584 310 346          71         322     found  2015      7   16     9            Chinatown
+584 461 164          89         295   pending  2013     12   31    19            The Annex
+584 583 066          90         299 not found  2021      3    8    15         Roncesvalles
+586 104 457          43        1108   pending  2018      4   30     4          The Beaches
+586 620 148          80        1201     found  2005      1   10    14          The Beaches
+586 622 805          41         105     found  2001      6   10     7         Roncesvalles
+601 731 748          92        3798   pending  2013      8   23     7            Chinatown
+601 772 866          90         109     found  2019     11   26    18             Parkdale
+602 812 877          82         217     found  2005     10   12    22            High Park
+603 144 189          20        3309 not found  2007      4    2    10     Danforth Village
+604 156 141           1        1123     found  1995      4    7     6    Kensington Market
+604 537 746          91         232 not found  2006      1   22     0 Church and Wellesley
+604 687 285          64         865   pending  2014      9    3    12         Roncesvalles
+605 228 857           3         805 not found  2013      9    8     5          Cabbagetown
+605 281 161          11        1184     found  2007      3    9     7          Cabbagetown
+605 688 118          83         619   pending  2004     11    7    11   Bloor West Village
+607 527 868          73        3236 not found  2002      3   23    13    Kensington Market
+607 687 258          93         735     found  2004     12    3     2     Danforth Village
+607 744 315          98         203   pending  2016     10   19    16   Scarborough Bluffs
+608 147 385           4         183   pending  2020     10   22    10   Bloor West Village
+608 627 121          47        1339 not found  2003      3    3    23    Kensington Market
+608 775 268          65          80     found  1994     12   13     5   Scarborough Bluffs
+608 827 127          39        2649 not found  2016      3   30     2            Chinatown
+610 475 477          51        6996 not found  2008     11   26    10  Distillery District
+610 735 482          38        1482     found  2008     12   11     1   Scarborough Bluffs
+610 847 352          79         777     found  2004      1   27     2     Danforth Village
+611 830 548           7          98 not found  2013     12   16    23   Scarborough Bluffs
+613 018 472          18        1113     found  2001      1    5     8            Yorkville
+613 448 075          51          17     found  2015     11   30     7  St. Lawrence Market
+613 587 708           3         613   pending  2021      4   13     2             Rosedale
+614 088 359          36         681   pending  2009     10   11    23         Roncesvalles
+614 504 561          76        2651 not found  2011      2   11     9          Cabbagetown
+615 406 725          19        1490     found  2007      7   12    18   Scarborough Bluffs
+615 804 325          85          89 not found  2019      3   13    23  Distillery District
+617 456 058          45        2051 not found  2012     12   21     1         Roncesvalles
+617 610 878          26         135     found  2000      5   23     0            Chinatown
+618 546 774          59        3320     found  2014      6   21     1             Rosedale
+620 156 851          59         128   pending  1996     10   30     0         Roncesvalles
+620 476 119          23        2426     found  2010      1    8     8             Rosedale
+620 526 871          87         432     found  2014      3    1     9            Yorkville
+620 554 287          68         248     found  2008      2   14    10     Danforth Village
+620 586 289          89        2072     found  2010      2    3     3            Yorkville
+620 714 261          43        1684   pending  1998     12   17     2            High Park
+620 881 169          74          74     found  2010     12   11     0         Roncesvalles
+621 450 717           3         944     found  2009     12   10    22            Chinatown
+622 886 505          47        1064 not found  1998      4   24     2  Distillery District
+623 105 541          87        1957   pending  2002      6   27     8     Danforth Village
+625 118 864          11         481     found  2001      7    5     5             Rosedale
+627 104 565          19         430   pending  1996     10   23    10 Church and Wellesley
+627 185 309          38        1536 not found  2019      4   21     4          Leslieville
+627 780 265          42         423     found  2011      1   17    17          Leslieville
+628 507 386          34        1089     found  1997     12   30     8      Liberty Village
+640 211 769          91         888     found  2010     11    6    11          Cabbagetown
+640 235 511          33         636   pending  1997      4   23    15          Cabbagetown
+640 835 278          14         227 not found  2014      5    9     9          Cabbagetown
+641 648 506          55         708 not found  1996      3    2     5         Roncesvalles
+642 208 557          70        1977   pending  2003      7   10     4     Danforth Village
+642 210 777           2        1021   pending  2010      1   27     0      Liberty Village
+642 772 057          51          63 not found  2014      4   26    13      Liberty Village
+642 817 407          53         173     found  2018      7    6     5         Roncesvalles
+642 845 069          99         784 not found  2000      2    7    16          Cabbagetown
+643 140 759          77        3956   pending  2019     10   18    22            Chinatown
+644 051 765          32         648     found  1995      8    5    13 Church and Wellesley
+644 108 177          46         117     found  2016      1   30     6      Liberty Village
+644 855 314          30         846     found  2014     10   18     8   Scarborough Bluffs
+645 231 085          78        2352 not found  1996      8    4    17    Kensington Market
+645 270 257          88          96     found  2006      1    5     5     Danforth Village
+645 811 308          10         216 not found  1995      8    7     2          Cabbagetown
+647 112 309           2          71   pending  2007      9    2     0   Bloor West Village
+650 258 346          63        1789   pending  2008      6   22     0   Bloor West Village
+652 687 708          56         579     found  2003      5   12     9            Yorkville
+652 740 887          57         327     found  1996      3   10    10    Kensington Market
+654 688 019          34          22   pending  2012     10    3    23             Rosedale
+654 776 806          55        5118 not found  2005     10   25     0          Cabbagetown
+654 881 309          92          99     found  2020      4   14     7            High Park
+654 886 076          18         674 not found  2003      6    4    21     Danforth Village
+655 182 061           5        1891 not found  2019      8    7    10             Parkdale
+655 224 301          10        1747   pending  1996      8   25     8            The Annex
+655 641 744          23        1279     found  2023      5    3    18      Liberty Village
+655 844 017          67         157     found  2004      8   28     2          The Beaches
+660 271 545          57         280     found  2017      7    1    12 Church and Wellesley
+661 450 726          95        1907   pending  2003      2    1    22             Rosedale
+664 801 859          54         118     found  2020      6   14    21 Church and Wellesley
+665 104 121          44        2980     found  2017      6    8     6          Cabbagetown
+665 170 445          32         992     found  2020     12   13    20   Scarborough Bluffs
+665 570 248          40        1333     found  2004      1    3    11  Distillery District
+665 588 224          63         478     found  1994     10   18     8            Yorkville
+665 880 415          52         972     found  2003     10   11    11   Bloor West Village
+667 205 272          18         743   pending  2006      5    3     0      Liberty Village
+670 188 465          92         222 not found  2016      6   14     3            The Annex
+670 274 257          22        1978   pending  2001      7    4    13         Roncesvalles
+670 682 111          50         359     found  2014      7   30     0             Rosedale
+671 420 388          84         240     found  2003      2    6    16            Yorkville
+671 844 066          88         247     found  2002     12   27     2     Danforth Village
+672 044 757          71         637     found  2008      2    8     3             Parkdale
+672 670 445          73        1877     found  2014      7   17     5           Queen West
+673 045 746          58        1277 not found  2018      3   21    23           Queen West
+673 180 485          63         677     found  1997      4   28     1 Church and Wellesley
+673 214 714          72         711     found  2006      5   22     2    Kensington Market
+674 670 856          54        1220     found  2021      8   27     4             Parkdale
+674 880 315          57         234 not found  2015      3   24    16            Chinatown
+677 031 445          63        1264   pending  1996     10    8    12    Kensington Market
+677 211 302          99         468     found  1998     11   10     5            The Annex
+677 526 808          67        1109     found  2021     12   26    12            Chinatown
+678 130 725          47         270 not found  2003     10    8    19         Little Italy
+681 204 277          15         968     found  2001      9   26    22 Church and Wellesley
+682 416 029          17         940 not found  1999      5   27     5   Scarborough Bluffs
+682 547 864          13         444   pending  1996     11   23     6          Cabbagetown
+683 114 078          31         196 not found  2015      4    6     6            Chinatown
+684 405 269          76          29 not found  2000      9   24     3           Queen West
+684 430 556          68        4372 not found  2002     10    3     9            Yorkville
+685 044 356          19         515 not found  2018      9   22     3             Parkdale
+685 186 405          16        1821 not found  2020     11   21     0   Bloor West Village
+685 680 126           9         230   pending  1995      2   18     4          The Beaches
+688 045 376          78        1855   pending  2007      8   10    11         Roncesvalles
+688 530 229          60         739 not found  2002     11   20    12             Parkdale
+688 625 474          36         256 not found  2012      4    9     4            The Annex
+688 726 405          90        1913     found  1998     10    9     2    Kensington Market
+701 144 537          83         583   pending  2011      9    1     9          Cabbagetown
+701 443 277          30         115 not found  2019      5    2    15    Kensington Market
+701 624 439          15         269   pending  2001     11    6    22  St. Lawrence Market
+701 726 838          40        1356     found  2021      8   22     4          Leslieville
+701 741 332          39        1298   pending  1996      3    3     7      Liberty Village
+701 782 336          64        1238   pending  1999      7   14     9  Distillery District
+702 234 659          77         877 not found  2013     11    2    13          Cabbagetown
+702 417 627          62           0 not found  2001     10   13     7          Leslieville
+703 145 870          11         937 not found  1996     11   25     3          Cabbagetown
+703 325 449           1         204   pending  2020      4    7    21   Scarborough Bluffs
+703 455 238          15        3331 not found  2009      7   19     6          Leslieville
+703 544 270          63        1380 not found  2019      5   31     3         Roncesvalles
+704 331 552          41         683     found  1995      7   24    22 Church and Wellesley
+704 461 375          31         195     found  2004      9   25    17          Cabbagetown
+704 733 146          40         165 not found  1996      5   21    12             Rosedale
+705 213 247          77         356     found  2005     10   14    19    Kensington Market
+705 413 227          74         133   pending  2007      9   29    17  St. Lawrence Market
+706 544 566          79         543   pending  2007      4   29    23         Little Italy
+706 641 859          24        2558     found  2016      5    9     0   Bloor West Village
+706 781 358          74          70     found  2007      8   22     1  Distillery District
+708 532 676           4        1207 not found  1994     12    3     1          The Beaches
+710 317 827          50        3165     found  2004      3    9    13 Church and Wellesley
+710 532 870          86         218     found  2017     11    2     3     Danforth Village
+710 582 669          21        3374 not found  2006      4   28     3         Little Italy
+710 645 540          34         609     found  2001      5   13    13          Leslieville
+711 082 669          84         856     found  2004      4   19    21      Liberty Village
+711 350 447          96        2390 not found  2011     11   27    12            Chinatown
+711 407 627          74         308   pending  2002      3   13    15     Danforth Village
+713 712 834          32        1768     found  2005      9   10    20          The Beaches
+714 330 552           2          57   pending  2003     10    7     6            Yorkville
+714 467 305          39        2401 not found  2020     10    8     1    Kensington Market
+714 660 859          90         787     found  2013      4    2    11   Scarborough Bluffs
+716 214 077          27         759 not found  2017      9   21     1 Church and Wellesley
+718 330 129          21         561 not found  2016      2    7     4             Parkdale
+718 732 654          98         424     found  2017     10   17    20   Bloor West Village
+720 316 249          26         703 not found  2016     12    4     4           Queen West
+720 324 375          93        1135     found  2004      3   12    20            Chinatown
+720 423 177          10         450 not found  1997      5   23     6         Roncesvalles
+720 527 647          70        1627     found  2015     10   28    12          The Beaches
+721 086 619          35         176     found  2004      1   27    23            High Park
+721 320 869          42         638     found  1994     11    2    23          Cabbagetown
+721 661 049          18         783     found  2020      7   10     2            High Park
+722 056 835          91         277     found  2023      5    7     7            The Annex
+722 554 037          95        1370 not found  2003      6   19    16 Church and Wellesley
+722 567 864          19         100 not found  2004      4    5     8          Leslieville
+723 410 676          66         705 not found  2020      2   15    21      Liberty Village
+723 580 619          16         505     found  2009      3   18     0          The Beaches
+725 106 850          14         472     found  2009      9    7     6      Liberty Village
+725 301 352          11        1043     found  2017     10   20    23 Church and Wellesley
+725 581 060          16         312   pending  2007      9   22     7   Bloor West Village
+726 117 062          66        1259     found  2014      9    9    21          Cabbagetown
+726 185 077          80         994     found  1997      2    9    22           Queen West
+726 420 169          95         717   pending  2013      5    1     7             Rosedale
+726 725 344           7         981   pending  1998      6    2    22            Chinatown
+728 035 536          85         116     found  2016      8    3    10  St. Lawrence Market
+728 166 174          81         120     found  1998     11   12    11           Queen West
+728 527 060          48        5458 not found  2021      7   26     9  St. Lawrence Market
+733 450 258          70        1435 not found  2012      7   16     7            Yorkville
+734 110 869          56         161   pending  2015      9    3    15            The Annex
+734 187 107          67         446 not found  2004      7   18     8  St. Lawrence Market
+735 035 826          53         612     found  2018     12    1    10          Leslieville
+735 225 344          23         266 not found  1997      7   10     6             Rosedale
+740 722 335          65         785   pending  2022      2   17    22             Rosedale
+741 256 614          69         744 not found  2006      6   20    22          Cabbagetown
+741 347 207          76         272 not found  2010      7   12    20  Distillery District
+741 703 326          79        5976 not found  2009      7   13     4           Queen West
+742 266 109          14          58   pending  2002      9   17    13            Yorkville
+742 317 407          76         318     found  2000      8   16    12             Rosedale
+744 530 270          11         263 not found  2024      1    9    18         Little Italy
+744 617 036          36         617   pending  2021     10    9    23             Parkdale
+745 012 260          45        1722     found  1996      5    3    10            Chinatown
+745 260 257          18         225 not found  1998     12    8    14         Little Italy
+745 520 460          52        2090     found  2013      6   15     9         Roncesvalles
+746 147 107          85        1353     found  2001      2   17     9     Danforth Village
+752 306 878          59        2765     found  2014      6   30    23         Little Italy
+752 447 300           3         393     found  2011      9   18    19    Kensington Market
+753 724 608          49        1177     found  2011      3   24    19            Chinatown
+754 624 609          66        1715 not found  1995      7   13     9   Bloor West Village
+754 651 602          99        1252 not found  2003     10   10    14          The Beaches
+754 681 674          16        1157   pending  2011      8   14     2            Yorkville
+754 704 260          88         147   pending  2000      6   18    15  St. Lawrence Market
+754 781 300          44         122   pending  2014      6   21    23  St. Lawrence Market
+755 662 244          54          52 not found  2009     12   10    19      Liberty Village
+756 041 349           6         603 not found  2014      9    1     1    Kensington Market
+756 206 876          11         974     found  1996      2   23     9      Liberty Village
+756 744 314          32        1160 not found  1998      7    3     5          Leslieville
+758 226 039          37        1449 not found  1995      5    9     1 Church and Wellesley
+758 251 037          92        2618     found  1998      1    8    15            Yorkville
+760 187 138           6         353     found  2003     12    6    15             Parkdale
+760 325 548          73        2870     found  2020      6   25    16   Scarborough Bluffs
+760 722 835          64         893   pending  2024      6   26     3            Chinatown
+761 320 878           5        1050     found  2004      3   26    23  Distillery District
+761 760 248          41        2699   pending  2005      2   14     0    Kensington Market
+764 165 874          73           3     found  1996      4   15    22            The Annex
+764 581 039          65        1367     found  2023     12    6    13         Roncesvalles
+765 011 648         100        1139     found  2009      8   13     8         Little Italy
+765 261 102          85          45 not found  2007     11   12    19            The Annex
+766 025 548          47         106   pending  2012      8   12    23   Bloor West Village
+766 152 144          59         126   pending  2014      7    1    11    Kensington Market
+766 581 524          28           2     found  2003      3    1     7            Yorkville
+768 567 208          18        2322 not found  2019     11   19    14            High Park
+768 701 138          41         467 not found  1997      3   19    22            High Park
+768 713 208          20        1433   pending  2019      8   18    16          Cabbagetown
+770 185 338          72         907     found  2018     12   19    22            High Park
+770 446 656          97        3252     found  2002      3   11    11          Leslieville
+771 034 220           3          62     found  2001      7   12     3          Leslieville
+771 461 027          13         875     found  2022      8   19    16            The Annex
+771 461 068          95         201   pending  2000      1    3    13  Distillery District
+772 603 445          96        1074 not found  2011      1    5    18             Parkdale
+774 134 100          55        1631     found  2006      5   19     8             Rosedale
+774 306 146          52         381   pending  1999      6   18     8           Queen West
+778 160 457           9        2011 not found  1994     12   30     0            The Annex
+801 776 238          73        4049   pending  2004      7    4     4            High Park
+802 253 351          45        2332     found  2010     10   27    15   Bloor West Village
+802 255 687          28        1403     found  2020      7   20     9          Cabbagetown
+802 572 339          18        3771 not found  2019     11   26     8             Parkdale
+802 573 568          44        4773     found  2010      8    4    18           Queen West
+802 846 550          81           7 not found  2000     12   26    11         Roncesvalles
+803 772 250          30         885   pending  2002     10    5    11          Cabbagetown
+803 827 120          60         332     found  2024      2    3     1           Queen West
+804 138 139          17        2875     found  2016      1   19    14 Church and Wellesley
+804 665 511          92        1082     found  1998      3    3    22      Liberty Village
+804 766 251          63        3006 not found  2005      1    5    16         Little Italy
+804 773 356          26         425 not found  1995      7   29     9          Cabbagetown
+805 673 225           3         819   pending  2017      2   16    15      Liberty Village
+805 813 326          28        1801   pending  2017     12    7     8     Danforth Village
+806 218 517          33        1048 not found  2005      9   28    17    Kensington Market
+806 837 225          48        4520     found  2013      4   23     6            Yorkville
+807 331 129           9        3699     found  2000      7   30     8            The Annex
+810 213 587          68         571   pending  2005     12   11     2            Chinatown
+810 746 750          74         697     found  2017      7   15     7             Parkdale
+810 768 168          53         939   pending  2021      9   11    23           Queen West
+811 340 587          32         917     found  2001      8   17    10  St. Lawrence Market
+813 345 501          77         365     found  1994     10   15    11         Roncesvalles
+813 567 484          34         113     found  1998      1    2     5         Roncesvalles
+814 066 585           8         141     found  2024      2   28    23             Rosedale
+815 235 080          91        1104     found  2018      7    5    12  St. Lawrence Market
+815 662 085          45        3370     found  2021     10   22     6     Danforth Village
+815 675 400          31        3144     found  1997      8   20     4   Scarborough Bluffs
+815 806 625          71         207   pending  2010      3   24    14            The Annex
+815 866 405          80         114     found  2004     12   27    14           Queen West
+816 047 757          79        1084     found  2001      6   28     4             Parkdale
+816 218 374           7        1564     found  1995      6    1    15   Bloor West Village
+816 250 161          88          23     found  2002      4   10    14          Cabbagetown
+816 677 454          33        1355     found  1999      1   17    13 Church and Wellesley
+816 830 129          79        1281     found  2009     11   27    19   Bloor West Village
+817 067 168          96          25     found  2014      9    8     0            Chinatown
+820 133 775          47        2154     found  2013     12   27     5     Danforth Village
+820 318 376           3         755   pending  2018     10    9    16      Liberty Village
+820 825 669          36        1253   pending  1996      1    1     3  St. Lawrence Market
+821 058 260          83         311     found  2010      6   16     2           Queen West
+821 138 674          76         522 not found  2001     10   14     7         Little Italy
+821 708 237          59        2970     found  2012      3   24     5          The Beaches
+821 728 334          37         228   pending  2013     12   19     7 Church and Wellesley
+823 173 554           9        2315   pending  2015     12   26    19          The Beaches
+823 703 715          46        2039     found  1997     10   20    12             Parkdale
+823 710 710          40        2661   pending  2024      5    3     7          Cabbagetown
+823 725 080          42         882 not found  2001      1   14    19   Bloor West Village
+823 801 550          36         817     found  2009      8   24    17  Distillery District
+823 807 656           6        2020   pending  1999      2    1     3    Kensington Market
+823 860 119          82          38 not found  1995      9   17    12           Queen West
+825 106 750          90         394   pending  2003      9   11    12  St. Lawrence Market
+826 028 375          74        1388     found  2002      7   24    18            Yorkville
+826 605 776          24        1247   pending  2008      1   15    23     Danforth Village
+827 166 505           7         451   pending  2008      3   20     2          The Beaches
+830 145 777          84        1461 not found  2018      9   11    22      Liberty Village
+830 527 461          32         541 not found  2012     12    5    12 Church and Wellesley
+831 276 019          78        1351   pending  2021      2    3    22  Distillery District
+832 730 758          54        2683     found  1994      7   19     7    Kensington Market
+833 711 088          11        1227 not found  1998      8   28    21   Bloor West Village
+833 720 451          40        1399     found  2009      1   28    15            Yorkville
+835 506 411          24         679     found  2005      4   28    11            High Park
+837 035 526          92        3288   pending  1998      5   29     5          Cabbagetown
+837 730 118          61        2522 not found  2004      4   11    17            The Annex
+850 166 471          67         702   pending  2019      3   16    14   Scarborough Bluffs
+850 228 537          11         604     found  2018      9   19    21          The Beaches
+850 668 419          57         816   pending  2023      9   16    14            High Park
+852 347 061          77         776     found  2009      6   29    18          The Beaches
+853 061 521          98         130 not found  2000     10    1    18   Bloor West Village
+853 203 586          50         170 not found  2022      6   25     8  Distillery District
+853 701 431          17         573     found  2016     11   20    20     Danforth Village
+853 740 736          68        1081     found  2018     12   29    11    Kensington Market
+854 726 700          28        1672 not found  1998      8    5    16         Roncesvalles
+855 266 706          43        3680     found  2011      6   23    19      Liberty Village
+855 328 324          58         323     found  2019      4   23    16            The Annex
+856 238 019          81         823     found  2011      9   17    20  St. Lawrence Market
+857 346 514          88          84     found  2008      2    6    22            Yorkville
+860 155 480          49        2239     found  1999     12   14     7            The Annex
+860 158 138          32          85     found  2005     12    2    17 Church and Wellesley
+861 058 436          56        2150   pending  1998     10    9    14   Bloor West Village
+861 253 201          46         384 not found  1994     10   28    16      Liberty Village
+862 548 039          96         306   pending  2024      1   29     9             Rosedale
+864 108 139          96         121     found  2007      3    7     5  St. Lawrence Market
+865 322 754          86        1044 not found  2008     12   24    20            High Park
+865 345 086          34        1083 not found  2023      6    3    12          The Beaches
+865 561 401          35         107     found  2003     12   26     1            High Park
+865 561 708          24         279 not found  2000      5   21     9             Parkdale
+866 022 171          58         779 not found  2008     11    2    10      Liberty Village
+866 071 129           9        1079     found  2015     11   14     8   Scarborough Bluffs
+866 718 208          71        3509     found  2004      9   18    13            Yorkville
+866 822 554          40         458     found  2019      8   21     5      Liberty Village
+867 311 029          81         607   pending  2007     10   23    14         Little Italy
+871 170 338          72        1042   pending  1998      3    2    17      Liberty Village
+871 230 736           1         198     found  2023      4   20     2         Little Italy
+873 172 035          29        1548     found  1999      5    9     2            Chinatown
+873 375 406          93        2540 not found  1996     10   15    17          Cabbagetown
+874 170 335          19        1430     found  2013     12   15    13          Leslieville
+874 316 086          67         492 not found  2009      7   31    11          Leslieville
+874 571 664          35         246   pending  2015      5   19    19         Little Italy
+876 116 484           4         219 not found  1994      7   18    11 Church and Wellesley
+876 211 061          77        2415     found  1997      4   22     6           Queen West
+877 033 415           7         567     found  1994      9   11     2  Distillery District
+877 601 435          88         324     found  1998      9   22    14 Church and Wellesley
+880 135 439          57         238   pending  2023      3   29    22            Yorkville
+880 317 268           2        1547 not found  1998      8    1     5 Church and Wellesley
+881 130 439          28         862     found  1995     11    2    10         Roncesvalles
+882 217 607          58         958     found  2001     11    9    16          Cabbagetown
+882 730 120          66         530   pending  1997     10   23     0          Cabbagetown
+883 013 419           3        2006 not found  2002     12   11    20            Yorkville
+883 201 659          77         556     found  1994      8   31     0         Little Italy
+883 251 100          50        1769     found  1996      8    1    22     Danforth Village
+884 560 376          79        2796   pending  2024      3   15     4            The Annex
+884 603 515          23        2287     found  2005     10   22     5 Church and Wellesley
+885 305 318          32        2275     found  2003      9    5    11   Bloor West Village
+885 530 618          84        3124   pending  2000      7    8     0         Roncesvalles
+885 546 010          22        1542   pending  1999     11    9     6     Danforth Village
+885 605 220          38         469     found  2000     11    4     9             Parkdale
+886 740 166          92         526     found  2008     10    1    21            Yorkville

@@ -35,10 +35,10 @@ if __name__ == '__main__':
         We support following features:
         1. List neighborhoods where the number of events is greater than or equal to a specified threshold.
         2. List owner's personal information for a specific vehicle VIN.
-        3. Rank all communities in terms of the average price of vehicles that got stolen.
+        3. List automobile minimum and maximum price and total vehicle of all communities, ranked by average price of vehicles that got stolen.
         4. Check the latest events captured in the dataset based on input.
-        5. Check insurance payments for vehicles that got stolen. 
-        6. Check police resposible for handled events.
+        5. Generate a report ranking police officers within their departments based on the number of events they have handled.
+        6. Provide information on the police officers' SIN and the events they have handled.
         Please select a feature to run (1-6) or type anything else to quit:
         """
         print(features)
