@@ -2,29 +2,31 @@ import click, impl
 from impl import encode 
 
 def exist(cur, username, password):
-    cur.execute("SELECT COUNT(*) FROM ACCOUNT WHERE Username = '{username}' AND Password = '{encode(password)}'")
-    print(cur.fetchall())
+    cur.execute(f"SELECT COUNT(*) FROM ACCOUNT WHERE Username = '{username}' AND Password = '{encode(password)}'")
+    return cur.fetchone()[0] == 1
     
 if __name__ == '__main__':
     print("Connecting to database...")
-    con = impl.connect("cs338-group8")
+    con = impl.connect()
     cur = con.cursor()
     reset = click.confirm("Do you want to reset the database and repull data into tables?")
     if reset:
         impl.reset(cur)
-        con.commit()
         print("Database reset.")
         print("Pulling data into tables...")
         impl.pull(cur)
+        con.commit()
     else:
         print("Setting up database...")
         cur.execute("USE Auto_Theft")
-    
-    cur.execute("select * from ACCOUNT")
-    print(cur.fetchall())
+
     while True:
-        usename = input('username')
-        password = input('password')
+        exist(cur, 'owner', 'owner')
+        username = input('Username: ')
+        password = input('Password: ')
+        if not exist(cur, username, password):
+            print('wrong login')
+            continue
 
         features = """
         We support following features:

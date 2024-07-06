@@ -4,7 +4,7 @@ from decimal import Decimal
 from getpass import getpass
 import hashlib
 
-def connect(password=None):
+def connect():
     try:
         con = sql.connect(
             host = "cs338-db.ct2m6kmq4r44.us-east-1.rds.amazonaws.com",
@@ -55,7 +55,6 @@ def register(cur, sin, username, password):
 
 def encode(input):
     return hashlib.md5(input.encode()).hexdigest()
-
 
 def format_decimal(value):
     if isinstance(value, Decimal):
