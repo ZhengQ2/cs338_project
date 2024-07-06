@@ -8,10 +8,10 @@ if __name__ == '__main__':
     reset = click.confirm("Do you want to reset the database and repull data into tables?")
     if reset:
         impl.reset(cur)
-        con.commit()
         print("Database reset.")
         print("Pulling data into tables...")
         impl.pull(cur)
+        con.commit()
     else:
         print("Setting up database...")
         cur.execute("USE Auto_Theft")

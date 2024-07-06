@@ -45,7 +45,6 @@ def pull(cur, path="sample"):
         )
         # Insert the data into the table
         cur.executemany(insert, data)
-        cur.execute("COMMIT")
 
 def format_decimal(value):
     if isinstance(value, Decimal):
