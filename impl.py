@@ -1,6 +1,7 @@
 import mysql.connector as sql
 import pandas as pd
 from getpass import getpass
+import hashlib
 
 def connect(password=None):
     try:
@@ -43,6 +44,17 @@ def pull(cur, path="sample"):
         )
         # Insert the data into the table
         cur.executemany(insert, data)
+    
+    owner = pd.read_csv(path+'/owner.csv')['SIN'][0]
+    police = pd.read_csv(path+'/police_officer.csv')['SIN'][0]
+    register(cur, owner, 'owner', 'owner')
+    register(cur, police, 'police', 'police')
+    
+def register(cur, sin, username, password):
+    cur.execute("INSERT INTO ACCOUNT VALUES (%s, %s, %s)", [sin, username, encode(password)])
+
+def encode(input):
+    return hashlib.md5(input.encode()).hexdigest()
 
 def features(cur, num, input):
     with open(f"sql/feature{num}.sql") as f:

@@ -1,9 +1,8 @@
-import config, csv
+import config, csv, time
 from faker import Faker
 from faker_vehicle import VehicleProvider
 from numpy import random
 import pandas as pd
-import time
 
 fake = Faker('en_CA')
 fake.add_provider(VehicleProvider)

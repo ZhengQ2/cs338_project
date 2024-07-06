@@ -1,9 +1,13 @@
-import click
-import impl
+import click, impl
+from impl import encode 
 
+def exist(cur, username, password):
+    cur.execute("SELECT COUNT(*) FROM ACCOUNT WHERE Username = '{username}' AND Password = '{encode(password)}'")
+    print(cur.fetchall())
+    
 if __name__ == '__main__':
     print("Connecting to database...")
-    con = impl.connect()
+    con = impl.connect("cs338-group8")
     cur = con.cursor()
     reset = click.confirm("Do you want to reset the database and repull data into tables?")
     if reset:
@@ -16,7 +20,12 @@ if __name__ == '__main__':
         print("Setting up database...")
         cur.execute("USE Auto_Theft")
     
+    cur.execute("select * from ACCOUNT")
+    print(cur.fetchall())
     while True:
+        usename = input('username')
+        password = input('password')
+
         features = """
         We support following features:
         1. List neighborhoods where the number of events is greater than or equal to a specified threshold.
