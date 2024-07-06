@@ -1,7 +1,6 @@
 import mysql.connector as sql
 import pandas as pd
 from decimal import Decimal
-from getpass import getpass
 import hashlib
 
 def connect():
@@ -26,7 +25,7 @@ def reset(cur):
             cur.execute(command.strip())
 
 # pull data into table
-def pull(cur, path="sample"):
+def pull(cur, path="data"):
     # Iterate through all the csv files in the data folder
     tables = ["department", "event", "vehicle", "got_stolen", "human", "police_officer", "handled", "insurance", "owner", "own"]
     files = ["{}/{}.csv".format(path, f) for f in tables]
@@ -96,8 +95,8 @@ if __name__ == "__main__":
     output1 += features(cur, 1, 20)
     output2 = "Input: \"a\"\n"
     output2 += features(cur, 2, "a")
-    output2 += "\n\nInput: \"8LESB6XY6KG6FDYES\"\n"
-    output2 += features(cur, 2, "8LESB6XY6KG6FDYES")
+    output2 += "\n\nInput: \"BJKPMZL3XBA85D3XB\"\n"
+    output2 += features(cur, 2, "BJKPMZL3XBA85D3XB")
     output3 = features(cur, 3, None)
     output4 = "Input: 10\n"
     output4 += features(cur, 4, 10)
@@ -107,6 +106,6 @@ if __name__ == "__main__":
     output6 = features(cur, 6, None)
     # write output to a file
     for i in range(1, 7):
-        with open(f"sample_out/output{i}.txt", "w") as f:
+        with open(f"data_out/output{i}.txt", "w") as f:
             f.write(eval(f"output{i}") + "\n")
     con.close()

@@ -1,11 +1,15 @@
-(27795, 'pending', 2024, 3, 31, 23, 'Danforth Village')
-(34935, 'found', 2024, 1, 31, 21, 'Leslieville')
-(915, 'found', 2024, 1, 31, 19, 'Leslieville')
-(10255, 'pending', 2024, 5, 31, 17, 'Scarborough Bluffs')
-(1321, 'not found', 2024, 1, 31, 15, 'The Annex')
-(11427, 'not found', 2024, 3, 31, 12, 'Scarborough Bluffs')
-(10473, 'found', 2024, 1, 31, 12, 'Kensington Market')
-(20030, 'found', 2024, 5, 31, 12, 'High Park')
-(4444, 'found', 2024, 5, 31, 12, 'The Beaches')
-(7917, 'found', 2024, 3, 31, 10, 'Roncesvalles')
+Input: 10
+ Event_Code   Outcome  Year  Month  Day  Hour        Neighbourhood
+      73490     found  2024      1   31    22 Church and Wellesley
+      97944     found  2024      3   31    22            Chinatown
+      80180     found  2024      1   31    22             Parkdale
+     114191     found  2024      3   31    21   Bloor West Village
+      31745     found  2024      1   31    21     Danforth Village
+     116455 not found  2024      1   31    21            High Park
+      54734 not found  2024      3   31    20          Cabbagetown
+      20075 not found  2024      3   31    20         Little Italy
+      49712 not found  2024      5   31    20            Yorkville
+      30600 not found  2024      1   31    19      Liberty Village
 
+Input: 0
+No results found.
