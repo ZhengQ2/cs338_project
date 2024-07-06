@@ -1,2 +1,6 @@
-(3,)
+Input: "a"
+No results found.
 
+Input: "BJKPMZL3XBA85D3XB"
+              VIN   OWNER_SIN OWNER_FirstName OWNER_LastName  OWNER_Phone               OWNER_Email
+BJKPMZL3XBA85D3XB 708 223 565          Sherri         Flores 225 917 6117 wrightmichael@example.com
