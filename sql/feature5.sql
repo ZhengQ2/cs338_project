@@ -1,7 +1,7 @@
 SELECT 
     VEHICLE.Make, 
-    INSURANCE.Payment_Amount,
-    SUM(INSURANCE.Payment_Amount) OVER (PARTITION BY VEHICLE.Make) AS insurance_payment_by_make
+    AVG(INSURANCE.Payment_Amount) OVER (PARTITION BY VEHICLE.Make) AS avg_insurance_payment_by_make,
+    SUM(INSURANCE.Payment_Amount) OVER (PARTITION BY VEHICLE.Make) AS sum_insurance_payment_by_make
 FROM 
     INSURANCE
 JOIN 
