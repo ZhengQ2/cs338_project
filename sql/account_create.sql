@@ -1,0 +1,11 @@
+CREATE SCHEMA IF NOT EXISTS User;
+
+USE User;
+
+CREATE TABLE IF NOT EXISTS ACCOUNT
+(
+    Username VARCHAR(50) NOT NULL,
+    Password VARCHAR(50) NOT NULL,
+    Access_level INT NOT NULL,
+    PRIMARY KEY (Username)
+);

@@ -1,12 +1,11 @@
 # CS 338 Project: Toronto Auto Theft Database
-![Python build result](https://github.com/ZhengQ2/cs338_project/actions/workflows/python-app.yml/badge.svg)
 
 # Project Member:
-Zheng Qiu
-Frank Zheng
-Shuqi Chang
-Annie Ni
-John Hao
+- Zheng Qiu
+- Frank Zheng
+- Shuqi Chang
+- Annie Ni
+- John Hao
 
 # 1. Install Dependencies
 

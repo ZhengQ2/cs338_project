@@ -30,6 +30,7 @@ if __name__ == '__main__':
         print(features)
         feature = input()
         if feature not in ['1', '2', '3', '4', '5', '6']:
+            print("Invalid input. Please enter a number between 1 and 6.")
             break
         value = None
         if feature == '1':
