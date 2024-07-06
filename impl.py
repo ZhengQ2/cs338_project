@@ -45,6 +45,7 @@ def pull(cur, path="sample"):
         )
         # Insert the data into the table
         cur.executemany(insert, data)
+
     owner = pd.read_csv(path+'/owner.csv')['SIN'][0]
     police = pd.read_csv(path+'/police_officer.csv')['SIN'][0]
     register(cur, owner, 'owner', 'owner')
