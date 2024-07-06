@@ -15,13 +15,13 @@ def writecsv(filename, header, data):
         csvwriter.writerow(header)
         csvwriter.writerows(data)
 
-def rhuman(num):
-    "int num: number of people, >0"
+def rhuman(n):
+    "int n: number of people, >0"
     start = time.time()
     columns = ['SIN','Birth_date','FName','LName','Phone','Email']
     human = []
 
-    for i in range(num):
+    for i in range(n):
         sin = fake.unique.ssn()
         bdate = fake.date(end_datetime = config.owner_bdate_end)
         fname = fake.first_name()
@@ -33,13 +33,13 @@ def rhuman(num):
     writecsv('human', columns, human)
     print('rhuman run time:', time.time()-start)
 
-def rdepartment(num):
-    "int num: number of department, 0 < num < number of human"
+def rdepartment(n):
+    "int n: number of department, 0 < n < number of human"
     start = time.time()
     columns = ['Dept_ID', 'Dname']
     deparment = []
 
-    for i in range(num):
+    for i in range(n):
         dept_id = i+1
         dname = fake.unique.street_name() + ' Division'
         deparment.append([dept_id, dname])
@@ -70,16 +70,16 @@ def roccupation(p):
     writecsv('police_officer', ['SIN', 'Department'], officer)
     print('roccupation run time:', time.time()-start)
 
-def rvehicle(num):
-    "int num: number of vehicle, num>0"
+def rvehicle(n):
+    "int n: number of vehicle, n>0"
     start = time.time()
     columns = ['VIN','Make','Price','Purchase_Method']
     vehicle = []
 
-    for i in range(num):
+    for i in range(n):
         vin = fake.unique.vin()
         make = fake.vehicle_make()
-        price = random.randint(config.vehicle_price_min, config.vehicle_price_max) * 10000
+        price = random.randint(config.vehicle_price_min, config.vehicle_price_max)
         pmethod = random.choice(config.purchase_method, p=config.purchase_method_p)
         vehicle.append([vin, make, price, pmethod])
 
@@ -131,13 +131,13 @@ def rown():
     writecsv('own', columns, own)
     print('rown run time:', time.time()-start)
 
-def revent(num):
-    "int num: number of events, num > 0"
+def revent(n):
+    "int n: number of events, n > 0"
     start = time.time()
     columns = ['Event_Code','Outcome','Year','Month','Day','Hour','Neighbourhood']
     event = []
 
-    for i in range(num):
+    for i in range(n):
         outcome = random.choice(config.event_outcome, p=config.event_outcome_p)
         year, month, day, hour = fake.date_time_ad(start_datetime=config.event_startdate).strftime('%Y %m %d %H').split()
         neighbourhood = random.choice(config.neighbourhoods)
