@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
         start = time.time()
         output = impl.features(cur, int(feature), value)
-        print('run time:', time.time()-start)
         print(output)
+        print('run time:', time.time()-start)
 
     con.close()
