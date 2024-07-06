@@ -1,160 +1,160 @@
-('Acura', Decimal('361186.20'), Decimal('780117.79'))
-('Acura', Decimal('418931.59'), Decimal('780117.79'))
-('Alfa Romeo', Decimal('2991.63'), Decimal('184118.08'))
-('Alfa Romeo', Decimal('181126.45'), Decimal('184118.08'))
-('Aston Martin', Decimal('63575.69'), Decimal('338600.69'))
-('Aston Martin', Decimal('64262.69'), Decimal('338600.69'))
-('Aston Martin', Decimal('42881.16'), Decimal('338600.69'))
-('Aston Martin', Decimal('27849.77'), Decimal('338600.69'))
-('Aston Martin', Decimal('67098.76'), Decimal('338600.69'))
-('Aston Martin', Decimal('72932.62'), Decimal('338600.69'))
-('Audi', Decimal('560.83'), Decimal('968724.25'))
-('Audi', Decimal('369195.67'), Decimal('968724.25'))
-('Audi', Decimal('4360.70'), Decimal('968724.25'))
-('Audi', Decimal('371993.22'), Decimal('968724.25'))
-('Audi', Decimal('50750.95'), Decimal('968724.25'))
-('Audi', Decimal('37325.78'), Decimal('968724.25'))
-('Audi', Decimal('68633.68'), Decimal('968724.25'))
-('Audi', Decimal('65903.42'), Decimal('968724.25'))
-('BMW', Decimal('64979.84'), Decimal('224119.05'))
-('BMW', Decimal('159139.21'), Decimal('224119.05'))
-('Chevrolet', Decimal('63667.04'), Decimal('3104590.37'))
-('Chevrolet', Decimal('290321.07'), Decimal('3104590.37'))
-('Chevrolet', Decimal('10497.83'), Decimal('3104590.37'))
-('Chevrolet', Decimal('180058.02'), Decimal('3104590.37'))
-('Chevrolet', Decimal('71640.93'), Decimal('3104590.37'))
-('Chevrolet', Decimal('54608.49'), Decimal('3104590.37'))
-('Chevrolet', Decimal('14122.09'), Decimal('3104590.37'))
-('Chevrolet', Decimal('37206.22'), Decimal('3104590.37'))
-('Chevrolet', Decimal('406579.36'), Decimal('3104590.37'))
-('Chevrolet', Decimal('36644.67'), Decimal('3104590.37'))
-('Chevrolet', Decimal('261420.11'), Decimal('3104590.37'))
-('Chevrolet', Decimal('203128.59'), Decimal('3104590.37'))
-('Chevrolet', Decimal('13105.40'), Decimal('3104590.37'))
-('Chevrolet', Decimal('28928.59'), Decimal('3104590.37'))
-('Chevrolet', Decimal('196640.72'), Decimal('3104590.37'))
-('Chevrolet', Decimal('226187.27'), Decimal('3104590.37'))
-('Chevrolet', Decimal('4298.18'), Decimal('3104590.37'))
-('Chevrolet', Decimal('108618.40'), Decimal('3104590.37'))
-('Chevrolet', Decimal('151536.17'), Decimal('3104590.37'))
-('Chevrolet', Decimal('84436.23'), Decimal('3104590.37'))
-('Chevrolet', Decimal('403795.54'), Decimal('3104590.37'))
-('Chevrolet', Decimal('168718.77'), Decimal('3104590.37'))
-('Chevrolet', Decimal('35627.56'), Decimal('3104590.37'))
-('Chevrolet', Decimal('18604.65'), Decimal('3104590.37'))
-('Chevrolet', Decimal('34198.47'), Decimal('3104590.37'))
-('Chrysler', Decimal('113023.08'), Decimal('1888923.35'))
-('Chrysler', Decimal('67277.98'), Decimal('1888923.35'))
-('Chrysler', Decimal('413532.20'), Decimal('1888923.35'))
-('Chrysler', Decimal('25608.72'), Decimal('1888923.35'))
-('Chrysler', Decimal('117369.95'), Decimal('1888923.35'))
-('Chrysler', Decimal('120689.60'), Decimal('1888923.35'))
-('Chrysler', Decimal('12047.89'), Decimal('1888923.35'))
-('Chrysler', Decimal('199695.65'), Decimal('1888923.35'))
-('Chrysler', Decimal('409140.40'), Decimal('1888923.35'))
-('Chrysler', Decimal('410537.88'), Decimal('1888923.35'))
-('Dodge', Decimal('164670.49'), Decimal('1356354.46'))
-('Dodge', Decimal('96807.95'), Decimal('1356354.46'))
-('Dodge', Decimal('245539.70'), Decimal('1356354.46'))
-('Dodge', Decimal('148252.71'), Decimal('1356354.46'))
-('Dodge', Decimal('27783.40'), Decimal('1356354.46'))
-('Dodge', Decimal('143087.82'), Decimal('1356354.46'))
-('Dodge', Decimal('204588.13'), Decimal('1356354.46'))
-('Dodge', Decimal('292938.72'), Decimal('1356354.46'))
-('Dodge', Decimal('32685.54'), Decimal('1356354.46'))
-('Ford', Decimal('211291.81'), Decimal('1939840.46'))
-('Ford', Decimal('73216.38'), Decimal('1939840.46'))
-('Ford', Decimal('57577.55'), Decimal('1939840.46'))
-('Ford', Decimal('13329.45'), Decimal('1939840.46'))
-('Ford', Decimal('42694.92'), Decimal('1939840.46'))
-('Ford', Decimal('94299.91'), Decimal('1939840.46'))
-('Ford', Decimal('415377.24'), Decimal('1939840.46'))
-('Ford', Decimal('96000.23'), Decimal('1939840.46'))
-('Ford', Decimal('2139.04'), Decimal('1939840.46'))
-('Ford', Decimal('23061.14'), Decimal('1939840.46'))
-('Ford', Decimal('160687.25'), Decimal('1939840.46'))
-('Ford', Decimal('272657.83'), Decimal('1939840.46'))
-('Ford', Decimal('45103.80'), Decimal('1939840.46'))
-('Ford', Decimal('4812.76'), Decimal('1939840.46'))
-('Ford', Decimal('892.76'), Decimal('1939840.46'))
-('Ford', Decimal('145517.95'), Decimal('1939840.46'))
-('Ford', Decimal('219344.19'), Decimal('1939840.46'))
-('Ford', Decimal('5497.50'), Decimal('1939840.46'))
-('Ford', Decimal('44007.06'), Decimal('1939840.46'))
-('Ford', Decimal('12331.69'), Decimal('1939840.46'))
-('Freightliner', Decimal('405844.78'), Decimal('699799.64'))
-('Freightliner', Decimal('293954.86'), Decimal('699799.64'))
-('Geo', Decimal('186093.32'), Decimal('348773.53'))
-('Geo', Decimal('162680.21'), Decimal('348773.53'))
-('GMC', Decimal('6707.47'), Decimal('452519.66'))
-('GMC', Decimal('39512.81'), Decimal('452519.66'))
-('GMC', Decimal('5137.18'), Decimal('452519.66'))
-('GMC', Decimal('198884.04'), Decimal('452519.66'))
-('GMC', Decimal('16573.28'), Decimal('452519.66'))
-('GMC', Decimal('185704.88'), Decimal('452519.66'))
-('Honda', Decimal('80299.98'), Decimal('738217.10'))
-('Honda', Decimal('12989.06'), Decimal('738217.10'))
-('Honda', Decimal('102696.93'), Decimal('738217.10'))
-('Honda', Decimal('48223.16'), Decimal('738217.10'))
-('Honda', Decimal('3828.00'), Decimal('738217.10'))
-('Honda', Decimal('88697.57'), Decimal('738217.10'))
-('Honda', Decimal('109497.41'), Decimal('738217.10'))
-('Honda', Decimal('291984.99'), Decimal('738217.10'))
-('Hyundai', Decimal('100598.72'), Decimal('954198.87'))
-('Hyundai', Decimal('154657.96'), Decimal('954198.87'))
-('Hyundai', Decimal('172007.69'), Decimal('954198.87'))
-('Hyundai', Decimal('239700.44'), Decimal('954198.87'))
-('Hyundai', Decimal('55629.78'), Decimal('954198.87'))
-('Hyundai', Decimal('146828.44'), Decimal('954198.87'))
-('Hyundai', Decimal('6647.87'), Decimal('954198.87'))
-('Hyundai', Decimal('78127.97'), Decimal('954198.87'))
-('Jaguar', Decimal('200281.54'), Decimal('200281.54'))
-('Jeep', Decimal('63780.24'), Decimal('63780.24'))
-('Kia', Decimal('434703.76'), Decimal('434703.76'))
-('Land Rover', Decimal('50584.45'), Decimal('184125.61'))
-('Land Rover', Decimal('133541.16'), Decimal('184125.61'))
-('Lincoln', Decimal('64535.74'), Decimal('64535.74'))
-('MAZDA', Decimal('108353.71'), Decimal('834868.52'))
-('MAZDA', Decimal('10936.08'), Decimal('834868.52'))
-('MAZDA', Decimal('39724.04'), Decimal('834868.52'))
-('MAZDA', Decimal('138896.87'), Decimal('834868.52'))
-('MAZDA', Decimal('82477.43'), Decimal('834868.52'))
-('MAZDA', Decimal('54422.60'), Decimal('834868.52'))
-('MAZDA', Decimal('112446.54'), Decimal('834868.52'))
-('MAZDA', Decimal('38875.45'), Decimal('834868.52'))
-('MAZDA', Decimal('189882.60'), Decimal('834868.52'))
-('MAZDA', Decimal('5249.36'), Decimal('834868.52'))
-('MAZDA', Decimal('53603.84'), Decimal('834868.52'))
-('Mercedes-Benz', Decimal('16955.17'), Decimal('16955.17'))
-('Mercury', Decimal('34608.09'), Decimal('266895.60'))
-('Mercury', Decimal('67233.60'), Decimal('266895.60'))
-('Mercury', Decimal('66798.36'), Decimal('266895.60'))
-('Mercury', Decimal('98255.55'), Decimal('266895.60'))
-('Nissan', Decimal('36347.27'), Decimal('440999.86'))
-('Nissan', Decimal('75032.44'), Decimal('440999.86'))
-('Nissan', Decimal('98458.84'), Decimal('440999.86'))
-('Nissan', Decimal('69888.31'), Decimal('440999.86'))
-('Nissan', Decimal('161273.00'), Decimal('440999.86'))
-('Oldsmobile', Decimal('35841.64'), Decimal('35841.64'))
-('Plymouth', Decimal('118869.77'), Decimal('118869.77'))
-('Porsche', Decimal('31196.40'), Decimal('31196.40'))
-('Ram', Decimal('153971.62'), Decimal('153971.62'))
-('Saab', Decimal('557.95'), Decimal('233572.69'))
-('Saab', Decimal('233014.74'), Decimal('233572.69'))
-('Saturn', Decimal('101511.53'), Decimal('441377.60'))
-('Saturn', Decimal('339866.07'), Decimal('441377.60'))
-('Subaru', Decimal('91708.58'), Decimal('91708.58'))
-('Suzuki', Decimal('249100.15'), Decimal('695287.40'))
-('Suzuki', Decimal('187832.33'), Decimal('695287.40'))
-('Suzuki', Decimal('258354.92'), Decimal('695287.40'))
-('Tesla', Decimal('233495.62'), Decimal('544907.74'))
-('Tesla', Decimal('311412.12'), Decimal('544907.74'))
-('Toyota', Decimal('54858.55'), Decimal('492981.19'))
-('Toyota', Decimal('48398.35'), Decimal('492981.19'))
-('Toyota', Decimal('330600.63'), Decimal('492981.19'))
-('Toyota', Decimal('54547.43'), Decimal('492981.19'))
-('Toyota', Decimal('4576.23'), Decimal('492981.19'))
-('Volkswagen', Decimal('9257.15'), Decimal('297622.11'))
-('Volkswagen', Decimal('172.07'), Decimal('297622.11'))
-('Volkswagen', Decimal('288192.89'), Decimal('297622.11'))
-
+         Make  Payment_Amount  insurance_payment_by_make
+        Acura       361186.20                  780117.79
+        Acura       418931.59                  780117.79
+   Alfa Romeo         2991.63                  184118.08
+   Alfa Romeo       181126.45                  184118.08
+ Aston Martin        63575.69                  338600.69
+ Aston Martin        64262.69                  338600.69
+ Aston Martin        42881.16                  338600.69
+ Aston Martin        27849.77                  338600.69
+ Aston Martin        67098.76                  338600.69
+ Aston Martin        72932.62                  338600.69
+         Audi          560.83                  968724.25
+         Audi       369195.67                  968724.25
+         Audi         4360.70                  968724.25
+         Audi       371993.22                  968724.25
+         Audi        50750.95                  968724.25
+         Audi        37325.78                  968724.25
+         Audi        68633.68                  968724.25
+         Audi        65903.42                  968724.25
+          BMW        64979.84                  224119.05
+          BMW       159139.21                  224119.05
+    Chevrolet        63667.04                 3104590.37
+    Chevrolet       290321.07                 3104590.37
+    Chevrolet        10497.83                 3104590.37
+    Chevrolet       180058.02                 3104590.37
+    Chevrolet        71640.93                 3104590.37
+    Chevrolet        54608.49                 3104590.37
+    Chevrolet        14122.09                 3104590.37
+    Chevrolet        37206.22                 3104590.37
+    Chevrolet       406579.36                 3104590.37
+    Chevrolet        36644.67                 3104590.37
+    Chevrolet       261420.11                 3104590.37
+    Chevrolet       203128.59                 3104590.37
+    Chevrolet        13105.40                 3104590.37
+    Chevrolet        28928.59                 3104590.37
+    Chevrolet       196640.72                 3104590.37
+    Chevrolet       226187.27                 3104590.37
+    Chevrolet         4298.18                 3104590.37
+    Chevrolet       108618.40                 3104590.37
+    Chevrolet       151536.17                 3104590.37
+    Chevrolet        84436.23                 3104590.37
+    Chevrolet       403795.54                 3104590.37
+    Chevrolet       168718.77                 3104590.37
+    Chevrolet        35627.56                 3104590.37
+    Chevrolet        18604.65                 3104590.37
+    Chevrolet        34198.47                 3104590.37
+     Chrysler       113023.08                 1888923.35
+     Chrysler        67277.98                 1888923.35
+     Chrysler       413532.20                 1888923.35
+     Chrysler        25608.72                 1888923.35
+     Chrysler       117369.95                 1888923.35
+     Chrysler       120689.60                 1888923.35
+     Chrysler        12047.89                 1888923.35
+     Chrysler       199695.65                 1888923.35
+     Chrysler       409140.40                 1888923.35
+     Chrysler       410537.88                 1888923.35
+        Dodge       164670.49                 1356354.46
+        Dodge        96807.95                 1356354.46
+        Dodge       245539.70                 1356354.46
+        Dodge       148252.71                 1356354.46
+        Dodge        27783.40                 1356354.46
+        Dodge       143087.82                 1356354.46
+        Dodge       204588.13                 1356354.46
+        Dodge       292938.72                 1356354.46
+        Dodge        32685.54                 1356354.46
+         Ford       211291.81                 1939840.46
+         Ford        73216.38                 1939840.46
+         Ford        57577.55                 1939840.46
+         Ford        13329.45                 1939840.46
+         Ford        42694.92                 1939840.46
+         Ford        94299.91                 1939840.46
+         Ford       415377.24                 1939840.46
+         Ford        96000.23                 1939840.46
+         Ford         2139.04                 1939840.46
+         Ford        23061.14                 1939840.46
+         Ford       160687.25                 1939840.46
+         Ford       272657.83                 1939840.46
+         Ford        45103.80                 1939840.46
+         Ford         4812.76                 1939840.46
+         Ford          892.76                 1939840.46
+         Ford       145517.95                 1939840.46
+         Ford       219344.19                 1939840.46
+         Ford         5497.50                 1939840.46
+         Ford        44007.06                 1939840.46
+         Ford        12331.69                 1939840.46
+ Freightliner       405844.78                  699799.64
+ Freightliner       293954.86                  699799.64
+          Geo       186093.32                  348773.53
+          Geo       162680.21                  348773.53
+          GMC         6707.47                  452519.66
+          GMC        39512.81                  452519.66
+          GMC         5137.18                  452519.66
+          GMC       198884.04                  452519.66
+          GMC        16573.28                  452519.66
+          GMC       185704.88                  452519.66
+        Honda        80299.98                  738217.10
+        Honda        12989.06                  738217.10
+        Honda       102696.93                  738217.10
+        Honda        48223.16                  738217.10
+        Honda         3828.00                  738217.10
+        Honda        88697.57                  738217.10
+        Honda       109497.41                  738217.10
+        Honda       291984.99                  738217.10
+      Hyundai       100598.72                  954198.87
+      Hyundai       154657.96                  954198.87
+      Hyundai       172007.69                  954198.87
+      Hyundai       239700.44                  954198.87
+      Hyundai        55629.78                  954198.87
+      Hyundai       146828.44                  954198.87
+      Hyundai         6647.87                  954198.87
+      Hyundai        78127.97                  954198.87
+       Jaguar       200281.54                  200281.54
+         Jeep        63780.24                   63780.24
+          Kia       434703.76                  434703.76
+   Land Rover        50584.45                  184125.61
+   Land Rover       133541.16                  184125.61
+      Lincoln        64535.74                   64535.74
+        MAZDA       108353.71                  834868.52
+        MAZDA        10936.08                  834868.52
+        MAZDA        39724.04                  834868.52
+        MAZDA       138896.87                  834868.52
+        MAZDA        82477.43                  834868.52
+        MAZDA        54422.60                  834868.52
+        MAZDA       112446.54                  834868.52
+        MAZDA        38875.45                  834868.52
+        MAZDA       189882.60                  834868.52
+        MAZDA         5249.36                  834868.52
+        MAZDA        53603.84                  834868.52
+Mercedes-Benz        16955.17                   16955.17
+      Mercury        34608.09                  266895.60
+      Mercury        67233.60                  266895.60
+      Mercury        66798.36                  266895.60
+      Mercury        98255.55                  266895.60
+       Nissan        36347.27                  440999.86
+       Nissan        75032.44                  440999.86
+       Nissan        98458.84                  440999.86
+       Nissan        69888.31                  440999.86
+       Nissan       161273.00                  440999.86
+   Oldsmobile        35841.64                   35841.64
+     Plymouth       118869.77                  118869.77
+      Porsche        31196.40                   31196.40
+          Ram       153971.62                  153971.62
+         Saab          557.95                  233572.69
+         Saab       233014.74                  233572.69
+       Saturn       101511.53                  441377.60
+       Saturn       339866.07                  441377.60
+       Subaru        91708.58                   91708.58
+       Suzuki       249100.15                  695287.40
+       Suzuki       187832.33                  695287.40
+       Suzuki       258354.92                  695287.40
+        Tesla       233495.62                  544907.74
+        Tesla       311412.12                  544907.74
+       Toyota        54858.55                  492981.19
+       Toyota        48398.35                  492981.19
+       Toyota       330600.63                  492981.19
+       Toyota        54547.43                  492981.19
+       Toyota         4576.23                  492981.19
+   Volkswagen         9257.15                  297622.11
+   Volkswagen          172.07                  297622.11
+   Volkswagen       288192.89                  297622.11

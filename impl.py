@@ -77,6 +77,8 @@ def features(cur, num, input):
         column_names = [i[0] for i in cur.description]
         table_content = [[format_decimal(item) for item in row] for row in cur.fetchall()]
         output = pd.DataFrame(table_content, columns=column_names).to_string(index = False)
+        if "Empty DataFrame" in output:
+            output = "No results found."
 
     except sql.connector.errors.InterfaceError:
         pass
@@ -88,10 +90,19 @@ if __name__ == "__main__":
     reset(cur)
     pull(cur)
     con.commit()
-    output1 = features(cur, 1, 0)
-    output2 = features(cur, 2, None)
+    output1 = "Input: 0\n"
+    output1 += features(cur, 1, 0)
+    output1 += "\n\nInput: 20\n"
+    output1 += features(cur, 1, 20)
+    output2 = "Input: \"a\"\n"
+    output2 += features(cur, 2, "a")
+    output2 += "\n\nInput: \"8LESB6XY6KG6FDYES\"\n"
+    output2 += features(cur, 2, "8LESB6XY6KG6FDYES")
     output3 = features(cur, 3, None)
-    output4 = features(cur, 4, None)
+    output4 = "Input: 10\n"
+    output4 += features(cur, 4, 10)
+    output4 += "\n\nInput: 0\n"
+    output4 += features(cur, 4, 0)
     output5 = features(cur, 5, None)
     output6 = features(cur, 6, None)
     # write output to a file

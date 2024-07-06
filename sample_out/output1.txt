@@ -1,21 +1,25 @@
-('Kensington Market', 7)
-('Parkdale', 6)
-('Leslieville', 5)
-('Chinatown', 6)
-('Roncesvalles', 11)
-('High Park', 7)
-('Bloor West Village', 7)
-('Distillery District', 3)
-('Church and Wellesley', 7)
-('The Annex', 4)
-('Scarborough Bluffs', 4)
-('Rosedale', 4)
-('Queen West', 4)
-('Liberty Village', 3)
-('Cabbagetown', 4)
-('Danforth Village', 4)
-('The Beaches', 4)
-('Little Italy', 6)
-('Yorkville', 3)
-('St. Lawrence Market', 1)
+Input: 0
+       Neighbourhood  num_events
+   Kensington Market           7
+            Parkdale           6
+         Leslieville           5
+           Chinatown           6
+        Roncesvalles          11
+           High Park           7
+  Bloor West Village           7
+ Distillery District           3
+Church and Wellesley           7
+           The Annex           4
+  Scarborough Bluffs           4
+            Rosedale           4
+          Queen West           4
+     Liberty Village           3
+         Cabbagetown           4
+    Danforth Village           4
+         The Beaches           4
+        Little Italy           6
+           Yorkville           3
+ St. Lawrence Market           1
 
+Input: 20
+No results found.
