@@ -1,14 +1,14 @@
         SIN  Department  Event_Code   Outcome  Year  Month  Day  Hour      Neighbourhood
-120 677 836           1           2   pending  1994      9    7    15        Leslieville
-130 844 517           1           0 not found  2004     12    8    19  Kensington Market
-134 851 344           2          25     found  1996      5   23     3 Bloor West Village
-172 672 602           3          12     found  2005      5   28    21          The Annex
-177 104 460           1          15 not found  2008      8   20    14          High Park
-238 740 187           3          11     found  2016      5   24    21          The Annex
-265 468 108           1          10 not found  2010      6   16     8       Roncesvalles
-355 861 402           3           5 not found  2020      7    5    19          High Park
-532 580 727           2          32     found  2009     10   30     6        The Beaches
-607 744 315           1           4 not found  2015     12    6     3       Roncesvalles
-677 211 302           2           3 not found  2008      6   26    16          Chinatown
-807 331 129           3          28     found  2014      6   17     6       Roncesvalles
-821 058 260           2           1   pending  2006     10    9    19           Parkdale
+120 677 836           1           2   pending  1994      9   22    11        Leslieville
+130 844 517           1           0 not found  2004     12   23    15  Kensington Market
+134 851 344           2          25     found  1996      6    6    23 Bloor West Village
+172 672 602           3          12     found  2005      6   12    17          The Annex
+177 104 460           1          15 not found  2008      9    4    10          High Park
+238 740 187           3          11     found  2016      6    8    17          The Annex
+265 468 108           1          10 not found  2010      7    1     4       Roncesvalles
+355 861 402           3           5 not found  2020      7   20    15          High Park
+532 580 727           2          32     found  2009     11   14     2        The Beaches
+607 744 315           1           4 not found  2015     12   20    23       Roncesvalles
+677 211 302           2           3 not found  2008      7   11    12          Chinatown
+807 331 129           3          28     found  2014      7    2     2       Roncesvalles
+821 058 260           2           1   pending  2006     10   24    15           Parkdale
