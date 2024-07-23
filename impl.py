@@ -63,14 +63,12 @@ def format_decimal(value):
 
 def features(cur, num, input):
     with open(f"sql/feature{num}.sql") as f:
-        if input == None:
-            sql_commands = f.read().split(';')
-        else:
-            sql_commands = f.read().format(input).split(';')
+        sql_command = f.read().strip()
 
-    for command in sql_commands:
-        if command.strip():
-            cur.execute(command.strip())
+    if input is not None:
+        cur.execute(sql_command, (input,))
+    else:
+        cur.execute(sql_command)
 
     try:
         column_names = [i[0] for i in cur.description]

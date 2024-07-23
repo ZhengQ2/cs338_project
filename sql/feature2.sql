@@ -8,4 +8,4 @@ HUMAN.Email as OWNER_Email
 From OWN
 Left join HUMAN
 On OWN.SIN = HUMAN.SIN
-Where OWN.VIN = "{0}";
+Where OWN.VIN = "%s";
