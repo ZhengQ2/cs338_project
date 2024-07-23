@@ -3,7 +3,7 @@ from impl import encode
 import getpass
 
 def exist(cur, username, password):
-    cur.execute(f"SELECT COUNT(*) FROM ACCOUNT WHERE Username = '{username}' AND Password = '{encode(password)}'")
+    cur.execute("SELECT COUNT(*) FROM ACCOUNT WHERE Username = %s AND Password = %s",[username, encode(password)])
     return cur.fetchone()[0] == 1
     
 if __name__ == '__main__':
