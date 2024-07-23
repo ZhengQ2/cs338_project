@@ -1,10 +1,8 @@
-import click, impl, time
-from impl import encode 
-import getpass
+import click, impl, time, getpass
 
 def exist(cur, username, password):
     with open("sql/account_verification.sql") as f:
-        cur.execute(f.read(),[username, encode(password)])
+        cur.execute(f.read(),[username, impl.encode(password)])
     return cur.fetchone()[0] == 1
     
 if __name__ == '__main__':
