@@ -56,7 +56,11 @@ if __name__ == '__main__':
         elif feature == '2':
             value = input("Please enter the VIN: ")
         elif feature == '4':
-            value = input("Please enter the number of events you want to see: ")
+            try:
+                value = int(input("Please enter the number of events you want to see: "))
+            except ValueError:
+                print("Invalid input. Please enter an integer.")
+                continue
 
         start = time.time()
         output = impl.features(cur, int(feature), value)
