@@ -3,6 +3,7 @@ import pandas as pd
 from decimal import Decimal
 import hashlib
 
+# CONNECT TO DATABASE
 def connect():
     try:
         con = sql.connect(
@@ -25,7 +26,7 @@ def reset(cur):
             cur.execute(command.strip())
 
 # pull data into table
-def pull(cur, path="data"):
+def pull(cur, path="prod_data"):
     # Iterate through all the csv files in the data folder
     tables = ["department", "event", "vehicle", "got_stolen", "human", "police_officer", "handled", "insurance", "owner", "own"]
     files = ["{}/{}.csv".format(path, f) for f in tables]
@@ -53,6 +54,7 @@ def pull(cur, path="data"):
 def register(cur, sin, username, password):
     cur.execute("INSERT INTO ACCOUNT VALUES (%s, %s, %s)", [sin, username, encode(password)])
 
+# encode password
 def encode(input):
     return hashlib.md5(input.encode()).hexdigest()
 
@@ -62,14 +64,17 @@ def format_decimal(value):
     return value
 
 def features(cur, num, input):
+    # Read the SQL command from the file
     with open(f"sql/feature{num}.sql") as f:
         sql_command = f.read().strip()
 
+    # Execute the SQL command
     if input is not None:
         cur.execute(sql_command, (input,))
     else:
         cur.execute(sql_command)
 
+    # Get the column names and the table content
     try:
         column_names = [i[0] for i in cur.description]
         table_content = [[format_decimal(item) for item in row] for row in cur.fetchall()]
@@ -77,6 +82,7 @@ def features(cur, num, input):
         if "Empty DataFrame" in output:
             output = "No results found."
 
+    # Handle the case where the SQL command does not return any results
     except sql.connector.errors.InterfaceError:
         pass
     return output
@@ -87,23 +93,34 @@ if __name__ == "__main__":
     reset(cur)
     pull(cur)
     con.commit()
+    # Test of feature 1
     output1 = "Input: 0\n"
     output1 += features(cur, 1, 0)
     output1 += "\n\nInput: 20\n"
     output1 += features(cur, 1, 20)
+
+    # Test of feature 2
     output2 = "Input: \"a\"\n"
     output2 += features(cur, 2, "a")
     output2 += "\n\nInput: \"BJKPMZL3XBA85D3XB\"\n"
     output2 += features(cur, 2, "BJKPMZL3XBA85D3XB")
+
+    # Test of feature 3
     output3 = features(cur, 3, None)
+
+    # Test of feature 4
     output4 = "Input: 10\n"
     output4 += features(cur, 4, 10)
     output4 += "\n\nInput: 0\n"
     output4 += features(cur, 4, 0)
+
+    # Test of feature 5
     output5 = features(cur, 5, None)
+
+    # Test of feature 6
     output6 = features(cur, 6, None)
     # write output to a file
     for i in range(1, 7):
-        with open(f"data_out/output{i}.txt", "w") as f:
+        with open(f"prod_data_out/output{i}.txt", "w") as f:
             f.write(eval(f"output{i}") + "\n")
     con.close()
