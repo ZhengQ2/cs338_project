@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM ACCOUNT WHERE Username = %s AND Password = %s
