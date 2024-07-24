@@ -68,9 +68,9 @@ def features(cur, num, input):
     # Read the SQL command from the file
     with open(f"sql/feature{num}.sql") as f:
         if input == None:
-            sql_commands = f.read().split(';')
+            sql_command = f.read().split(';')
         else:
-            sql_commands = f.read().format(input).split(';')
+            sql_command = f.read().format(input).split(';')
 
     # Execute the SQL command
     if input is not None:
