@@ -6,7 +6,7 @@ USE Auto_Theft;
 CREATE TABLE ACCOUNT
     (SIN VARCHAR(11) NOT NULL, 
      Username VARCHAR(50) NOT NULL,
-     Password VARCHAR(32) NOT NULL,
+     Password VARCHAR(50) NOT NULL,
      PRIMARY KEY (Username),
      UNIQUE(SIN));
 

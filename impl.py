@@ -25,7 +25,7 @@ def reset(cur):
             cur.execute(command.strip())
 
 # pull data into table
-def pull(cur, path="data"):
+def pull(con, cur, path="data"):
     # Iterate through all the csv files in the data folder
     tables = ["department", "event", "vehicle", "got_stolen", "human", "police_officer", "handled", "insurance", "owner", "own"]
     files = ["{}/{}.csv".format(path, f) for f in tables]
@@ -47,11 +47,12 @@ def pull(cur, path="data"):
 
     owner = pd.read_csv(path+'/owner.csv')['SIN'][0]
     police = pd.read_csv(path+'/police_officer.csv')['SIN'][0]
-    register(cur, owner, 'owner', 'owner')
-    register(cur, police, 'police', 'police')
+    register(con, cur, owner, 'owner', 'owner')
+    register(con, cur, police, 'police', 'police')
     
-def register(cur, sin, username, password):
+def register(con, cur, sin, username, password):
     cur.execute("INSERT INTO ACCOUNT VALUES (%s, %s, %s)", [sin, username, encode(password)])
+    con.commit()
 
 def encode(input):
     return hashlib.md5(input.encode()).hexdigest()
@@ -63,12 +64,14 @@ def format_decimal(value):
 
 def features(cur, num, input):
     with open(f"sql/feature{num}.sql") as f:
-        sql_command = f.read().strip()
+        if input == None:
+            sql_commands = f.read().split(';')
+        else:
+            sql_commands = f.read().format(input).split(';')
 
-    if input is not None:
-        cur.execute(sql_command, (input,))
-    else:
-        cur.execute(sql_command)
+    for command in sql_commands:
+        if command.strip():
+            cur.execute(command.strip())
 
     try:
         column_names = [i[0] for i in cur.description]
@@ -85,7 +88,7 @@ if __name__ == "__main__":
     con = connect()
     cur = con.cursor()
     reset(cur)
-    pull(cur)
+    pull(con, cur)
     con.commit()
     output1 = "Input: 0\n"
     output1 += features(cur, 1, 0)
