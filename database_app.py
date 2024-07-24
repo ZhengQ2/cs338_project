@@ -92,9 +92,9 @@ Please select a feature to run (1-6) or type anything else to quit:"""
 
             start = time.time()
             output = impl.features(cur, int(feature), value)
-            os.system('clear')
             print(output)
             print('run time:', time.time()-start)
+            input("Press enter to continue...")
     except KeyboardInterrupt:
         print("Exiting...")
 

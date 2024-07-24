@@ -26,7 +26,7 @@ def reset(cur):
             cur.execute(command.strip())
 
 # pull data into table
-def pull(cur, path="prod_data"):
+def pull(con, cur, path="prod_data"):
     # Iterate through all the csv files in the data folder
     tables = ["department", "event", "vehicle", "got_stolen", "human", "police_officer", "handled", "insurance", "owner", "own"]
     files = ["{}/{}.csv".format(path, f) for f in tables]
@@ -67,10 +67,7 @@ def format_decimal(value):
 def features(cur, num, input):
     # Read the SQL command from the file
     with open(f"sql/feature{num}.sql") as f:
-        if input == None:
-            sql_command = f.read().split(';')
-        else:
-            sql_command = f.read().format(input).split(';')
+        sql_command = f.read()
 
     # Execute the SQL command
     if input is not None:
