@@ -59,18 +59,18 @@ if __name__ == '__main__':
             break
     try:
         cur.execute("SELECT COUNT(*) FROM POLICE_OFFICER WHERE SIN IN (SELECT SIN FROM ACCOUNT WHERE Username = %s)", [username])
-        if cur.fetchone()[0] == 1:
+        if cur.fetchone()[0] == 1: #is police
             while True:
                 os.system('clear')
-                features = """We support following features:
+                print("""We support following features:
     1. List neighborhoods where the number of events is greater than or equal to a specified threshold.
     2. List owner's personal information for a specific vehicle VIN.
     3. List automobile minimum and maximum price and total vehicle of all communities, ranked by average price of vehicles that got stolen.
     4. Check the latest events captured in the dataset based on input.
     5. Generate a report ranking police officers within their departments based on the number of events they have handled.
     6. Provide information on the police officers' SIN and the events they have handled.
-    Please select a feature to run (1-6) or type anything else to quit:"""
-                print(features)
+
+    Please select a feature to run (1-6) or type anything else to quit:""")
                 feature = input()
                 if feature not in ['1', '2', '3', '4', '5', '6']:
                     print("Exiting...")
@@ -94,23 +94,21 @@ if __name__ == '__main__':
 
                 start = time.time()
                 output = impl.features(cur, int(feature), value)
+                os.system('clear')
                 print(output)
                 print('run time:', time.time()-start)
                 input("Press enter to continue...")
         else:
             while True:
                 os.system('clear')
-                features = """We support following features:
+                print("""We support following features:
 1. List neighborhoods where the number of events is greater than or equal to a specified threshold.
-2. List owner's personal information for a specific vehicle VIN.
-3. List automobile minimum and maximum price and total vehicle of all communities, ranked by average price of vehicles that got stolen.
-4. Check the latest events captured in the dataset based on input.
-5. Generate a report ranking police officers within their departments based on the number of events they have handled.
-6. Provide information on the police officers' SIN and the events they have handled.
-Please select a feature to run (1-6) or type anything else to quit:"""
-                print(features)
+2. List automobile minimum and maximum price and total vehicle of all communities, ranked by average price of vehicles that got stolen.
+3. Check the latest events captured in the dataset based on input.
+
+Please select a feature to run (1-3) or type anything else to quit:""")
                 feature = input()
-                if feature not in ['1', '2', '3', '4', '5', '6']:
+                if feature not in ['1', '2', '3']:
                     print("Exiting...")
                     break
                 value = None
@@ -121,17 +119,18 @@ Please select a feature to run (1-6) or type anything else to quit:"""
                     except ValueError:
                         print("Invalid input. Please enter an integer.")
                         continue
-                elif feature == '2':
-                    value = input("Please enter the VIN: ")
-                elif feature == '4':
+                elif feature == '3':
                     try:
                         value = int(input("Please enter the number of events you want to see: "))
                     except ValueError:
                         print("Invalid input. Please enter an integer.")
                         continue
-
+                
+                map = {'1':'1', '2':'3', '3':'4'}
+                feature = map[feature]
                 start = time.time()
                 output = impl.features(cur, int(feature), value)
+                os.system('clear')
                 print(output)
                 print('run time:', time.time()-start)
                 input("Press enter to continue...")
