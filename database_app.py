@@ -28,16 +28,16 @@ if __name__ == '__main__':
     con = impl.connect()
     cur = con.cursor()
 
-    reset = click.confirm("Do you want to reset the database and repull data into tables?")
+    """reset = click.confirm("Do you want to reset the database and repull data into tables?")
     if reset:
         impl.reset(cur)
         print("Database reset.")
         print("Pulling data into tables...")
         impl.pull(con, cur)
-        con.commit()
-    else:
-        cur.execute("USE Auto_Theft")
+        con.commit()"""
     
+    cur.execute("USE Auto_Theft")
+
     while True:
         os.system('clear')
         if click.confirm("Register?"):
