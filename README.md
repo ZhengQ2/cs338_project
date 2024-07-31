@@ -43,9 +43,13 @@ python database_app.py
 It will prompt for user name and password, enter "owner" for both. Password has a secure input panel, so no feedback will be provided until you click enter to confirm password.
 
 # 3. Interacting with the database
-The database would first ask for reset the database and repull data into tables. Usually you can just enter "n" to skip this step.
+The database would first ask for register. Enter "n" to skip this step.
+    enter a valid SIN, username and password to register.
 
-Then, you are able to select the following options:
+It would ask for username and password.
+    The defaute accounts are: owner/owner and police/police with corresponding permissions.
+
+Then, you are able to select the following options if the role is police:
     1. List neighborhoods where the number of events is greater than or equal to a specified threshold.
     2. Count the types of outcome for all events.
     3. Rank all communities in terms of the average price of vehicles that got stolen.
@@ -53,6 +57,9 @@ Then, you are able to select the following options:
     5. Check insurance payments for vehicles that got stolen. 
     6. Check police resposible for handled events.
 
+If the account role is owner, then only option 1, 3, 4 will be avaliable.
+
 Enter the number of the option you want to select. (i.e., 1)
+Enter other will exit the program.
 
 For option 1, you will be asked to enter a threshold number, enter any integer to continue.
